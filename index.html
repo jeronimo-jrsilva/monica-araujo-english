@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica Araujo | Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monica Araujo</h1>
+            <p class="subtitle">English for Architecture & Healthcare Design</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Next Class (Manual) -->
+        <section class="next-class">
+            <h2 class="section-title">Next Class</h2>
+            <div class="card active">
+                <div class="date">APR 09 (THU)</div>
+                <div class="topic">Present Simple: Negative & Interrogative</div>
+                <span class="status-badge">07:00 AM</span>
+            </div>
+        </section>
+
+        <!-- Searchable Glossary -->
+        <section class="glossary-section">
+            <h2 class="section-title">Class Vocabulary & Glossary</h2>
+            <div class="search-box">
+                <input type="text" id="glossary-search" placeholder="Search for terms (ex: design, site, BIM)..." onkeyup="searchGlossary()">
+            </div>
+            <div id="glossary-list" class="glossary-grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- Class History with Sorting -->
+        <section class="class-history">
+            <div class="section-header">
+                <h2 class="section-title">Class History</h2>
+                <div class="controls">
+                    <button onclick="sortClasses('desc')">Newest First</button>
+                    <button onclick="sortClasses('asc')">Oldest First</button>
+                </div>
+            </div>
+            <div id="class-grid" class="grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student Portal - ESP English Coaching</p>
+        </div>
+    </footer>
+
+    <!-- Logic Engine -->
+    <script>
+        let portalData = null;
+
+        async function loadPortal() {
+            try {
+                const response = await fetch('data.json');
+                portalData = await response.json();
+                renderClasses(portalData.classes);
+                renderGlossary(portalData.glossary);
+            } catch (err) {
+                console.error("Error loading JSON. If you are local, use a local server or wait for GitHub Pages.", err);
+            }
+        }
+
+        function renderClasses(classes) {
+            const grid = document.getElementById('class-grid');
+            grid.innerHTML = classes.map(c => `
+                <a href="${c.url}" class="card history-card">
+                    <span class="date">${new Date(c.date).toLocaleDateString('en-US', {month: 'short', day: '2-digit'})}</span>
+                    <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
+                    <p>${c.summary}</p>
+                </a>
+            `).join('');
+        }
+
+        function sortClasses(order) {
+            const sorted = [...portalData.classes].sort((a, b) => 
+                order === 'asc' ? a.id - b.id : b.id - a.id
+            );
+            renderClasses(sorted);
+        }
+
+        function renderGlossary(terms) {
+            const list = document.getElementById('glossary-list');
+            list.innerHTML = terms.map(t => `
+                <div class="glossary-item">
+                    <div class="term"><strong>${t.term}</strong> <small>${t.phonetic}</small></div>
+                    <div class="definition">${t.definition}</div>
+                    <div class="backlink">Seen in Class ${t.class_id.toString().padStart(2, '0')}</div>
+                </div>
+            `).join('');
+        }
+
+        function searchGlossary() {
+            const query = document.getElementById('glossary-search').value.toLowerCase();
+            const filtered = portalData.glossary.filter(t => 
+                t.term.toLowerCase().includes(query) || 
+                t.definition.toLowerCase().includes(query)
+            );
+            renderGlossary(filtered);
+        }
+
+        window.onload = loadPortal;
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "date": "2026-04-08",
+      "title": "Activation & Routine",
+      "summary": "Introduce Yourself, Plurals and Office Routine.",
+      "url": "classes/2026-04-08.html"
+    }
+  ],
+  "glossary": [
+    {"term": "Architect", "phonetic": "/'ɑːrkɪtekt/", "definition": "Arquiteto (Atenção ao som de 'K')", "class_id": 1},
+    {"term": "Child / Children", "phonetic": "/tʃaɪld/ - /'tʃɪldrən/", "definition": "Criança (Singular) / Crianças (Plural)", "class_id": 1},
+    {"term": "Person / People", "phonetic": "/'pɜːrsn/ - /'piːpl/", "definition": "Pessoa (Singular) / Pessoas (Plural)", "class_id": 1},
+    {"term": "To visit clients", "phonetic": "/'vɪzɪt/", "definition": "Visitar clientes", "class_id": 1},
+    {"term": "To inspect construction sites", "phonetic": "/ɪn'spekt/", "definition": "Inspecionar canteiros de obra", "class_id": 1},
+    {"term": "To make projects", "phonetic": "/meɪk/", "definition": "Fazer/Elaborar projetos", "class_id": 1},
+    {"term": "To go to the gym", "phonetic": "/dʒɪm/", "definition": "Ir para a academia", "class_id": 1},
+    {"term": "BIM Specialist", "phonetic": "/'speʃəlɪst/", "definition": "Especialista em plataforma BIM", "class_id": 1},
+    {"term": "Healthcare Specialist", "phonetic": "/'helθkeə/", "definition": "Especialista em saúde (arquitetura hospitalar)", "class_id": 1}
+  ]
+}

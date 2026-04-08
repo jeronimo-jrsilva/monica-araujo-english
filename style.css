@@ -1,0 +1,120 @@
+:root {
+    --bg: #f8f9fa;
+    --text: #1a1a1a;
+    --accent: #2c3e50;
+    --card-bg: #ffffff;
+    --border: #e1e4e8;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.container { max-width: 850px; margin: 0 auto; padding: 2rem; }
+
+header { border-bottom: 1px solid var(--border); background: white; padding: 2.5rem 0; }
+header h1 { font-weight: 300; letter-spacing: -2px; margin-bottom: 0; font-size: 2.5rem; color: var(--accent); }
+.subtitle { color: #666; font-size: 0.8rem; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px; }
+
+.section-title { 
+    font-size: 0.75rem; 
+    text-transform: uppercase; 
+    color: #95a5a6; 
+    letter-spacing: 2.5px; 
+    margin-top: 4rem; 
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    padding: 1.8rem;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.25s ease;
+    box-shadow: var(--shadow);
+}
+
+.card:hover { border-color: var(--accent); transform: translateY(-3px); }
+
+.card.active { border-left: 6px solid var(--accent); display: flex; justify-content: space-between; align-items: center; }
+
+.topic { font-size: 1.2rem; font-weight: 600; color: var(--accent); }
+
+.status-badge { 
+    background: #ecf0f1; 
+    padding: 6px 14px; 
+    border-radius: 20px; 
+    font-family: 'JetBrains Mono', monospace; 
+    font-size: 0.8rem; 
+    color: #34495e;
+}
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+
+.history-card h3 { margin: 10px 0 5px 0; font-size: 1.1rem; }
+.history-card p { font-size: 0.9rem; color: #7f8c8d; margin: 0; }
+
+.resource .icon { font-size: 1.5rem; margin-bottom: 15px; }
+
+.section-header { display: flex; justify-content: space-between; align-items: flex-end; }
+.controls button {
+    background: white;
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    margin-left: 5px;
+    color: var(--accent);
+}
+.controls button:hover { background: #f0f0f0; }
+
+.search-box { margin-bottom: 2rem; }
+.search-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.glossary-item {
+    background: white;
+    border: 1px solid var(--border);
+    padding: 1rem;
+    border-radius: 6px;
+}
+.glossary-item .term { font-size: 1rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 5px; }
+.glossary-item .term small { color: #888; display: block; font-size: 0.7rem; }
+.glossary-item .definition { font-size: 0.85rem; color: #444; }
+.glossary-item .backlink { font-size: 0.7rem; margin-top: 10px; color: #999; }
+.glossary-item .backlink a { color: var(--accent); text-decoration: none; }
+
+footer { margin-top: 5rem; text-align: center; border-top: 1px solid var(--border); padding-top: 2rem; color: #95a5a6; font-size: 0.8rem; }
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container { padding: 1.5rem; }
+    header h1 { font-size: 2rem; }
+    .card.active { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
+
+/* Page Content (Classes) */
+.lesson-content { background: white; padding: 3rem; border-radius: 8px; border: 1px solid var(--border); margin-top: 2rem; }
+.lesson-content h2 { margin-top: 2rem; color: var(--accent); border: none; padding: 0; font-size: 1.5rem; }
+.lesson-content ul { padding-left: 20px; }
+.lesson-content li { margin-bottom: 8px; }
+.lesson-content code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
