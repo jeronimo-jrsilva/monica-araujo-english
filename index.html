@@ -68,35 +68,8 @@
                 portalData = await response.json();
                 renderClasses(portalData.classes);
                 renderGlossary(portalData.glossary);
-                updateNextClass(portalData.classes);
             } catch (err) {
                 console.error("Error loading JSON.", err);
-            }
-        }
-
-        function updateNextClass(classes) {
-            const card = document.getElementById('next-class-card');
-            const today = new Date();
-            today.setHours(0,0,0,0);
-
-            // Find classes that are today or in the future
-            // Since classes are usually at 07:00 AM, we treat them as "done" after the day passes
-            const futureClasses = classes.filter(c => new Date(c.date + "T00:00:00") >= today);
-            
-            if (futureClasses.length > 0) {
-                const next = futureClasses[0]; // Already sorted in JSON usually
-                const nextDate = new Date(next.date + "T00:00:00");
-                card.innerHTML = `
-                    <div class="date">${nextDate.toLocaleDateString('en-US', {month: 'short', day: '2-digit', weekday: 'short'}).toUpperCase()}</div>
-                    <div class="topic">${next.title}</div>
-                    <span class="status-badge">07:00 AM</span>
-                `;
-            } else {
-                // If no future class registered, show "Schedule Pending"
-                card.innerHTML = `
-                    <div class="topic">New classes coming soon</div>
-                    <span class="status-badge">Schedule Pending</span>
-                `;
             }
         }
 
@@ -118,6 +91,32 @@
                 order === 'asc' ? a.id - b.id : b.id - a.id
             );
             renderClasses(sorted);
+        }
+
+        function renderGlossary(terms) {
+            const list = document.getElementById('glossary-list');
+            list.innerHTML = terms.map(t => `
+                <div class="glossary-item">
+                    <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
+                    <div class="definition">${t.definition}</div>
+                    <div class="backlink">Seen in Class ${t.class_id.toString().padStart(2, '0')}</div>
+                </div>
+            `).join('');
+        }
+
+        function searchGlossary() {
+            const query = document.getElementById('glossary-search').value.toLowerCase();
+            const filtered = portalData.glossary.filter(t => 
+                t.term.toLowerCase().includes(query) || 
+                t.definition.toLowerCase().includes(query)
+            );
+            renderGlossary(filtered);
+        }
+
+        window.onload = loadPortal;
+    </script>
+</body>
+</html>ses(sorted);
         }
 
         function renderGlossary(terms) {
