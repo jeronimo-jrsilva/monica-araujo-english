@@ -6,6 +6,13 @@
       "title": "Activation & Routine",
       "summary": "Introduce Yourself, Plurals and Office Routine.",
       "url": "classes/2026-04-08.html"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-09",
+      "title": "Negative & Interrogative (Daily Life)",
+      "summary": "Present Simple structures, Daily Routine and Extreme Sports.",
+      "url": "classes/2026-04-09.html"
     }
   ],
   "glossary": [
@@ -17,6 +24,12 @@
     {"term": "To make projects", "phonetic": "/meɪk/", "definition": "Fazer/Elaborar projetos", "class_id": 1},
     {"term": "To go to the gym", "phonetic": "/dʒɪm/", "definition": "Ir para a academia", "class_id": 1},
     {"term": "BIM Specialist", "phonetic": "/'speʃəlɪst/", "definition": "Especialista em plataforma BIM", "class_id": 1},
-    {"term": "Healthcare Specialist", "phonetic": "/'helθkeə/", "definition": "Especialista em saúde (arquitetura hospitalar)", "class_id": 1}
+    {"term": "Healthcare Specialist", "phonetic": "/'helθkeə/", "definition": "Especialista em saúde (arquitetura hospitalar)", "class_id": 1},
+    {"term": "Wash the dishes", "phonetic": "/wɒʃ ðə 'dɪʃɪz/", "definition": "Lavar a louça", "class_id": 2},
+    {"term": "Furniture", "phonetic": "/'fɜːrnɪtʃər/", "definition": "Móveis", "class_id": 2},
+    {"term": "Tidy up", "phonetic": "/'taɪdi ʌp/", "definition": "Arrumar / Organizar", "class_id": 2},
+    {"term": "Extreme Sports", "phonetic": "/ɪk'striːm spɔːrts/", "definition": "Esportes radicais (Skydiving, Zipline)", "class_id": 2},
+    {"term": "Heat / Cold", "phonetic": "/hiːt / koʊld/", "definition": "Calor / Frio", "class_id": 2},
+    {"term": "Chicken / Kitchen", "phonetic": "/'tʃɪkɪn / 'kɪtʃɪn/", "definition": "Pronúncia: Frango vs. Cozinha", "class_id": 2}
   ]
 }
