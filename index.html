@@ -16,15 +16,6 @@
     </header>
 
     <main class="container">
-        <!-- Next Class (Dynamic) -->
-        <section id="next-class-section" class="next-class">
-            <h2 class="section-title">Next Class</h2>
-            <div id="next-class-card" class="card active">
-                <!-- Injected via JS -->
-                <div class="topic">Loading schedule...</div>
-            </div>
-        </section>
-
         <!-- Searchable Glossary -->
         <section class="glossary-section">
             <h2 class="section-title">Class Vocabulary & Glossary</h2>
@@ -91,32 +82,6 @@
                 order === 'asc' ? a.id - b.id : b.id - a.id
             );
             renderClasses(sorted);
-        }
-
-        function renderGlossary(terms) {
-            const list = document.getElementById('glossary-list');
-            list.innerHTML = terms.map(t => `
-                <div class="glossary-item">
-                    <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
-                    <div class="definition">${t.definition}</div>
-                    <div class="backlink">Seen in Class ${t.class_id.toString().padStart(2, '0')}</div>
-                </div>
-            `).join('');
-        }
-
-        function searchGlossary() {
-            const query = document.getElementById('glossary-search').value.toLowerCase();
-            const filtered = portalData.glossary.filter(t => 
-                t.term.toLowerCase().includes(query) || 
-                t.definition.toLowerCase().includes(query)
-            );
-            renderGlossary(filtered);
-        }
-
-        window.onload = loadPortal;
-    </script>
-</body>
-</html>ses(sorted);
         }
 
         function renderGlossary(terms) {
