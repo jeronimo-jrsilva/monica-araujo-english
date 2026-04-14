@@ -16,6 +16,14 @@
     </header>
 
     <main class="container">
+        <!-- Resources Section -->
+        <section class="resources-section">
+            <h2 class="section-title">Support Resources</h2>
+            <div id="resource-grid" class="grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
         <!-- Searchable Glossary -->
         <section class="glossary-section">
             <h2 class="section-title">Class Vocabulary & Glossary</h2>
@@ -57,11 +65,27 @@
                 // Cache busting to ensure latest data from GitHub
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 portalData = await response.json();
+                renderResources(portalData.resources || []);
                 renderClasses(portalData.classes);
                 renderGlossary(portalData.glossary);
             } catch (err) {
                 console.error("Error loading JSON.", err);
             }
+        }
+
+        function renderResources(resources) {
+            const grid = document.getElementById('resource-grid');
+            if (resources.length === 0) {
+                grid.innerHTML = '<p style="color: #999; font-size: 0.8rem;">No resources available yet.</p>';
+                return;
+            }
+            grid.innerHTML = resources.map(r => `
+                <a href="${r.url}" class="card resource-card">
+                    <span class="status-badge">${r.type}</span>
+                    <h3>${r.title}</h3>
+                    <p>${r.description}</p>
+                </a>
+            `).join('');
         }
 
         function renderClasses(classes) {
@@ -90,7 +114,7 @@
                 <div class="glossary-item">
                     <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
                     <div class="definition">${t.definition}</div>
-                    <div class="backlink">Seen in Class ${t.class_id.toString().padStart(2, '0')}</div>
+                    <div class="backlink">${t.class_id === 0 ? 'Technical Foundation' : 'Seen in Class ' + t.class_id.toString().padStart(2, '0')}</div>
                 </div>
             `).join('');
         }

@@ -36,8 +36,30 @@
       "url": "classes/2026-04-14.html"
     }
   ],
+  "resources": [
+    {
+      "title": "Common Irregular Verbs",
+      "description": "One-pager reference for essential past tense verbs.",
+      "url": "resources/irregular-verbs.html",
+      "type": "Study Guide"
+    }
+  ],
   "glossary": [
     {"term": "Architect", "phonetic": "/'ɑːrkɪtekt/", "definition": "Arquiteto (Atenção ao som de 'K')", "class_id": 1},
+    {"term": "Blueprint", "phonetic": "/'bluːprɪnt/", "definition": "Planta baixa / Projeto técnico", "class_id": 0},
+    {"term": "Floor Plan", "phonetic": "/flɔːr plæn/", "definition": "Planta de piso", "class_id": 0},
+    {"term": "Layout", "phonetic": "/'leɪaʊt/", "definition": "Layout / Arranjo físico", "class_id": 0},
+    {"term": "Sustainable", "phonetic": "/sə'steɪnəbl/", "definition": "Sustentável", "class_id": 0},
+    {"term": "Draft", "phonetic": "/dræft/", "definition": "Rascunho / Esboço", "class_id": 0},
+    {"term": "Budget", "phonetic": "/'bʌdʒɪt/", "definition": "Orçamento", "class_id": 0},
+    {"term": "Patient Flow", "phonetic": "/'peɪʃnt floʊ/", "definition": "Fluxo de pacientes (Crucial em hospitais)", "class_id": 0},
+    {"term": "Ward", "phonetic": "/wɔːrd/", "definition": "Ala / Enfermaria", "class_id": 0},
+    {"term": "Consultation Room", "phonetic": "/ˌkɒnsl'teɪʃn ruːm/", "definition": "Consultório", "class_id": 0},
+    {"term": "Waiting Area", "phonetic": "/'weɪtɪŋ 'eəriə/", "definition": "Sala de espera", "class_id": 0},
+    {"term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas técnicas)", "class_id": 0},
+    {"term": "Accessibility", "phonetic": "/əkˌsesə'bɪləti/", "definition": "Acessibilidade", "class_id": 0},
+    {"term": "Healing Environment", "phonetic": "/'hiːlɪŋ ɪn'vaɪrənmənt/", "definition": "Ambiente de cura (Conceito de design)", "class_id": 0},
+    {"term": "Medical Imaging", "phonetic": "/'medɪkl 'ɪmədʒɪŋ/", "definition": "Imaginologia (Ex: Sala de Raio-X)", "class_id": 0},
     {"term": "Child / Children", "phonetic": "/tʃaɪld/ - /'tʃɪldrən/", "definition": "Criança (Singular) / Crianças (Plural)", "class_id": 1},
     {"term": "Person / People", "phonetic": "/'pɜːrsn/ - /'piːpl/", "definition": "Pessoa (Singular) / Pessoas (Plural)", "class_id": 1},
     {"term": "To visit clients", "phonetic": "/'vɪzɪt/", "definition": "Visitar clientes", "class_id": 1},
@@ -64,6 +86,8 @@
     {"term": "Expensive", "phonetic": "/ɪk'spensɪv/", "definition": "Caro", "class_id": 4},
     {"term": "Unfortunately", "phonetic": "/ʌn'fɔːrtʃunətli/", "definition": "Infelizmente", "class_id": 4},
     {"term": "Coworker", "phonetic": "/ˌkoʊ'wɜːrkər/", "definition": "Colega de trabalho", "class_id": 4},
+    {"term": "How are you?", "phonetic": "/haʊ ɑːr juː/", "definition": "Como você está?", "class_id": 5},
+    {"term": "How many?", "phonetic": "/haʊ 'meni/", "definition": "Quantos? (Contáveis)", "class_id": 5},
     {"term": "Employer", "phonetic": "/ɪm'plɔɪər/", "definition": "Empregador / Patrão", "class_id": 5},
     {"term": "Employee", "phonetic": "/ɪm'plɔɪiː/", "definition": "Funcionário / Colaborador", "class_id": 5},
     {"term": "Employed", "phonetic": "/ɪm'plɔɪd/", "definition": "Empregado (Verbo)", "class_id": 5},
