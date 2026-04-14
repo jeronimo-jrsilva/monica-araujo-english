@@ -27,6 +27,13 @@
       "title": "Wh- Questions & Future Intentions",
       "summary": "Open vs. Closed questions and travel planning (Sicily context).",
       "url": "classes/2026-04-13.html"
+    },
+    {
+      "id": 5,
+      "date": "2026-04-14",
+      "title": "How & Intro to Past Simple",
+      "summary": "Consolidation of Wh- Questions and Introduction to Past Simple (Daily Routine).",
+      "url": "classes/2026-04-14.html"
     }
   ],
   "glossary": [
@@ -56,6 +63,12 @@
     {"term": "Intend", "phonetic": "/ɪn'tend/", "definition": "Pretender / Intentar", "class_id": 4},
     {"term": "Expensive", "phonetic": "/ɪk'spensɪv/", "definition": "Caro", "class_id": 4},
     {"term": "Unfortunately", "phonetic": "/ʌn'fɔːrtʃunətli/", "definition": "Infelizmente", "class_id": 4},
-    {"term": "Coworker", "phonetic": "/ˌkoʊ'wɜːrkər/", "definition": "Colega de trabalho", "class_id": 4}
+    {"term": "Coworker", "phonetic": "/ˌkoʊ'wɜːrkər/", "definition": "Colega de trabalho", "class_id": 4},
+    {"term": "Employer", "phonetic": "/ɪm'plɔɪər/", "definition": "Empregador / Patrão", "class_id": 5},
+    {"term": "Employee", "phonetic": "/ɪm'plɔɪiː/", "definition": "Funcionário / Colaborador", "class_id": 5},
+    {"term": "Employed", "phonetic": "/ɪm'plɔɪd/", "definition": "Empregado (Verbo)", "class_id": 5},
+    {"term": "Stayed", "phonetic": "/steɪd/", "definition": "Ficou / Permaneceu", "class_id": 5},
+    {"term": "Bedroom", "phonetic": "/'bedruːm/", "definition": "Quarto (O cômodo)", "class_id": 5},
+    {"term": "Right after", "phonetic": "/raɪt 'æftər/", "definition": "Logo em seguida", "class_id": 5}
   ]
 }
