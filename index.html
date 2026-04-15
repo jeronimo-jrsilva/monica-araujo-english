@@ -18,35 +18,39 @@
     <main class="container">
         <!-- Resources Section -->
         <section class="resources-section">
-            <h2 class="section-title">Support Resources</h2>
-            <div id="resource-grid" class="grid">
-                <!-- Injected via JS -->
-            </div>
+            <details>
+                <summary class="section-title">Support Resources</summary>
+                <div id="resource-grid" class="grid">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
         </section>
 
         <!-- Searchable Glossary -->
         <section class="glossary-section">
-            <h2 class="section-title">Class Vocabulary & Glossary</h2>
-            <div class="search-box">
-                <input type="text" id="glossary-search" placeholder="Search for terms (ex: design, site, BIM)..." onkeyup="searchGlossary()">
-            </div>
-            <div id="glossary-list" class="glossary-grid">
-                <!-- Injected via JS -->
-            </div>
+            <details>
+                <summary class="section-title">Class Vocabulary & Glossary</summary>
+                <div class="search-box">
+                    <input type="text" id="glossary-search" placeholder="Search for terms (ex: design, site, BIM)..." onkeyup="searchGlossary()">
+                </div>
+                <div id="glossary-list" class="glossary-grid">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
         </section>
 
         <!-- Class History with Sorting -->
         <section class="class-history">
-            <div class="section-header">
-                <h2 class="section-title">Class History</h2>
+            <details>
+                <summary class="section-title">Class History</summary>
                 <div class="controls">
                     <button onclick="sortClasses('desc')">Newest First</button>
                     <button onclick="sortClasses('asc')">Oldest First</button>
                 </div>
-            </div>
-            <div id="class-grid" class="grid">
-                <!-- Injected via JS -->
-            </div>
+                <div id="class-grid" class="grid" style="margin-top: 1.5rem;">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
         </section>
     </main>
 

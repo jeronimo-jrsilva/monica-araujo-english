@@ -31,7 +31,33 @@ header h1 { font-weight: 300; letter-spacing: -2px; margin-bottom: 0; font-size:
     margin-bottom: 1.5rem;
     border-bottom: 1px solid var(--border);
     padding-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    user-select: none;
 }
+
+.section-title::-webkit-details-marker { display: none; }
+
+.section-title::after {
+    content: '+';
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--accent);
+    transition: transform 0.2s ease;
+}
+
+details[open] .section-title::after {
+    content: '−';
+}
+
+details[open] .section-title {
+    margin-bottom: 1.5rem;
+}
+
+details summary:focus { outline: none; }
 
 .card {
     background: var(--card-bg);
