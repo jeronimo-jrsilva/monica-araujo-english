@@ -34,6 +34,13 @@
       "title": "How & Intro to Past Simple",
       "summary": "Consolidation of Wh- Questions and Introduction to Past Simple (Daily Routine).",
       "url": "classes/2026-04-14.html"
+    },
+    {
+      "id": 6,
+      "date": "2026-04-15",
+      "title": "Present Continuous in Practice",
+      "summary": "Applying -ING for ongoing projects (Maternity ward) and corporate challenges (Hiring/Tech).",
+      "url": "classes/2026-04-15.html"
     }
   ],
   "resources": [
@@ -93,6 +100,16 @@
     {"term": "Employed", "phonetic": "/ɪm'plɔɪd/", "definition": "Empregado (Verbo)", "class_id": 5},
     {"term": "Stayed", "phonetic": "/steɪd/", "definition": "Ficou / Permaneceu", "class_id": 5},
     {"term": "Bedroom", "phonetic": "/'bedruːm/", "definition": "Quarto (O cômodo)", "class_id": 5},
-    {"term": "Right after", "phonetic": "/raɪt 'æftər/", "definition": "Logo em seguida", "class_id": 5}
+    {"term": "Right after", "phonetic": "/raɪt 'æftər/", "definition": "Logo em seguida", "class_id": 5},
+    {"term": "Childbirth", "phonetic": "/'tʃaɪldbɜːrθ/", "definition": "Parto (Ação de dar à luz)", "class_id": 6},
+    {"term": "Regarding", "phonetic": "/rɪ'ɡɑːrdɪŋ/", "definition": "Sobre / Acerca de", "class_id": 6},
+    {"term": "Intensive Care", "phonetic": "/ɪn'tensɪv keər/", "definition": "UTI (Unidade de Terapia Intensiva)", "class_id": 6},
+    {"term": "Hire", "phonetic": "/haɪər/", "definition": "Contratar (Pronúncia: Ráir)", "class_id": 6},
+    {"term": "Specialists", "phonetic": "/'speʃəlɪsts/", "definition": "Especialistas (Pronúncia: Spé-chalists)", "class_id": 6},
+    {"term": "Struggling", "phonetic": "/'strʌɡlɪŋ/", "definition": "Lutando / Tendo dificuldade", "class_id": 6},
+    {"term": "Lack of", "phonetic": "/læk əv/", "definition": "Falta de", "class_id": 6},
+    {"term": "Still", "phonetic": "/stɪl/", "definition": "Ainda", "class_id": 6},
+    {"term": "Frozen", "phonetic": "/'froʊzn/", "definition": "Congelado (Past Participle)", "class_id": 6},
+    {"term": "Hidden", "phonetic": "/'hɪdn/", "definition": "Escondido / Oculto", "class_id": 6}
   ]
 }
