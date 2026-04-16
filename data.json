@@ -41,6 +41,13 @@
       "title": "Present Continuous in Practice",
       "summary": "Applying -ING for ongoing projects (Maternity ward) and corporate challenges (Hiring/Tech).",
       "url": "classes/2026-04-15.html"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-16",
+      "title": "Future: Will vs. Going to",
+      "summary": "Differentiating spontaneous decisions from planned future actions in architecture projects.",
+      "url": "classes/2026-04-16.html"
     }
   ],
   "resources": [
@@ -110,6 +117,10 @@
     {"term": "Lack of", "phonetic": "/læk əv/", "definition": "Falta de", "class_id": 6},
     {"term": "Still", "phonetic": "/stɪl/", "definition": "Ainda", "class_id": 6},
     {"term": "Frozen", "phonetic": "/'froʊzn/", "definition": "Congelado (Past Participle)", "class_id": 6},
-    {"term": "Hidden", "phonetic": "/'hɪdn/", "definition": "Escondido / Oculto", "class_id": 6}
+    {"term": "Hidden", "phonetic": "/'hɪdn/", "definition": "Escondido / Oculto", "class_id": 6},
+    {"term": "Schedule", "phonetic": "/'skedʒuːl/", "definition": "Agenda / Cronograma / Agendar", "class_id": 7},
+    {"term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (Ex: I couldn't postpone my visit)", "class_id": 7},
+    {"term": "Update", "phonetic": "/ˌʌp'deɪt/", "definition": "Atualizar / Atualização", "class_id": 7},
+    {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7}
   ]
 }
