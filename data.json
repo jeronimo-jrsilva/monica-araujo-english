@@ -48,6 +48,13 @@
       "title": "Future: Will vs. Going to",
       "summary": "Differentiating spontaneous decisions from planned future actions in architecture projects.",
       "url": "classes/2026-04-16.html"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-17",
+      "title": "Weekly Review & Project Presentation",
+      "summary": "Consolidating Past, Present and Future through real-life activities and professional simulation.",
+      "url": "classes/2026-04-17.html"
     }
   ],
   "resources": [
@@ -121,6 +128,9 @@
     {"term": "Schedule", "phonetic": "/'skedʒuːl/", "definition": "Agenda / Cronograma / Agendar", "class_id": 7},
     {"term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (Ex: I couldn't postpone my visit)", "class_id": 7},
     {"term": "Update", "phonetic": "/ˌʌp'deɪt/", "definition": "Atualizar / Atualização", "class_id": 7},
-    {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7}
+    {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7},
+    {"term": "Inclusion", "phonetic": "/ɪn'kluːʒn/", "definition": "Inclusão", "class_id": 8},
+    {"term": "Workshop", "phonetic": "/'wɜːrkʃɒp/", "definition": "Oficina / Workshop", "class_id": 8},
+    {"term": "Dissertation", "phonetic": "/ˌdɪsər'teɪʃn/", "definition": "Dissertação / Tese acadêmica", "class_id": 8}
   ]
 }
