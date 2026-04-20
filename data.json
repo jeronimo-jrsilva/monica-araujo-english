@@ -55,6 +55,13 @@
       "title": "Weekly Review & Project Presentation",
       "summary": "Consolidating Past, Present and Future through real-life activities and professional simulation.",
       "url": "classes/2026-04-17.html"
+    },
+    {
+      "id": 9,
+      "date": "2026-04-20",
+      "title": "Comparing Environments (Comparatives)",
+      "summary": "Using comparative and superlative structures to analyze architectural materials and hospital layouts.",
+      "url": "classes/2026-04-20.html"
     }
   ],
   "resources": [
@@ -137,6 +144,13 @@
     {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7},
     {"term": "Inclusion", "phonetic": "/ɪn'kluːʒn/", "definition": "Inclusão", "class_id": 8},
     {"term": "Workshop", "phonetic": "/'wɜːrkʃɒp/", "definition": "Oficina / Workshop", "class_id": 8},
-    {"term": "Dissertation", "phonetic": "/ˌdɪsər'teɪʃn/", "definition": "Dissertação / Tese acadêmica", "class_id": 8}
+    {"term": "Dissertation", "phonetic": "/ˌdɪsər'teɪʃn/", "definition": "Dissertação / Tese acadêmica", "class_id": 8},
+    {"term": "Steel", "phonetic": "/stiːl/", "definition": "Aço", "class_id": 9},
+    {"term": "Aluminium", "phonetic": "/ˌæljə'mɪniəm/", "definition": "Alumínio", "class_id": 9},
+    {"term": "Iron", "phonetic": "/'aɪərn/", "definition": "Ferro", "class_id": 9},
+    {"term": "Copper", "phonetic": "/'kɒpər/", "definition": "Cobre", "class_id": 9},
+    {"term": "Wood", "phonetic": "/wʊd/", "definition": "Madeira", "class_id": 9},
+    {"term": "Polypropylene", "phonetic": "/ˌpɒli'proʊpəliːn/", "definition": "Polipropileno", "class_id": 9},
+    {"term": "Glass", "phonetic": "/ɡlæs/", "definition": "Vidro", "class_id": 9}
   ]
 }
