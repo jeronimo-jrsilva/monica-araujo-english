@@ -84,11 +84,15 @@
                 return;
             }
             grid.innerHTML = resources.map(r => `
-                <a href="${r.url}" class="card resource-card">
+                <div class="card resource-card">
                     <span class="status-badge">${r.type}</span>
                     <h3>${r.title}</h3>
                     <p>${r.description}</p>
-                </a>
+                    <div class="resource-links" style="margin-top: 15px; display: flex; gap: 10px;">
+                        <a href="${r.url}" class="btn-mini">View HTML</a>
+                        ${r.pdf_url ? `<a href="${r.pdf_url}" class="btn-mini btn-pdf" target="_blank">Download PDF</a>` : ''}
+                    </div>
+                </div>
             `).join('');
         }
 

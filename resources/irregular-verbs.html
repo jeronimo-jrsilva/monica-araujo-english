@@ -1,111 +1,366 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Common Irregular Verbs | Monica Araujo</title>
-    <link rel="stylesheet" href="../style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <style>
-        .verb-table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.9rem; }
-        .verb-table th, .verb-table td { border: 1px solid var(--border); padding: 12px; text-align: left; }
-        .verb-table th { background: #f8f9fa; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 1px; color: #666; }
-        .verb-table tr:nth-child(even) { background: #fafafa; }
-        .verb-table td strong { color: var(--accent); }
-        .category-title { margin-top: 2rem; font-size: 0.75rem; text-transform: uppercase; color: #95a5a6; letter-spacing: 2px; border-bottom: 1px solid var(--border); padding-bottom: 5px; }
-        .tips-box { background: #fffdf0; border: 1px solid #ffeeba; padding: 1.5rem; border-radius: 8px; margin-top: 2rem; font-size: 0.9rem; }
-        .tips-box h3 { margin-top: 0; font-size: 1rem; color: #856404; }
-    </style>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head><meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Relatório</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="../index.html" style="text-decoration: none; color: inherit;"><h1>Monica Araujo</h1></a>
-            <p class="subtitle">Study Resource: Common Irregular Verbs</p>
-        </div>
-    </header>
-
-    <main class="container">
-        <article class="lesson-content">
-            <h2>📊 Essential Irregular Verbs</h2>
-            <p>Monica, estes são os verbos que não seguem a regra do "-ED". Eles mudam de forma no passado.</p>
-
-            <h3 class="category-title">Essential & Daily</h3>
-            <table class="verb-table">
-                <thead>
-                    <tr>
-                        <th>Present</th>
-                        <th>Past Simple</th>
-                        <th>Translation (PT)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>Be (Is/Am)</td><td><strong>Was</strong></td><td>Era / Estava</td></tr>
-                    <tr><td>Be (Are)</td><td><strong>Were</strong></td><td>Eram / Estavam</td></tr>
-                    <tr><td>Do</td><td><strong>Did</strong></td><td>Fez</td></tr>
-                    <tr><td>Go</td><td><strong>Went</strong></td><td>Foi</td></tr>
-                    <tr><td>Have</td><td><strong>Had</strong></td><td>Tinha / Teve</td></tr>
-                    <tr><td>Say</td><td><strong>Said</strong></td><td>Disse</td></tr>
-                    <tr><td>Make</td><td><strong>Made</strong></td><td>Fez / Elaborou</td></tr>
-                    <tr><td>Get</td><td><strong>Got</strong></td><td>Pegou / Conseguiu</td></tr>
-                    <tr><td>Know</td><td><strong>Knew</strong></td><td>Soube / Conheceu</td></tr>
-                    <tr><td>Take</td><td><strong>Took</strong></td><td>Tomou / Levou</td></tr>
-                </tbody>
-            </table>
-
-            <h3 class="category-title">Office & Communication</h3>
-            <table class="verb-table">
-                <thead>
-                    <tr>
-                        <th>Present</th>
-                        <th>Past Simple</th>
-                        <th>Translation (PT)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>Read</td><td><strong>Read</strong></td><td>Leu (Som de "Red")</td></tr>
-                    <tr><td>Write</td><td><strong>Wrote</strong></td><td>Escreveu</td></tr>
-                    <tr><td>Speak</td><td><strong>Spoke</strong></td><td>Falou</td></tr>
-                    <tr><td>Understand</td><td><strong>Understood</strong></td><td>Entendeu</td></tr>
-                    <tr><td>Send</td><td><strong>Sent</strong></td><td>Enviou</td></tr>
-                    <tr><td>Tell</td><td><strong>Told</strong></td><td>Contou / Disse para alguém</td></tr>
-                    <tr><td>Find</td><td><strong>Found</strong></td><td>Achou / Encontrou</td></tr>
-                    <tr><td>Buy</td><td><strong>Bought</strong></td><td>Comprou</td></tr>
-                    <tr><td>Sell</td><td><strong>Sold</strong></td><td>Vendeu</td></tr>
-                </tbody>
-            </table>
-
-            <h3 class="category-title">Actions & Movement</h3>
-            <table class="verb-table">
-                <thead>
-                    <tr>
-                        <th>Present</th>
-                        <th>Past Simple</th>
-                        <th>Translation (PT)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>Run</td><td><strong>Ran</strong></td><td>Correu</td></tr>
-                    <tr><td>See</td><td><strong>Saw</strong></td><td>Viu</td></tr>
-                    <tr><td>Come</td><td><strong>Came</strong></td><td>Veio</td></tr>
-                    <tr><td>Drink</td><td><strong>Drank</strong></td><td>Bebeu</td></tr>
-                    <tr><td>Eat</td><td><strong>Ate</strong></td><td>Comeu</td></tr>
-                    <tr><td>Sleep</td><td><strong>Slept</strong></td><td>Dormiu</td></tr>
-                    <tr><td>Drive</td><td><strong>Drove</strong></td><td>Dirigiu</td></tr>
-                </tbody>
-            </table>
-
-            <div class="tips-box">
-                <h3>💡 Pronunciation & Usage Tips</h3>
-                <ul>
-                    <li><strong>Read vs. Read:</strong> No presente: "Ríid". No passado: "Red" (como a cor vermelha).</li>
-                    <li><strong>Said:</strong> Pronuncia-se "Sed" no passado, nunca "Sêid".</li>
-                    <li><strong>Was vs. Were:</strong> "I was tired" (Eu estava cansada) / "They were late" (Eles estavam atrasados).</li>
-                </ul>
-            </div>
-        </article>
-
-        <p style="margin-top: 2rem;"><a href="../index.html">&larr; Back to Dashboard</a></p>
-    </main>
+<h1 id="common-irregular-verbs---past-simple">Common Irregular Verbs -
+Past Simple</h1>
+<p class="intro">
+Monica, estes são os verbos que não seguem a regra do “-ED”. Eles mudam
+de forma no passado.
+</p>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Essential</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Office &amp; Daily</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Actions &amp; Movement</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Present</strong></td>
+<td style="text-align: left;"><strong>Past</strong></td>
+<td style="text-align: left;"><strong>PT</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Present</strong></td>
+<td style="text-align: left;"><strong>Past</strong></td>
+<td style="text-align: left;"><strong>PT</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Present</strong></td>
+<td style="text-align: left;"><strong>Past</strong></td>
+<td style="text-align: left;"><strong>PT</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Be (Is)</td>
+<td style="text-align: left;"><strong>Was</strong></td>
+<td style="text-align: left;">Era</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Read</td>
+<td style="text-align: left;"><strong>Read</strong></td>
+<td style="text-align: left;">Leu</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Run</td>
+<td style="text-align: left;"><strong>Ran</strong></td>
+<td style="text-align: left;">Correu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Be (Are)</td>
+<td style="text-align: left;"><strong>Were</strong></td>
+<td style="text-align: left;">Eram</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Write</td>
+<td style="text-align: left;"><strong>Wrote</strong></td>
+<td style="text-align: left;">Escreveu</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Swim</td>
+<td style="text-align: left;"><strong>Swam</strong></td>
+<td style="text-align: left;">Nadou</td>
+</tr>
+<tr>
+<td style="text-align: left;">Do</td>
+<td style="text-align: left;"><strong>Did</strong></td>
+<td style="text-align: left;">Fez</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Speak</td>
+<td style="text-align: left;"><strong>Spoke</strong></td>
+<td style="text-align: left;">Falou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Sleep</td>
+<td style="text-align: left;"><strong>Slept</strong></td>
+<td style="text-align: left;">Dormiu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Go</td>
+<td style="text-align: left;"><strong>Went</strong></td>
+<td style="text-align: left;">Foi</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Understand</td>
+<td style="text-align: left;"><strong>Understood</strong></td>
+<td style="text-align: left;">Entendeu</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Drink</td>
+<td style="text-align: left;"><strong>Drank</strong></td>
+<td style="text-align: left;">Bebeu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Have</td>
+<td style="text-align: left;"><strong>Had</strong></td>
+<td style="text-align: left;">Tinha</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Send</td>
+<td style="text-align: left;"><strong>Sent</strong></td>
+<td style="text-align: left;">Enviou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Eat</td>
+<td style="text-align: left;"><strong>Ate</strong></td>
+<td style="text-align: left;">Comeu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Make</td>
+<td style="text-align: left;"><strong>Made</strong></td>
+<td style="text-align: left;">Fez</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Buy</td>
+<td style="text-align: left;"><strong>Bought</strong></td>
+<td style="text-align: left;">Comprou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Drive</td>
+<td style="text-align: left;"><strong>Drove</strong></td>
+<td style="text-align: left;">Dirigiu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Say</td>
+<td style="text-align: left;"><strong>Said</strong></td>
+<td style="text-align: left;">Disse</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Sell</td>
+<td style="text-align: left;"><strong>Sold</strong></td>
+<td style="text-align: left;">Vendeu</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Come</td>
+<td style="text-align: left;"><strong>Came</strong></td>
+<td style="text-align: left;">Veio</td>
+</tr>
+<tr>
+<td style="text-align: left;">See</td>
+<td style="text-align: left;"><strong>Saw</strong></td>
+<td style="text-align: left;">Viu</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Think</td>
+<td style="text-align: left;"><strong>Thought</strong></td>
+<td style="text-align: left;">Pensou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Find</td>
+<td style="text-align: left;"><strong>Found</strong></td>
+<td style="text-align: left;">Achou</td>
+</tr>
+<tr>
+<td style="text-align: left;">Get</td>
+<td style="text-align: left;"><strong>Got</strong></td>
+<td style="text-align: left;">Pegou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Know</td>
+<td style="text-align: left;"><strong>Knew</strong></td>
+<td style="text-align: left;">Soube</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Tell</td>
+<td style="text-align: left;"><strong>Told</strong></td>
+<td style="text-align: left;">Contou</td>
+</tr>
+<tr>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Take</td>
+<td style="text-align: left;"><strong>Took</strong></td>
+<td style="text-align: left;">Tomou</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<section id="pronunciation-and-usage-tips" class="tips-box">
+<h3>Pronunciation and Usage Tips</h3>
+<ul>
+<li><strong>Read vs. Read:</strong> No presente você diz “Ríid”. No
+passado você diz “Red” (como a cor vermelha).</li>
+<li><strong>Said:</strong> Não diga “Sêid”. A pronúncia correta no
+passado é “Sed”.</li>
+<li><strong>Went / Did:</strong> “I went to the office” / “I did my
+work”.</li>
+<li><strong>Was / Were:</strong> “I was tired” / “They were late”.</li>
+</ul>
+</section>
 </body>
 </html>

@@ -69,6 +69,7 @@
       "title": "Common Irregular Verbs",
       "description": "One-pager reference for essential past tense verbs.",
       "url": "resources/irregular-verbs.html",
+      "pdf_url": "resources/irregular-verbs.pdf",
       "type": "Study Guide"
     },
     {
@@ -81,6 +82,7 @@
       "title": "Adjectives Comparison",
       "description": "Comprehensive list of comparatives and superlatives for architecture and general use.",
       "url": "resources/adjectives-comparison.html",
+      "pdf_url": "resources/adjectives-comparison.pdf",
       "type": "Study Guide"
     }
   ],
