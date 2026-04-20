@@ -87,78 +87,443 @@
     }
   ],
   "glossary": [
-    {"term": "Architect", "phonetic": "/'ɑːrkɪtekt/", "definition": "Arquiteto (Atenção ao som de 'K')", "class_id": 1},
-    {"term": "Blueprint", "phonetic": "/'bluːprɪnt/", "definition": "Planta baixa / Projeto técnico", "class_id": 0},
-    {"term": "Floor Plan", "phonetic": "/flɔːr plæn/", "definition": "Planta de piso", "class_id": 0},
-    {"term": "Layout", "phonetic": "/'leɪaʊt/", "definition": "Layout / Arranjo físico", "class_id": 0},
-    {"term": "Sustainable", "phonetic": "/sə'steɪnəbl/", "definition": "Sustentável", "class_id": 0},
-    {"term": "Draft", "phonetic": "/dræft/", "definition": "Rascunho / Esboço", "class_id": 0},
-    {"term": "Budget", "phonetic": "/'bʌdʒɪt/", "definition": "Orçamento", "class_id": 0},
-    {"term": "Patient Flow", "phonetic": "/'peɪʃnt floʊ/", "definition": "Fluxo de pacientes (Crucial em hospitais)", "class_id": 0},
-    {"term": "Ward", "phonetic": "/wɔːrd/", "definition": "Ala / Enfermaria", "class_id": 0},
-    {"term": "Consultation Room", "phonetic": "/ˌkɒnsl'teɪʃn ruːm/", "definition": "Consultório", "class_id": 0},
-    {"term": "Waiting Area", "phonetic": "/'weɪtɪŋ 'eəriə/", "definition": "Sala de espera", "class_id": 0},
-    {"term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas técnicas)", "class_id": 0},
-    {"term": "Accessibility", "phonetic": "/əkˌsesə'bɪləti/", "definition": "Acessibilidade", "class_id": 0},
-    {"term": "Healing Environment", "phonetic": "/'hiːlɪŋ ɪn'vaɪrənmənt/", "definition": "Ambiente de cura (Conceito de design)", "class_id": 0},
-    {"term": "Medical Imaging", "phonetic": "/'medɪkl 'ɪmədʒɪŋ/", "definition": "Imaginologia (Ex: Sala de Raio-X)", "class_id": 0},
-    {"term": "Child / Children", "phonetic": "/tʃaɪld/ - /'tʃɪldrən/", "definition": "Criança (Singular) / Crianças (Plural)", "class_id": 1},
-    {"term": "Person / People", "phonetic": "/'pɜːrsn/ - /'piːpl/", "definition": "Pessoa (Singular) / Pessoas (Plural)", "class_id": 1},
-    {"term": "To visit clients", "phonetic": "/'vɪzɪt/", "definition": "Visitar clientes", "class_id": 1},
-    {"term": "To inspect construction sites", "phonetic": "/ɪn'spekt/", "definition": "Inspecionar canteiros de obra", "class_id": 1},
-    {"term": "To make projects", "phonetic": "/meɪk/", "definition": "Fazer/Elaborar projetos", "class_id": 1},
-    {"term": "To go to the gym", "phonetic": "/dʒɪm/", "definition": "Ir para a academia", "class_id": 2},
-    {"term": "BIM Specialist", "phonetic": "/'speʃəlɪst/", "definition": "Especialista em plataforma BIM", "class_id": 1},
-    {"term": "Healthcare Specialist", "phonetic": "/'helθkeə/", "definition": "Especialista em saúde (arquitetura hospitalar)", "class_id": 1},
-    {"term": "Wash the dishes", "phonetic": "/wɒʃ ðə 'dɪʃɪz/", "definition": "Lavar a louça", "class_id": 2},
-    {"term": "Furniture", "phonetic": "/'fɜːrnɪtʃər/", "definition": "Móveis", "class_id": 2},
-    {"term": "Tidy up", "phonetic": "/'taɪdi ʌp/", "definition": "Arrumar / Organizar", "class_id": 2},
-    {"term": "Extreme Sports", "phonetic": "/ɪk'striːm spɔːrts/", "definition": "Esportes radicais (Skydiving, Zipline)", "class_id": 2},
-    {"term": "Heat / Cold", "phonetic": "/hiːt / koʊld/", "definition": "Calor / Frio", "class_id": 2},
-    {"term": "Chicken / Kitchen", "phonetic": "/'tʃɪkɪn / 'kɪtʃɪn/", "definition": "Pronúncia: Frango vs. Cozinha", "class_id": 2},
-    {"term": "Downtown", "phonetic": "/'daʊntaʊn/", "definition": "Centro da cidade (área comercial)", "class_id": 3},
-    {"term": "Named", "phonetic": "/neɪmd/", "definition": "Nomeado/Chamado (ex: name of the company)", "class_id": 3},
-    {"term": "Located", "phonetic": "/loʊ'keɪtɪd/", "definition": "Localizado (ex: building location)", "class_id": 3},
-    {"term": "Bribes", "phonetic": "/braɪbz/", "definition": "Subornos / Propinas", "class_id": 3},
-    {"term": "Big constructions", "phonetic": "/bɪɡ kən'strʌkʃənz/", "definition": "Grandes obras / construções", "class_id": 3},
-    {"term": "Go ahead", "phonetic": "/ɡoʊ ə'hed/", "definition": "Vá em frente", "class_id": 3},
-    {"term": "Trivia", "phonetic": "/'trɪviə/", "definition": "Curiosidades / Fatos", "class_id": 3},
-    {"term": "Winery", "phonetic": "/'waɪnəri/", "definition": "Vinícola", "class_id": 4},
-    {"term": "Intend", "phonetic": "/ɪn'tend/", "definition": "Pretender / Intentar", "class_id": 4},
-    {"term": "Expensive", "phonetic": "/ɪk'spensɪv/", "definition": "Caro", "class_id": 4},
-    {"term": "Unfortunately", "phonetic": "/ʌn'fɔːrtʃunətli/", "definition": "Infelizmente", "class_id": 4},
-    {"term": "Coworker", "phonetic": "/ˌkoʊ'wɜːrkər/", "definition": "Colega de trabalho", "class_id": 4},
-    {"term": "How are you?", "phonetic": "/haʊ ɑːr juː/", "definition": "Como você está?", "class_id": 5},
-    {"term": "How many?", "phonetic": "/haʊ 'meni/", "definition": "Quantos? (Contáveis)", "class_id": 5},
-    {"term": "Employer", "phonetic": "/ɪm'plɔɪər/", "definition": "Empregador / Patrão", "class_id": 5},
-    {"term": "Employee", "phonetic": "/ɪm'plɔɪiː/", "definition": "Funcionário / Colaborador", "class_id": 5},
-    {"term": "Employed", "phonetic": "/ɪm'plɔɪd/", "definition": "Empregado (Verbo)", "class_id": 5},
-    {"term": "Stayed", "phonetic": "/steɪd/", "definition": "Ficou / Permaneceu", "class_id": 5},
-    {"term": "Bedroom", "phonetic": "/'bedruːm/", "definition": "Quarto (O cômodo)", "class_id": 5},
-    {"term": "Right after", "phonetic": "/raɪt 'æftər/", "definition": "Logo em seguida", "class_id": 5},
-    {"term": "Childbirth", "phonetic": "/'tʃaɪldbɜːrθ/", "definition": "Parto (Ação de dar à luz)", "class_id": 6},
-    {"term": "Regarding", "phonetic": "/rɪ'ɡɑːrdɪŋ/", "definition": "Sobre / Acerca de", "class_id": 6},
-    {"term": "Intensive Care", "phonetic": "/ɪn'tensɪv keər/", "definition": "UTI (Unidade de Terapia Intensiva)", "class_id": 6},
-    {"term": "Hire", "phonetic": "/haɪər/", "definition": "Contratar (Pronúncia: Ráir)", "class_id": 6},
-    {"term": "Specialists", "phonetic": "/'speʃəlɪsts/", "definition": "Especialistas (Pronúncia: Spé-chalists)", "class_id": 6},
-    {"term": "Struggling", "phonetic": "/'strʌɡlɪŋ/", "definition": "Lutando / Tendo dificuldade", "class_id": 6},
-    {"term": "Lack of", "phonetic": "/læk əv/", "definition": "Falta de", "class_id": 6},
-    {"term": "Still", "phonetic": "/stɪl/", "definition": "Ainda", "class_id": 6},
-    {"term": "Frozen", "phonetic": "/'froʊzn/", "definition": "Congelado (Past Participle)", "class_id": 6},
-    {"term": "Hidden", "phonetic": "/'hɪdn/", "definition": "Escondido / Oculto", "class_id": 6},
-    {"term": "Schedule", "phonetic": "/'skedʒuːl/", "definition": "Agenda / Cronograma / Agendar", "class_id": 7},
-    {"term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (Ex: I couldn't postpone my visit)", "class_id": 7},
-    {"term": "Update", "phonetic": "/ˌʌp'deɪt/", "definition": "Atualizar / Atualização", "class_id": 7},
-    {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7},
-    {"term": "Inclusion", "phonetic": "/ɪn'kluːʒn/", "definition": "Inclusão", "class_id": 8},
-    {"term": "Workshop", "phonetic": "/'wɜːrkʃɒp/", "definition": "Oficina / Workshop", "class_id": 8},
-    {"term": "Dissertation", "phonetic": "/ˌdɪsər'teɪʃn/", "definition": "Dissertação / Tese acadêmica", "class_id": 8},
-    {"term": "Steel", "phonetic": "/stiːl/", "definition": "Aço", "class_id": 9},
-    {"term": "Aluminium", "phonetic": "/ˌæljə'mɪniəm/", "definition": "Alumínio", "class_id": 9},
-    {"term": "Iron", "phonetic": "/'aɪərn/", "definition": "Ferro", "class_id": 9},
-    {"term": "Copper", "phonetic": "/'kɒpər/", "definition": "Cobre", "class_id": 9},
-    {"term": "Wood", "phonetic": "/wʊd/", "definition": "Madeira", "class_id": 9},
-    {"term": "Polypropylene", "phonetic": "/ˌpɒli'proʊpəliːn/", "definition": "Polipropileno", "class_id": 9},
-    {"term": "Glass", "phonetic": "/ɡlæs/", "definition": "Vidro", "class_id": 9}
+    {
+      "term": "Accessibility",
+      "phonetic": "/əkˌsesə'bɪləti/",
+      "definition": "Acessibilidade",
+      "class_id": 0
+    },
+    {
+      "term": "Aluminium",
+      "phonetic": "/ˌæljə'mɪniəm/",
+      "definition": "Alumínio",
+      "class_id": 9
+    },
+    {
+      "term": "Architect",
+      "phonetic": "/'ɑːrkɪtekt/",
+      "definition": "Arquiteto (Atenção ao som de 'K')",
+      "class_id": 1
+    },
+    {
+      "term": "Bedroom",
+      "phonetic": "/'bedruːm/",
+      "definition": "Quarto (O cômodo)",
+      "class_id": 5
+    },
+    {
+      "term": "Big constructions",
+      "phonetic": "/bɪɡ kən'strʌkʃənz/",
+      "definition": "Grandes obras / construções",
+      "class_id": 3
+    },
+    {
+      "term": "BIM Specialist",
+      "phonetic": "/'speʃəlɪst/",
+      "definition": "Especialista em plataforma BIM",
+      "class_id": 1
+    },
+    {
+      "term": "Blueprint",
+      "phonetic": "/'bluːprɪnt/",
+      "definition": "Planta baixa / Projeto técnico",
+      "class_id": 0
+    },
+    {
+      "term": "Bribes",
+      "phonetic": "/braɪbz/",
+      "definition": "Subornos / Propinas",
+      "class_id": 3
+    },
+    {
+      "term": "Budget",
+      "phonetic": "/'bʌdʒɪt/",
+      "definition": "Orçamento",
+      "class_id": 0
+    },
+    {
+      "term": "Chicken / Kitchen",
+      "phonetic": "/'tʃɪkɪn / 'kɪtʃɪn/",
+      "definition": "Pronúncia: Frango vs. Cozinha",
+      "class_id": 2
+    },
+    {
+      "term": "Child / Children",
+      "phonetic": "/tʃaɪld/ - /'tʃɪldrən/",
+      "definition": "Criança (Singular) / Crianças (Plural)",
+      "class_id": 1
+    },
+    {
+      "term": "Childbirth",
+      "phonetic": "/'tʃaɪldbɜːrθ/",
+      "definition": "Parto (Ação de dar à luz)",
+      "class_id": 6
+    },
+    {
+      "term": "Compliance",
+      "phonetic": "/kəm'plaɪəns/",
+      "definition": "Conformidade (Normas técnicas)",
+      "class_id": 0
+    },
+    {
+      "term": "Consultation Room",
+      "phonetic": "/ˌkɒnsl'teɪʃn ruːm/",
+      "definition": "Consultório",
+      "class_id": 0
+    },
+    {
+      "term": "Copper",
+      "phonetic": "/'kɒpər/",
+      "definition": "Cobre",
+      "class_id": 9
+    },
+    {
+      "term": "Coworker",
+      "phonetic": "/ˌkoʊ'wɜːrkər/",
+      "definition": "Colega de trabalho",
+      "class_id": 4
+    },
+    {
+      "term": "Deadline",
+      "phonetic": "/'dedlaɪn/",
+      "definition": "Prazo final (Não negociável)",
+      "class_id": 7
+    },
+    {
+      "term": "Dissertation",
+      "phonetic": "/ˌdɪsər'teɪʃn/",
+      "definition": "Dissertação / Tese acadêmica",
+      "class_id": 8
+    },
+    {
+      "term": "Downtown",
+      "phonetic": "/'daʊntaʊn/",
+      "definition": "Centro da cidade (área comercial)",
+      "class_id": 3
+    },
+    {
+      "term": "Draft",
+      "phonetic": "/dræft/",
+      "definition": "Rascunho / Esboço",
+      "class_id": 0
+    },
+    {
+      "term": "Employed",
+      "phonetic": "/ɪm'plɔɪd/",
+      "definition": "Empregado (Verbo)",
+      "class_id": 5
+    },
+    {
+      "term": "Employee",
+      "phonetic": "/ɪm'plɔɪiː/",
+      "definition": "Funcionário / Colaborador",
+      "class_id": 5
+    },
+    {
+      "term": "Employer",
+      "phonetic": "/ɪm'plɔɪər/",
+      "definition": "Empregador / Patrão",
+      "class_id": 5
+    },
+    {
+      "term": "Expensive",
+      "phonetic": "/ɪk'spensɪv/",
+      "definition": "Caro",
+      "class_id": 4
+    },
+    {
+      "term": "Extreme Sports",
+      "phonetic": "/ɪk'striːm spɔːrts/",
+      "definition": "Esportes radicais (Skydiving, Zipline)",
+      "class_id": 2
+    },
+    {
+      "term": "Floor Plan",
+      "phonetic": "/flɔːr plæn/",
+      "definition": "Planta de piso",
+      "class_id": 0
+    },
+    {
+      "term": "Frozen",
+      "phonetic": "/'froʊzn/",
+      "definition": "Congelado (Past Participle)",
+      "class_id": 6
+    },
+    {
+      "term": "Furniture",
+      "phonetic": "/'fɜːrnɪtʃər/",
+      "definition": "Móveis",
+      "class_id": 2
+    },
+    {
+      "term": "Glass",
+      "phonetic": "/ɡlæs/",
+      "definition": "Vidro",
+      "class_id": 9
+    },
+    {
+      "term": "Go ahead",
+      "phonetic": "/ɡoʊ ə'hed/",
+      "definition": "Vá em frente",
+      "class_id": 3
+    },
+    {
+      "term": "Healing Environment",
+      "phonetic": "/'hiːlɪŋ ɪn'vaɪrənmənt/",
+      "definition": "Ambiente de cura (Conceito de design)",
+      "class_id": 0
+    },
+    {
+      "term": "Healthcare Specialist",
+      "phonetic": "/'helθkeə/",
+      "definition": "Especialista em saúde (arquitetura hospitalar)",
+      "class_id": 1
+    },
+    {
+      "term": "Heat / Cold",
+      "phonetic": "/hiːt / koʊld/",
+      "definition": "Calor / Frio",
+      "class_id": 2
+    },
+    {
+      "term": "Hidden",
+      "phonetic": "/'hɪdn/",
+      "definition": "Escondido / Oculto",
+      "class_id": 6
+    },
+    {
+      "term": "Hire",
+      "phonetic": "/haɪər/",
+      "definition": "Contratar (Pronúncia: Ráir)",
+      "class_id": 6
+    },
+    {
+      "term": "How are you?",
+      "phonetic": "/haʊ ɑːr juː/",
+      "definition": "Como você está?",
+      "class_id": 5
+    },
+    {
+      "term": "How many?",
+      "phonetic": "/haʊ 'meni/",
+      "definition": "Quantos? (Contáveis)",
+      "class_id": 5
+    },
+    {
+      "term": "Inclusion",
+      "phonetic": "/ɪn'kluːʒn/",
+      "definition": "Inclusão",
+      "class_id": 8
+    },
+    {
+      "term": "Intend",
+      "phonetic": "/ɪn'tend/",
+      "definition": "Pretender / Intentar",
+      "class_id": 4
+    },
+    {
+      "term": "Intensive Care",
+      "phonetic": "/ɪn'tensɪv keər/",
+      "definition": "UTI (Unidade de Terapia Intensiva)",
+      "class_id": 6
+    },
+    {
+      "term": "Iron",
+      "phonetic": "/'aɪərn/",
+      "definition": "Ferro",
+      "class_id": 9
+    },
+    {
+      "term": "Lack of",
+      "phonetic": "/læk əv/",
+      "definition": "Falta de",
+      "class_id": 6
+    },
+    {
+      "term": "Layout",
+      "phonetic": "/'leɪaʊt/",
+      "definition": "Layout / Arranjo físico",
+      "class_id": 0
+    },
+    {
+      "term": "Located",
+      "phonetic": "/loʊ'keɪtɪd/",
+      "definition": "Localizado (ex: building location)",
+      "class_id": 3
+    },
+    {
+      "term": "Medical Imaging",
+      "phonetic": "/'medɪkl 'ɪmədʒɪŋ/",
+      "definition": "Imaginologia (Ex: Sala de Raio-X)",
+      "class_id": 0
+    },
+    {
+      "term": "Named",
+      "phonetic": "/neɪmd/",
+      "definition": "Nomeado/Chamado (ex: name of the company)",
+      "class_id": 3
+    },
+    {
+      "term": "Patient Flow",
+      "phonetic": "/'peɪʃnt floʊ/",
+      "definition": "Fluxo de pacientes (Crucial em hospitais)",
+      "class_id": 0
+    },
+    {
+      "term": "Person / People",
+      "phonetic": "/'pɜːrsn/ - /'piːpl/",
+      "definition": "Pessoa (Singular) / Pessoas (Plural)",
+      "class_id": 1
+    },
+    {
+      "term": "Polypropylene",
+      "phonetic": "/ˌpɒli'proʊpəliːn/",
+      "definition": "Polipropileno",
+      "class_id": 9
+    },
+    {
+      "term": "Postpone",
+      "phonetic": "/poʊst'poʊn/",
+      "definition": "Adiar (Ex: I couldn't postpone my visit)",
+      "class_id": 7
+    },
+    {
+      "term": "Regarding",
+      "phonetic": "/rɪ'ɡɑːrdɪŋ/",
+      "definition": "Sobre / Acerca de",
+      "class_id": 6
+    },
+    {
+      "term": "Right after",
+      "phonetic": "/raɪt 'æftər/",
+      "definition": "Logo em seguida",
+      "class_id": 5
+    },
+    {
+      "term": "Schedule",
+      "phonetic": "/'skedʒuːl/",
+      "definition": "Agenda / Cronograma / Agendar",
+      "class_id": 7
+    },
+    {
+      "term": "Specialists",
+      "phonetic": "/'speʃəlɪsts/",
+      "definition": "Especialistas (Pronúncia: Spé-chalists)",
+      "class_id": 6
+    },
+    {
+      "term": "Stayed",
+      "phonetic": "/steɪd/",
+      "definition": "Ficou / Permaneceu",
+      "class_id": 5
+    },
+    {
+      "term": "Steel",
+      "phonetic": "/stiːl/",
+      "definition": "Aço",
+      "class_id": 9
+    },
+    {
+      "term": "Still",
+      "phonetic": "/stɪl/",
+      "definition": "Ainda",
+      "class_id": 6
+    },
+    {
+      "term": "Struggling",
+      "phonetic": "/'strʌɡlɪŋ/",
+      "definition": "Lutando / Tendo dificuldade",
+      "class_id": 6
+    },
+    {
+      "term": "Sustainable",
+      "phonetic": "/sə'steɪnəbl/",
+      "definition": "Sustentável",
+      "class_id": 0
+    },
+    {
+      "term": "Tidy up",
+      "phonetic": "/'taɪdi ʌp/",
+      "definition": "Arrumar / Organizar",
+      "class_id": 2
+    },
+    {
+      "term": "To go to the gym",
+      "phonetic": "/dʒɪm/",
+      "definition": "Ir para a academia",
+      "class_id": 2
+    },
+    {
+      "term": "To inspect construction sites",
+      "phonetic": "/ɪn'spekt/",
+      "definition": "Inspecionar canteiros de obra",
+      "class_id": 1
+    },
+    {
+      "term": "To make projects",
+      "phonetic": "/meɪk/",
+      "definition": "Fazer/Elaborar projetos",
+      "class_id": 1
+    },
+    {
+      "term": "To visit clients",
+      "phonetic": "/'vɪzɪt/",
+      "definition": "Visitar clientes",
+      "class_id": 1
+    },
+    {
+      "term": "Trivia",
+      "phonetic": "/'trɪviə/",
+      "definition": "Curiosidades / Fatos",
+      "class_id": 3
+    },
+    {
+      "term": "Unfortunately",
+      "phonetic": "/ʌn'fɔːrtʃunətli/",
+      "definition": "Infelizmente",
+      "class_id": 4
+    },
+    {
+      "term": "Update",
+      "phonetic": "/ˌʌp'deɪt/",
+      "definition": "Atualizar / Atualização",
+      "class_id": 7
+    },
+    {
+      "term": "Waiting Area",
+      "phonetic": "/'weɪtɪŋ 'eəriə/",
+      "definition": "Sala de espera",
+      "class_id": 0
+    },
+    {
+      "term": "Ward",
+      "phonetic": "/wɔːrd/",
+      "definition": "Ala / Enfermaria",
+      "class_id": 0
+    },
+    {
+      "term": "Wash the dishes",
+      "phonetic": "/wɒʃ ðə 'dɪʃɪz/",
+      "definition": "Lavar a louça",
+      "class_id": 2
+    },
+    {
+      "term": "Winery",
+      "phonetic": "/'waɪnəri/",
+      "definition": "Vinícola",
+      "class_id": 4
+    },
+    {
+      "term": "Wood",
+      "phonetic": "/wʊd/",
+      "definition": "Madeira",
+      "class_id": 9
+    },
+    {
+      "term": "Workshop",
+      "phonetic": "/'wɜːrkʃɒp/",
+      "definition": "Oficina / Workshop",
+      "class_id": 8
+    }
   ]
 }
