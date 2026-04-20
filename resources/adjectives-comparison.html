@@ -120,6 +120,26 @@ font-size: 10.5pt;
 #title-block-header {
 display: none;
 }
+
+.back-link {
+display: inline-block;
+margin-top: 25pt;
+padding: 8pt 15pt;
+background: #34495e;
+color: #ffffff !important;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
+font-size: 10pt;
+}
+.back-link:hover {
+background: #2c3e50;
+}
+@media print {
+.back-link {
+display: none;
+}
+}
 </style>
 </head>
 <body>
@@ -281,5 +301,7 @@ Ex: “This material is <strong>more expensive</strong>.”</li>
 completamente. <strong>Good → Better</strong> (não diga “gooder”).</li>
 </ul>
 </section>
+<hr />
+<p><a href="../index.html" class="back-link"> Back to Dashboard</a></p>
 </body>
 </html>
