@@ -131,7 +131,17 @@
 
         function renderGlossary(terms) {
             const list = document.getElementById('glossary-list');
-            list.innerHTML = terms.map(t => `
+            if (!terms || terms.length === 0) {
+                list.innerHTML = '<p>No terms found.</p>';
+                return;
+            }
+
+            // Automaticaly sort terms alphabetically by 'term'
+            const sortedTerms = [...terms].sort((a, b) => 
+                a.term.toLowerCase().localeCompare(b.term.toLowerCase())
+            );
+
+            list.innerHTML = sortedTerms.map(t => `
                 <div class="glossary-item">
                     <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
                     <div class="definition">${t.definition}</div>
