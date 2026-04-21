@@ -62,6 +62,13 @@
       "title": "Comparing Environments (Comparatives)",
       "summary": "Using comparative and superlative structures to analyze architectural materials and hospital layouts.",
       "url": "classes/2026-04-20.html"
+    },
+    {
+      "id": 10,
+      "date": "2026-04-21",
+      "title": "Modal Verbs & Compliance",
+      "summary": "Introduction to Modal Verbs (Must, Should, Can, Would) and Imperative for Signage.",
+      "url": "classes/2026-04-21.html"
     }
   ],
   "resources": [
@@ -524,6 +531,30 @@
       "phonetic": "/'wɜːrkʃɒp/",
       "definition": "Oficina / Workshop",
       "class_id": 8
+    },
+    {
+      "term": "Blueprints",
+      "phonetic": "/'bluːprɪnts/",
+      "definition": "Planta Detalhada / Projetos",
+      "class_id": 10
+    },
+    {
+      "term": "Healing",
+      "phonetic": "/'hiːlɪŋ/",
+      "definition": "Cura / Restaurador",
+      "class_id": 10
+    },
+    {
+      "term": "Tidy",
+      "phonetic": "/'taɪdi/",
+      "definition": "Organizado / Arrumado",
+      "class_id": 10
+    },
+    {
+      "term": "Messy",
+      "phonetic": "/'mesi/",
+      "definition": "Bagunçado",
+      "class_id": 10
     }
   ]
 }
