@@ -70,7 +70,12 @@
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 portalData = await response.json();
                 renderResources(portalData.resources || []);
-                renderClasses(portalData.classes);
+                
+                // Initial render: Newest First
+                const sorted = [...portalData.classes].sort((a, b) => b.id - a.id);
+                renderClasses(sorted);
+                document.querySelector('button[onclick*="desc"]').classList.add('active');
+                
                 renderGlossary(portalData.glossary);
             } catch (err) {
                 console.error("Error loading JSON.", err);
@@ -98,9 +103,11 @@
 
         function renderClasses(classes) {
             const grid = document.getElementById('class-grid');
-            // Default to newest first for history
-            const displayClasses = [...classes].sort((a, b) => b.id - a.id);
-            grid.innerHTML = displayClasses.map(c => `
+            if (!classes || classes.length === 0) {
+                grid.innerHTML = '<p>No classes found.</p>';
+                return;
+            }
+            grid.innerHTML = classes.map(c => `
                 <a href="${c.url}" class="card history-card">
                     <span class="date">${new Date(c.date + "T00:00:00").toLocaleDateString('en-US', {month: 'short', day: '2-digit'})}</span>
                     <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
@@ -110,6 +117,12 @@
         }
 
         function sortClasses(order) {
+            if (!portalData || !portalData.classes) return;
+            
+            // Highlight active button
+            document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
             const sorted = [...portalData.classes].sort((a, b) => 
                 order === 'asc' ? a.id - b.id : b.id - a.id
             );
