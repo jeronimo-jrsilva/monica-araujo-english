@@ -1,299 +1,122 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Relatório Executivo Premium</title>
-  <style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-</style>
-  <style type="text/css">:root {
---bg: #f8f9fa;
---text: #1a1a1a;
---accent: #2c3e50;
---card-bg: #ffffff;
---border: #e1e4e8;
---shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-body {
-font-family: 'Inter', sans-serif;
-background-color: var(--bg);
-color: var(--text);
-line-height: 1.6;
-margin: 0;
-padding-bottom: 3rem;
-}
-.container { max-width: 850px; margin: 0 auto; padding: 2rem; }
-header { border-bottom: 1px solid var(--border); background: white; padding: 2.5rem 0; }
-header h1 { font-weight: 300; letter-spacing: -2px; margin-bottom: 0; font-size: 2.5rem; color: var(--accent); }
-.subtitle { color: #666; font-size: 0.8rem; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px; }
-.section-title { font-size: 0.75rem; text-transform: uppercase; color: #95a5a6; letter-spacing: 2.5px; margin-top: 4rem; margin-bottom: 1.5rem;
-border-bottom: 1px solid var(--border);
-padding-bottom: 10px;
-cursor: pointer;
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-user-select: none;
-}
-.section-title::-webkit-details-marker { display: none; }
-.section-title::after {
-content: '+';
-font-size: 1.2rem;
-font-weight: 300;
-color: var(--accent);
-transition: transform 0.2s ease;
-}
-details[open] .section-title::after {
-content: '−';
-}
-details[open] .section-title {
-margin-bottom: 1.5rem;
-}
-details summary:focus { outline: none; }
-.card {
-background: var(--card-bg);
-border: 1px solid var(--border);
-padding: 1.8rem;
-border-radius: 8px;
-display: block;
-text-decoration: none;
-color: inherit;
-transition: all 0.25s ease;
-box-shadow: var(--shadow);
-}
-.card:hover { border-color: var(--accent); transform: translateY(-3px); }
-.card.active { border-left: 6px solid var(--accent); display: flex; justify-content: space-between; align-items: center; }
-.topic { font-size: 1.2rem; font-weight: 600; color: var(--accent); }
-.resource-card { display: flex; flex-direction: column; justify-content: space-between; position: relative; }
-.resource-card .status-badge { position: absolute; top: 1.8rem; right: 1.8rem; }
-.resource-card h3 { margin-right: 5rem; }
-.status-badge { background: #ecf0f1; padding: 6px 14px; border-radius: 20px; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #34495e;
-text-transform: uppercase;
-}
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
-.history-card h3 { margin: 10px 0 5px 0; font-size: 1.1rem; }
-.history-card p { font-size: 0.9rem; color: #7f8c8d; margin: 0; }
-.resource .icon { font-size: 1.5rem; margin-bottom: 15px; }
-.section-header { display: flex; justify-content: space-between; align-items: flex-end; }
-.controls button {
-background: white;
-border: 1px solid var(--border);
-padding: 6px 12px;
-border-radius: 4px;
-font-size: 0.75rem;
-cursor: pointer;
-margin-left: 5px;
-color: var(--accent);
-}
-.controls button:hover { background: #f0f0f0; }
-.search-box { margin-bottom: 2rem; }
-.search-box input {
-width: 100%;
-padding: 12px;
-border: 1px solid var(--border);
-border-radius: 8px;
-font-size: 1rem;
-box-sizing: border-box;
-}
-.glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-.glossary-item {
-background: white;
-border: 1px solid var(--border);
-padding: 1rem;
-border-radius: 6px;
-}
-.glossary-item .term { font-size: 1rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 5px; }
-.glossary-item .term small { color: #888; display: block; font-size: 0.7rem; }
-.glossary-item .definition { font-size: 0.85rem; color: #444; }
-.glossary-item .backlink { font-size: 0.7rem; margin-top: 10px; color: #999; }
-.glossary-item .backlink a { color: var(--accent); text-decoration: none; }
-footer { margin-top: 5rem; text-align: center; border-top: 1px solid var(--border); padding-top: 2rem; color: #95a5a6; font-size: 0.8rem; }
-
-@media (max-width: 600px) {
-.container { padding: 1.5rem; }
-header h1 { font-size: 2rem; }
-.card.active { flex-direction: column; align-items: flex-start; gap: 10px; }
-}
-
-.lesson-content { background: white; padding: 3rem; border-radius: 8px; border: 1px solid var(--border); margin-top: 2rem; }
-.lesson-content h2 { margin-top: 2rem; color: var(--accent); border: none; padding: 0; font-size: 1.5rem; }
-.lesson-content ul { padding-left: 20px; }
-.lesson-content li { margin-bottom: 8px; }
-.lesson-content code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
-
-.resource-links { display: flex; gap: 10px; margin-top: 1rem; }
-.btn-mini {
-display: inline-block;
-padding: 6px 12px;
-background: #3498db;
-color: white !important;
-font-size: 0.75rem;
-font-weight: 600;
-border-radius: 6px;
-text-decoration: none;
-transition: background 0.2s;
-}
-.btn-mini:hover { background: #2980b9; }
-.btn-pdf { background: #e74c3c; }
-.btn-pdf:hover { background: #c0392b; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10 | Monica Araujo</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">Relatório Executivo Premium</h1>
-</header>
-<h1 id="aula-10-direct-commands-compliance-reconstituição-gold">Aula 10:
-Direct Commands &amp; Compliance (Reconstituição Gold)</h1>
-<h2 id="resumo-da-realização">Resumo da Realização</h2>
-<p>Esta aula focou na transição entre instruções diretas
-(<strong>Imperative</strong>) para sinalização e o uso de<strong>Verbos
-Modais</strong>para normas técnicas e polidez em reuniões de design
-hospitalar.</p>
-<hr />
-<h2 id="1-the-imperative-signage-direct-commands">⚡ 1. The Imperative:
-Signage &amp; Direct Commands</h2>
-<p><em>Monica, usamos o Imperativo para sinalização rápida e instruções
-de segurança onde não há tempo para polidez. É a forma mais curta do
-verbo.</em></p>
-<h3 id="a-affirmative-commands">🟢 A. Affirmative (Commands)</h3>
-<ul>
-<li>“<strong>Wash</strong>your hands before entering.” (Lave suas mãos
-antes de entrar).</li>
-<li>“<strong>Keep</strong>the workspace tidy.” (Mantenha o espaço de
-trabalho organizado).</li>
-<li>“<strong>Clean</strong>your room!” (Limpe seu quarto - Exemplo do
-dia a dia).</li>
-</ul>
-<h3 id="b-negative-prohibitions">🔴 B. Negative (Prohibitions)</h3>
-<p><em>Usamos<strong>Don’t</strong>ou<strong>Do not</strong>.</em> -
-“<strong>Don’t</strong>eat here.” (Não coma aqui). - “<strong>Do
-not</strong>speak at work.” (Não fale no trabalho - instrução direta). -
-“<strong>Do not</strong>enter.” (Não entre).</p>
-<hr />
-<h2 id="2-modal-verbs-the-language-of-rules">🧠 2. Modal Verbs: The
-Language of Rules</h2>
-<p><em>Enquanto o Imperativo é para placas, os Modais são as chaves para
-discussões técnicas e normas RDC.</em></p>
-<h3 id="hierarchy-of-force-hierarquia-de-uso">📊 Hierarchy of Force
-(Hierarquia de Uso)</h3>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Força</th>
-<th style="text-align: left;">Modal</th>
-<th style="text-align: left;">Função</th>
-<th style="text-align: left;">Aplicação no Projeto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>100%</strong></td>
-<td style="text-align: left;"><strong>Must / Have to</strong></td>
-<td style="text-align: left;">Obrigação / Lei</td>
-<td style="text-align: left;">“All corridors<strong>have to</strong>be
-at least 2.20m wide.”</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>80%</strong></td>
-<td style="text-align: left;"><strong>Should</strong></td>
-<td style="text-align: left;">Conselho / Sugestão</td>
-<td style="text-align: left;">“The waiting
-area<strong>should</strong>have natural light.”</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>50%</strong></td>
-<td style="text-align: left;"><strong>Can / Could</strong></td>
-<td style="text-align: left;">Capacidade / Permissão</td>
-<td style="text-align: left;">“Patients<strong>can</strong>access the
-ramp.”</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>40%</strong></td>
-<td style="text-align: left;"><strong>Would</strong></td>
-<td style="text-align: left;">Polidez / Hipótese</td>
-<td style="text-align: left;">“I<strong>would</strong>suggest a
-different layout.”</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>20%</strong></td>
-<td style="text-align: left;"><strong>May</strong></td>
-<td style="text-align: left;">Possibilidade Remota</td>
-<td style="text-align: left;">“We<strong>may</strong>expand this wing
-later.”</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>0%</strong></td>
-<td style="text-align: left;"><strong>Must not</strong></td>
-<td style="text-align: left;">Proibição Total</td>
-<td style="text-align: left;">“You<strong>must not</strong>use porous
-surfaces.”</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="3-technical-vocabulary-phonetics">🔬 3. Technical Vocabulary
-&amp; Phonetics</h2>
-<p><em>Palavras-chave discutidas hoje:</em></p>
-<p>-<strong>Blueprints:</strong>/’bluːprɪnts/ Planta detalhada /
-Projeto. -<strong>Healing:</strong>/’hiːlɪŋ/ Cura (ex: <em>Healing
-Environments</em>). -<strong>Tidy:</strong>/’taɪdi/ Organizado /
-Arrumado. -<strong>Messy:</strong>/’mesi/ Bagunçado.
--<strong>Compliance:</strong>/kəm’plaɪəns/ Conformidade com normas.</p>
-<hr />
-<h2 id="4-technical-drills-prática-realizada">🗣 4. Technical Drills
-(Prática Realizada)</h2>
-<p><em>Como você transformaria estas regras em sinalização (Imperativo)
-ou normas (Modais)?</em></p>
-<p>1.<strong>Rule:</strong>Sterile area. - <em>Sign:</em>
-“<strong>Keep</strong>this area sterile.” - <em>Speech:</em>
-“You<strong>must</strong>keep this area sterile.”
-2.<strong>Rule:</strong>Natural ventilation. - <em>Sign:</em>
-“<strong>Keep</strong>windows open.” - <em>Speech:</em> “This
-room<strong>should</strong>have natural ventilation.”</p>
-<table style="width:6%;">
-<colgroup>
-<col style="width: 5%" />
-</colgroup>
-<tbody>
-<tr>
-<td>⬅ Aula Anterior | 📂 Hub Monica Araujo | Pauta</td>
-</tr>
-</tbody>
-</table>
-<h3 id="notas-de-aula-realização---2104">📝 Notas de Aula (Realização -
-21/04)</h3>
-<ul>
-<li>Foco inicial em vocabulário: <em>Blueprints</em> e <em>Healing
-Architecture</em>.</li>
-<li>Diferenciação fonética: <em>Healing</em> (cura) vs <em>Hell</em>
-(inferno).</li>
-<li>Introdução ao Imperativo focado em <em>Signage</em> (Wash your
-hands, Keep tidy).</li>
-<li>Início da tabela de Modais (Must, Should, Can, Would). -<strong>Não
-concluído:</strong>Cenários de Modais (Deep Drills) e modais remotos
-(May). Estes itens transbordaram para amanhã.</li>
-</ul>
+    <header>
+        <div class="container">
+            <a href="../index.html" style="text-decoration: none; color: inherit;"><h1>Monica Araujo</h1></a>
+            <p class="subtitle">Class 10: Direct Commands & Compliance (Reconstituição Gold)</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="lesson-content">
+            <h2>📅 Lesson Info</h2>
+            <ul>
+                <li><strong>Date:</strong> 2026-04-21</li>
+                <li><strong>Topic:</strong> Direct Commands & Regulatory Compliance: Imperative vs. Modals</li>
+            </ul>
+
+            <hr>
+
+            <h2>🎯 Resumo da Realização</h2>
+            <p>Esta aula focou na transição entre instruções diretas (<strong>Imperative</strong>) para sinalização e o uso de <strong>Verbos Modais</strong> para normas técnicas e polidez em reuniões de design hospitalar.</p>
+
+            <hr>
+
+            <h2>⚡ 1. The Imperative: Signage & Direct Commands</h2>
+            <p><em>Monica, usamos o Imperativo para sinalização rápida e instruções de segurança onde não há tempo para polidez. É a forma mais curta do verbo.</em></p>
+
+            <h3>🟢 A. Affirmative (Commands)</h3>
+            <ul>
+                <li>"<strong>Wash</strong> your hands before entering." (Lave suas mãos antes de entrar).</li>
+                <li>"<strong>Keep</strong> the workspace tidy." (Mantenha o espaço de trabalho organizado).</li>
+                <li>"<strong>Clean</strong> your room!" (Limpe seu quarto - Exemplo do dia a dia).</li>
+            </ul>
+
+            <h3>🔴 B. Negative (Prohibitions)</h3>
+            <p><em>Usamos <strong>Don't</strong> ou <strong>Do not</strong>.</em></p>
+            <ul>
+                <li>"<strong>Don't</strong> eat here." (Não coma aqui).</li>
+                <li>"<strong>Do not</strong> speak at work." (Não fale no trabalho - instrução direta).</li>
+                <li>"<strong>Do not</strong> enter." (Não entre).</li>
+            </ul>
+
+            <hr>
+
+            <h2>🧠 2. Modal Verbs: The Language of Rules</h2>
+            <p><em>Enquanto o Imperativo é para placas, os Modais são as chaves para discussões técnicas e normas RDC.</em></p>
+
+            <h3>📊 Hierarchy of Force (Hierarquia de Uso)</h3>
+            <table class="vocab-table">
+                <thead>
+                    <tr>
+                        <th>Força</th>
+                        <th>Modal</th>
+                        <th>Função</th>
+                        <th>Aplicação no Projeto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>100%</strong></td><td><strong>Must / Have to</strong></td><td>Obrigação / Lei</td><td>"All corridors <strong>have to</strong> be at least 2.20m wide."</td></tr>
+                    <tr><td><strong>80%</strong></td><td><strong>Should</strong></td><td>Conselho / Sugestão</td><td>"The waiting area <strong>should</strong> have natural light."</td></tr>
+                    <tr><td><strong>50%</strong></td><td><strong>Can / Could</strong></td><td>Capacidade / Permissão</td><td>"Patients <strong>can</strong> access the ramp."</td></tr>
+                    <tr><td><strong>40%</strong></td><td><strong>Would</strong></td><td>Polidez / Hipótese</td><td>"I <strong>would</strong> suggest a different layout."</td></tr>
+                    <tr><td><strong>20%</strong></td><td><strong>May</strong></td><td>Possibilidade Remota</td><td>"We <strong>may</strong> expand this wing later."</td></tr>
+                    <tr><td><strong>0%</strong></td><td><strong>Must not</strong></td><td>Proibição Total</td><td>"You <strong>must not</strong> use porous surfaces."</td></tr>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <h2>🔬 3. Technical Vocabulary & Phonetics</h2>
+            <p><em>Palavras-chave discutidas hoje:</em></p>
+            <ul>
+                <li><strong>Blueprints:</strong> /'bluːprɪnts/ Planta detalhada / Projeto.</li>
+                <li><strong>Healing:</strong> /'hiːlɪŋ/ Cura (ex: <em>Healing Environments</em>).</li>
+                <li><strong>Tidy:</strong> /'taɪdi/ Organizado / Arrumado.</li>
+                <li><strong>Messy:</strong> /'mesi/ Bagunçado.</li>
+                <li><strong>Compliance:</strong> /kəm'plaɪəns/ Conformidade com normas.</li>
+            </ul>
+
+            <hr>
+
+            <h2>🗣️ 4. Technical Drills (Prática Realizada)</h2>
+            <p><em>Como você transformaria estas regras em sinalização (Imperativo) ou normas (Modais)?</em></p>
+            <ol>
+                <li><strong>Rule:</strong> Sterile area.
+                    <ul>
+                        <li><em>Sign:</em> "<strong>Keep</strong> this area sterile."</li>
+                        <li><em>Speech:</em> "You <strong>must</strong> keep this area sterile."</li>
+                    </ul>
+                </li>
+                <li><strong>Rule:</strong> Natural ventilation.
+                    <ul>
+                        <li><em>Sign:</em> "<strong>Keep</strong> windows open."</li>
+                        <li><em>Speech:</em> "This room <strong>should</strong> have natural ventilation."</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <hr>
+
+            <h2>📝 Notas de Aula (Realização - 21/04)</h2>
+            <ul>
+                <li>Foco inicial em vocabulário: <em>Blueprints</em> e <em>Healing Architecture</em>.</li>
+                <li>Diferenciação fonética: <em>Healing</em> (cura) vs <em>Hell</em> (inferno).</li>
+                <li>Introdução ao Imperativo focado em <em>Signage</em> (Wash your hands, Keep tidy).</li>
+                <li>Início da tabela de Modais (Must, Should, Can, Would).</li>
+                <li><strong>Não concluído:</strong> Cenários de Modais (Deep Drills) e modais remotos (May). Estes itens transbordaram para amanhã.</li>
+            </ul>
+        </article>
+
+        <p style="margin-top: 2rem;"><a href="../index.html">&larr; Back to Dashboard</a></p>
+    </main>
 </body>
 </html>
