@@ -69,6 +69,13 @@
       "title": "Modal Verbs & Compliance",
       "summary": "Introduction to Modal Verbs (Must, Should, Can, Would) and Imperative for Signage.",
       "url": "classes/2026-04-21.html"
+    },
+    {
+      "id": 11,
+      "date": "2026-04-22",
+      "title": "Modal Verbs Deep Dive & Case Scenarios",
+      "summary": "Practical application of Modal Verbs in hospital design and technical regulations. Management vocabulary.",
+      "url": "classes/2026-04-22.html"
     }
   ],
   "resources": [
@@ -325,8 +332,8 @@
     {
       "term": "Intend",
       "phonetic": "/ɪn'tend/",
-      "definition": "Pretender / Intentar",
-      "class_id": 4
+      "definition": "Pretender / Ter a intenção de",
+      "class_id": 11
     },
     {
       "term": "Intensive Care",
@@ -555,6 +562,66 @@
       "phonetic": "/'mesi/",
       "definition": "Bagunçado",
       "class_id": 10
+    },
+    {
+      "term": "Pretend",
+      "phonetic": "/prɪ'tend/",
+      "definition": "Fingir (Falso amigo)",
+      "class_id": 11
+    },
+    {
+      "term": "Materials",
+      "phonetic": "/mə'tɪəriəlz/",
+      "definition": "Materiais (Atenção à pronúncia)",
+      "class_id": 11
+    },
+    {
+      "term": "Sterile",
+      "phonetic": "/'steraɪl/",
+      "definition": "Estéril / Limpo",
+      "class_id": 11
+    },
+    {
+      "term": "Board",
+      "phonetic": "/bɔːrd/",
+      "definition": "Mesa diretora / Conselho",
+      "class_id": 11
+    },
+    {
+      "term": "Wing",
+      "phonetic": "/wɪŋ/",
+      "definition": "Ala (de hospital)",
+      "class_id": 11
+    },
+    {
+      "term": "Sanitation",
+      "phonetic": "/ˌsænɪ'teɪʃn/",
+      "definition": "Saneamento / Higienização",
+      "class_id": 11
+    },
+    {
+      "term": "Usually",
+      "phonetic": "/'juːʒuəli/",
+      "definition": "Geralmente",
+      "class_id": 11
+    },
+    {
+      "term": "Wednesday",
+      "phonetic": "/'wenzdeɪ/",
+      "definition": "Quarta-feira (O 'D' é mudo)",
+      "class_id": 11
+    },
+    {
+      "term": "Oversee",
+      "phonetic": "/ˌoʊvər'siː/",
+      "definition": "Supervisionar / Monitorar",
+      "class_id": 11
+    },
+    {
+      "term": "Standards",
+      "phonetic": "/'stændərdz/",
+      "definition": "Padrões / Normas",
+      "class_id": 11
     }
   ]
 }
