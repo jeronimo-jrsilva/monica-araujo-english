@@ -1,219 +1,60 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Relatório Executivo Premium</title>
-  <style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-</style>
-  <style type="text/css">:root {
---bg: #f8f9fa;
---text: #1a1a1a;
---accent: #2c3e50;
---card-bg: #ffffff;
---border: #e1e4e8;
---shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-body {
-font-family: 'Inter', sans-serif;
-background-color: var(--bg);
-color: var(--text);
-line-height: 1.6;
-margin: 0;
-padding-bottom: 3rem;
-}
-.container { max-width: 850px; margin: 0 auto; padding: 2rem; }
-header { border-bottom: 1px solid var(--border); background: white; padding: 2.5rem 0; }
-header h1 { font-weight: 300; letter-spacing: -2px; margin-bottom: 0; font-size: 2.5rem; color: var(--accent); }
-.subtitle { color: #666; font-size: 0.8rem; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px; }
-.section-title { font-size: 0.75rem; text-transform: uppercase; color: #95a5a6; letter-spacing: 2.5px; margin-top: 4rem; margin-bottom: 1.5rem;
-border-bottom: 1px solid var(--border);
-padding-bottom: 10px;
-cursor: pointer;
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-user-select: none;
-}
-.section-title::-webkit-details-marker { display: none; }
-.section-title::after {
-content: '+';
-font-size: 1.2rem;
-font-weight: 300;
-color: var(--accent);
-transition: transform 0.2s ease;
-}
-details[open] .section-title::after {
-content: '−';
-}
-details[open] .section-title {
-margin-bottom: 1.5rem;
-}
-details summary:focus { outline: none; }
-.card {
-background: var(--card-bg);
-border: 1px solid var(--border);
-padding: 1.8rem;
-border-radius: 8px;
-display: block;
-text-decoration: none;
-color: inherit;
-transition: all 0.25s ease;
-box-shadow: var(--shadow);
-}
-.card:hover { border-color: var(--accent); transform: translateY(-3px); }
-.card.active { border-left: 6px solid var(--accent); display: flex; justify-content: space-between; align-items: center; }
-.topic { font-size: 1.2rem; font-weight: 600; color: var(--accent); }
-.resource-card { display: flex; flex-direction: column; justify-content: space-between; position: relative; }
-.resource-card .status-badge { position: absolute; top: 1.8rem; right: 1.8rem; }
-.resource-card h3 { margin-right: 5rem; }
-.status-badge { background: #ecf0f1; padding: 6px 14px; border-radius: 20px; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #34495e;
-text-transform: uppercase;
-}
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
-.history-card h3 { margin: 10px 0 5px 0; font-size: 1.1rem; }
-.history-card p { font-size: 0.9rem; color: #7f8c8d; margin: 0; }
-.resource .icon { font-size: 1.5rem; margin-bottom: 15px; }
-.section-header { display: flex; justify-content: space-between; align-items: flex-end; }
-.controls button {
-background: white;
-border: 1px solid var(--border);
-padding: 6px 12px;
-border-radius: 4px;
-font-size: 0.75rem;
-cursor: pointer;
-margin-left: 5px;
-color: var(--accent);
-}
-.controls button:hover { background: #f0f0f0; }
-.search-box { margin-bottom: 2rem; }
-.search-box input {
-width: 100%;
-padding: 12px;
-border: 1px solid var(--border);
-border-radius: 8px;
-font-size: 1rem;
-box-sizing: border-box;
-}
-.glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-.glossary-item {
-background: white;
-border: 1px solid var(--border);
-padding: 1rem;
-border-radius: 6px;
-}
-.glossary-item .term { font-size: 1rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 5px; }
-.glossary-item .term small { color: #888; display: block; font-size: 0.7rem; }
-.glossary-item .definition { font-size: 0.85rem; color: #444; }
-.glossary-item .backlink { font-size: 0.7rem; margin-top: 10px; color: #999; }
-.glossary-item .backlink a { color: var(--accent); text-decoration: none; }
-footer { margin-top: 5rem; text-align: center; border-top: 1px solid var(--border); padding-top: 2rem; color: #95a5a6; font-size: 0.8rem; }
-
-@media (max-width: 600px) {
-.container { padding: 1.5rem; }
-header h1 { font-size: 2rem; }
-.card.active { flex-direction: column; align-items: flex-start; gap: 10px; }
-}
-
-.lesson-content { background: white; padding: 3rem; border-radius: 8px; border: 1px solid var(--border); margin-top: 2rem; }
-.lesson-content h2 { margin-top: 2rem; color: var(--accent); border: none; padding: 0; font-size: 1.5rem; }
-.lesson-content ul { padding-left: 20px; }
-.lesson-content li { margin-bottom: 8px; }
-.lesson-content code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
-
-.resource-links { display: flex; gap: 10px; margin-top: 1rem; }
-.btn-mini {
-display: inline-block;
-padding: 6px 12px;
-background: #3498db;
-color: white !important;
-font-size: 0.75rem;
-font-weight: 600;
-border-radius: 6px;
-text-decoration: none;
-transition: background 0.2s;
-}
-.btn-mini:hover { background: #2980b9; }
-.btn-pdf { background: #e74c3c; }
-.btn-pdf:hover { background: #c0392b; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 | Monica Araujo</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">Relatório Executivo Premium</h1>
-</header>
-<h1 id="aula-12-conditional-structures-revisão-drills">Aula 12:
-Conditional Structures (Revisão &amp; Drills)</h1>
-<h2 id="resumo-da-realização">Resumo da Realização</h2>
-<p>Foco na estrutura das frases condicionais
-(<strong>Zero</strong>e<strong>First Conditional</strong>) e expansão do
-vocabulário técnico relacionado a sistemas hospitalares (HVAC) e
-conformidade. Iniciamos a sensibilização para o<strong>Second
-Conditional</strong>e<strong>Present Perfect</strong>.</p>
+    <header>
+        <div class="container">
+            <a href="../index.html" style="text-decoration: none; color: inherit;"><h1>Monica Araujo</h1></a>
+            <p class="subtitle">2026-04-23 Aula 12 Monica Araujo</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="lesson-content">
+            <h2>📅 Lesson Info</h2>
+            <ul>
+                <li><strong>Date:</strong> 2026-04-23</li>
+                <li><strong>Topic:</strong> Conditional Structures (Zero & First) & Technical Vocabulary</li>
+            </ul>
+
+            <hr>
+            <h1>🎓 Aula 12: Conditional Structures (Revisão &amp; Drills)</h1>
+<hr>
+            <h2>🎯 Resumo da Realização</h2>
+<p>Foco na estrutura das frases condicionais (<strong>Zero</strong> e <strong>First Conditional</strong>) e expansão do vocabulário técnico relacionado a sistemas hospitalares (HVAC) e conformidade. Iniciamos a sensibilização para o <strong>Second Conditional</strong> e <strong>Present Perfect</strong>.</p>
 <hr />
-<h2 id="1-grammar-review-the-if-logic">🧠 1. Grammar Review: The “If”
-Logic</h2>
-<p><em>Monica, trabalhamos a lógica de causa e efeito em dois
-níveis:</em></p>
-<h3 id="zero-conditional-facts-truths">🟢 Zero Conditional (Facts &amp;
-Truths)</h3>
-<p><em>Fatos universais ou regras invariáveis. Estrutura:<strong>If +
-Present, Present.</strong></em>- “<strong>If</strong>you heat water,
-it<strong>boils</strong>.” (Se você aquece a água, ela ferve). -
-“<strong>If</strong>the project<strong>follows</strong>the standards,
-it<strong>is</strong>safe.” (Se o projeto segue as normas, ele é
-seguro).</p>
-<h3 id="first-conditional-real-possibilities">🔵 First Conditional (Real
-Possibilities)</h3>
-<p><em>Situações futuras prováveis e planos. Estrutura:<strong>If +
-Present, Will + Verb.</strong></em>- “<strong>If</strong>I have time
-tonight, I<strong>will study</strong>.” (Se eu tiver tempo hoje à noite,
-eu estudarei). - “<strong>If</strong>the
-client<strong>approves</strong>the layout, I<strong>will
-start</strong>the technical drawings.” (Se o cliente aprovar o layout,
-começarei os desenhos técnicos). -
-“<strong>If</strong>we<strong>finish</strong>the wing on time, the
-hospital<strong>will open</strong>in July.” (Se terminarmos a ala no
-prazo, o hospital abrirá em Julho).</p>
+<hr>
+            <h2>🧠 1. Grammar Review: The "If" Logic</h2>
+<p><em>Monica, trabalhamos a lógica de causa e efeito em dois níveis:</em></p>
+<h3>🟢 Zero Conditional (Facts &amp; Truths)</h3>
+<p><em>Fatos universais ou regras invariáveis. Estrutura: </em><em>If + Present, Present.</em><strong>
+- "</strong>If<strong> you heat water, it </strong>boils<strong>." (Se você aquece a água, ela ferve).
+- "</strong>If<strong> the project </strong>follows<strong> the standards, it </strong>is** safe." (Se o projeto segue as normas, ele é seguro).</p>
+<h3>🔵 First Conditional (Real Possibilities)</h3>
+<p><em>Situações futuras prováveis e planos. Estrutura: </em><em>If + Present, Will + Verb.</em><strong>
+- "</strong>If<strong> I have time tonight, I </strong>will study<strong>." (Se eu tiver tempo hoje à noite, eu estudarei).
+- "</strong>If<strong> the client </strong>approves<strong> the layout, I </strong>will start<strong> the technical drawings." (Se o cliente aprovar o layout, começarei os desenhos técnicos).
+- "</strong>If<strong> we </strong>finish<strong> the wing on time, the hospital </strong>will open** in July." (Se terminarmos a ala no prazo, o hospital abrirá em Julho).</p>
 <hr />
-<h2 id="2-practice-drills-professional-context">🏗 2. Practice Drills:
-Professional Context</h2>
-<p><em>Monica, aplicamos os conceitos em situações de obra e
-projeto:</em></p>
-<ol type="1">
-<li>“<strong>If</strong>we<strong>don’t have</strong>the permit,
-we<strong>can’t start</strong>the construction.”</li>
-<li>“<strong>If</strong>the light is red, you<strong>stop</strong>.”
-(Segurança no canteiro).</li>
-<li>“I’ll<strong>ace the exam</strong>if I study hard!” (Gabaritar o
-teste).</li>
+<hr>
+            <h2>🏗️ 2. Practice Drills: Professional Context</h2>
+<p><em>Monica, aplicamos os conceitos em situações de obra e projeto:</em></p>
+<ol>
+<li>"<strong>If</strong> we <strong>don't have</strong> the permit, we <strong>can't start</strong> the construction."</li>
+<li>"<strong>If</strong> the light is red, you <strong>stop</strong>." (Segurança no canteiro).</li>
+<li>"I'll <strong>ace the exam</strong> if I study hard!" (Gabaritar o teste).</li>
 </ol>
 <hr />
-<h2 id="3-controlled-vocabulary-new-terms">📝 3. Controlled Vocabulary
-(New Terms)</h2>
+<hr>
+            <h2>📝 3. Controlled Vocabulary (New Terms)</h2>
 <p><em>Termos essenciais da aula de hoje:</em></p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
+<table class="vocab-table">
 <thead>
 <tr>
 <th style="text-align: left;">Term (EN)</th>
@@ -224,8 +65,7 @@ teste).</li>
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>HVAC</strong></td>
-<td style="text-align: left;">Aquecimento, Ventilação e Ar
-Condicionado</td>
+<td style="text-align: left;">Aquecimento, Ventilação e Ar Condicionado</td>
 <td style="text-align: left;">Sistema crítico hospitalar.</td>
 </tr>
 <tr>
@@ -276,27 +116,33 @@ Condicionado</td>
 <tr>
 <td style="text-align: left;"><strong>Tight</strong></td>
 <td style="text-align: left;">Apertado</td>
-<td style="text-align: left;">Ex: <em>Tight schedule</em> (Cronograma
-apertado).</td>
+<td style="text-align: left;">Ex: <em>Tight schedule</em> (Cronograma apertado).</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="4-pronunciation-nuance">🗣 4. Pronunciation &amp; Nuance</h2>
-<p>-<strong>HVAC:</strong>Pronuncia-se cada letra (H-V-A-C) ou “H-vack”.
--<strong>Affects vs. Effects:</strong><em>Affect</em> é o verbo
-(afetar), <em>Effect</em> é o substantivo (efeito). -<strong>Run
-vs. Rain:</strong>Cuidado para não confundir a pronúncia de “correr” e
-“chover”.</p>
+<hr>
+            <h2>🗣️ 4. Pronunciation &amp; Nuance</h2>
+<ul>
+<li><strong>HVAC:</strong> Pronuncia-se cada letra (H-V-A-C) ou "H-vack".</li>
+<li><strong>Affects vs. Effects:</strong> <em>Affect</em> é o verbo (afetar), <em>Effect</em> é o substantivo (efeito).</li>
+<li><strong>Run vs. Rain:</strong> Cuidado para não confundir a pronúncia de "correr" e "chover".</li>
+</ul>
 <hr />
-<h2 id="5-preview-second-conditional-present-perfect">🚀 5. Preview:
-Second Conditional &amp; Present Perfect</h2>
+<hr>
+            <h2>🚀 5. Preview: Second Conditional &amp; Present Perfect</h2>
 <p><em>O que começamos a ver para a próxima aula:</em></p>
-<p>-<strong>Present Perfect:</strong>”I<strong>have worked</strong>here
-since…” (Ação que começou no passado e continua). -<strong>Second
-Conditional:</strong>”If I<strong>had</strong>more money,
-I<strong>would</strong>…” (Cenário hipotético).</p>
+<ul>
+<li><strong>Present Perfect:</strong> "I <strong>have worked</strong> here since..." (Ação que começou no passado e continua).</li>
+<li><strong>Second Conditional:</strong> "If I <strong>had</strong> more money, I <strong>would</strong>..." (Cenário hipotético).</li>
+</ul>
 <hr />
-<p>⬅ Aula Anterior | 📂 Hub Monica Araujo | Pauta</p>
+<p>[[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/2026-04-22_Aula_11|⬅️ Aula Anterior]] | [[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/index|📂 Hub Monica Araujo]] | [[00_Inbox/🎯 Pauta|🎯 Pauta]]</p>
+        </article>
+    </main>
+
+    <footer class="container" style="text-align: center; margin-top: 2rem; padding: 2rem 0; border-top: 1px solid #eee;">
+        <p>© 2026 Monica Araujo English Portal</p>
+    </footer>
 </body>
 </html>
