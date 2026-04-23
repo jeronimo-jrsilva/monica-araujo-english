@@ -631,27 +631,51 @@
       "class_id": 11
     },
     {
+      "term": "HVAC",
+      "phonetic": "/ˌeɪtʃ viː eɪ 'siː/",
+      "definition": "Heating, Ventilation and AC",
+      "class_id": 12
+    },
+    {
       "term": "Permit",
       "phonetic": "/'pɜːrmɪt/",
       "definition": "Licença / Alvará",
       "class_id": 12
     },
     {
-      "term": "Drawing",
-      "phonetic": "/'drɔːɪŋ/",
-      "definition": "Desenho / Prancha técnica",
-      "class_id": 12
-    },
-    {
-      "term": "Terrain",
-      "phonetic": "/tə'reɪn/",
-      "definition": "Terreno",
+      "term": "Drawings",
+      "phonetic": "/'drɔːɪŋz/",
+      "definition": "Desenhos / Projetos técnicos",
       "class_id": 12
     },
     {
       "term": "On time",
       "phonetic": "/ɒn taɪm/",
       "definition": "No prazo / Na hora",
+      "class_id": 12
+    },
+    {
+      "term": "Safe / Safety",
+      "phonetic": "/seɪf / 'seɪfti/",
+      "definition": "Seguro / Segurança",
+      "class_id": 12
+    },
+    {
+      "term": "Awake",
+      "phonetic": "/ə'weɪk/",
+      "definition": "Acordado(a)",
+      "class_id": 12
+    },
+    {
+      "term": "Since",
+      "phonetic": "/sɪns/",
+      "definition": "Desde",
+      "class_id": 12
+    },
+    {
+      "term": "Tight",
+      "phonetic": "/taɪt/",
+      "definition": "Apertado (ex: schedule)",
       "class_id": 12
     }
   ]
