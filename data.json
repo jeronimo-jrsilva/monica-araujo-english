@@ -76,6 +76,13 @@
       "title": "Modal Verbs Deep Dive & Case Scenarios",
       "summary": "Practical application of Modal Verbs in hospital design and technical regulations. Management vocabulary.",
       "url": "classes/2026-04-22.html"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-23",
+      "title": "Conditionals: Zero, First & Second",
+      "summary": "Reviewing conditional structures (If logic) applied to project management and architectural scenarios.",
+      "url": "classes/2026-04-23.html"
     }
   ],
   "resources": [
@@ -622,6 +629,30 @@
       "phonetic": "/'stændərdz/",
       "definition": "Padrões / Normas",
       "class_id": 11
+    },
+    {
+      "term": "Permit",
+      "phonetic": "/'pɜːrmɪt/",
+      "definition": "Licença / Alvará",
+      "class_id": 12
+    },
+    {
+      "term": "Drawing",
+      "phonetic": "/'drɔːɪŋ/",
+      "definition": "Desenho / Prancha técnica",
+      "class_id": 12
+    },
+    {
+      "term": "Terrain",
+      "phonetic": "/tə'reɪn/",
+      "definition": "Terreno",
+      "class_id": 12
+    },
+    {
+      "term": "On time",
+      "phonetic": "/ɒn taɪm/",
+      "definition": "No prazo / Na hora",
+      "class_id": 12
     }
   ]
 }
