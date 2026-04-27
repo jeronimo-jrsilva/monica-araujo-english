@@ -90,6 +90,13 @@
       "title": "Present Perfect & Hypotheses",
       "summary": "Deep dive into Present Perfect for professional track record and Second Conditional for hypothetical scenarios.",
       "url": "classes/2026-04-24.html"
+    },
+    {
+      "id": 14,
+      "date": "2026-04-27",
+      "title": "Professional Track Record (Present Perfect)",
+      "summary": "Mastering the 'Bridge' between past and present. Authority, duration (Since/For) and project status (Already/Yet).",
+      "url": "classes/2026-04-27.html"
     }
   ],
   "resources": [
@@ -119,11 +126,22 @@
       "url": "resources/homework_class_13.html",
       "pdf_url": "resources/homework_class_13.pdf",
       "type": "Homework"
+    },
+    {
+      "title": "Homework Class 14",
+      "description": "Present Perfect drills and Infrastructure vocabulary.",
+      "url": "resources/homework_class_14.html",
+      "pdf_url": "resources/homework_class_14.pdf",
+      "type": "Homework"
     }
   ],
   "glossary": [
     { "term": "HVAC", "phonetic": "/ˌeɪtʃ viː eɪ 'siː/", "definition": "Heating, Ventilation and AC", "class_id": 13 },
     { "term": "Redundancy", "phonetic": "/rɪ'dʌndənsi/", "definition": "Redundância (Sistemas de backup)", "class_id": 13 },
-    { "term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas)", "class_id": 13 }
+    { "term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas)", "class_id": 13 },
+    { "term": "Backup Generator", "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/", "definition": "Gerador de emergência", "class_id": 14 },
+    { "term": "Blackout", "phonetic": "/ˈblækˌaʊt/", "definition": "Apagão / Queda de energia", "class_id": 14 },
+    { "term": "Ward", "phonetic": "/wɔːrd/", "definition": "Ala hospitalar / Enfermaria", "class_id": 14 },
+    { "term": "Wing", "phonetic": "/wɪŋ/", "definition": "Ala (setor abrangente)", "class_id": 14 }
   ]
 }
