@@ -1,9 +1,10 @@
 ## 🏗️ 1. Present Perfect Bridge (Mastery List)
-*Monica, use esta lista para falar de sua carreira e status de projetos.*
 
 | Base Form (Present) | Past Simple | Past Participle | Meaning (PT) |
 | :--- | :--- | :--- | :--- |
 | **Be** | Was / Were | **Been** | Ser / Estar |
+| **Become** | Became | **Become** | Tornar-se |
+| **Begin** | Began | **Begun** | Começar |
 | **Build** | Built | **Built** | Construir |
 | **Buy** | Bought | **Bought** | Comprar |
 | **Choose** | Chose | **Chosen** | Escolher |
