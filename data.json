@@ -104,6 +104,13 @@
       "title": "Present Perfect Consolidation & Intensity",
       "summary": "Practical drills on Present Perfect (Authority and Duration) and nuanced status checks using Already and Yet.",
       "url": "classes/2026-04-28.html"
+    },
+    {
+      "id": 16,
+      "date": "2026-04-29",
+      "title": "Technical Case Study & Reporting",
+      "summary": "Comparing Past Simple and Present Perfect in a healthcare context. Infrastructure vocabulary and reporting drills.",
+      "url": "classes/2026-04-29.html"
     }
   ],
   "resources": [
@@ -225,6 +232,14 @@
     { "term": "Wing", "phonetic": "/wɪŋ/", "definition": "Ala (setor abrangente)", "class_id": 14 },
     { "term": "Troubleshoot", "phonetic": "/ˈtrʌbəlˌʃut/", "definition": "Identificar e resolver problemas", "class_id": 15 },
     { "term": "Stakeholders", "phonetic": "/ˈsteɪkˌhoʊldərz/", "definition": "Partes interessadas (diretoria, etc)", "class_id": 15 },
-    { "term": "Outage", "phonetic": "/ˈaʊtɪdʒ/", "definition": "Interrupção de serviço (energia/água)", "class_id": 15 }
+    { "term": "Outage", "phonetic": "/ˈaʊtɪdʒ/", "definition": "Interrupção de serviço (energia/água)", "class_id": 15 },
+    { "term": "Wing", "phonetic": "/wɪŋ/", "definition": "Ala hospitalar / Setor", "class_id": 16 },
+    { "term": "Issue", "phonetic": "/ˈɪʃuː/", "definition": "Problema / Questão técnica", "class_id": 16 },
+    { "term": "Regarding", "phonetic": "/rɪ'ɡɑːrdɪŋ/", "definition": "Sobre / Em relação a", "class_id": 16 },
+    { "term": "Proposal", "phonetic": "/prə'poʊzl/", "definition": "Proposta (ex: workshop proposal)", "class_id": 16 },
+    { "term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (ex: postpone the meeting)", "class_id": 16 },
+    { "term": "Stakeholders", "phonetic": "/'steɪkhoʊldərz/", "definition": "Partes interessadas (diretoria, etc)", "class_id": 16 },
+    { "term": "Policy", "phonetic": "/'pɒləsi/", "definition": "Política / Diretriz", "class_id": 16 },
+    { "term": "To happen", "phonetic": "/'hæpən/", "definition": "Acontecer", "class_id": 16 }
   ]
 }
