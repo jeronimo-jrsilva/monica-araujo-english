@@ -118,6 +118,13 @@
       "title": "Deep Dive & Text Mastery",
       "summary": "Reviewing homework on conditionals and diving into the first paragraph of the San Lucas healthcare case study.",
       "url": "classes/2026-04-30.html"
+    },
+    {
+      "id": 18,
+      "date": "2026-05-01",
+      "title": "Technical Challenges & Power Outages",
+      "summary": "Finalizing the San Lucas case study. Deep dive into HVAC challenges and crisis management during power outages.",
+      "url": "classes/2026-05-01.html"
     }
   ],
   "resources": [
@@ -154,6 +161,13 @@
       "url": "resources/verbs-past-participle.html",
       "pdf_url": "resources/verbs-past-participle.pdf",
       "type": "Study Guide"
+    },
+    {
+      "title": "Homework & Case Study - Class 18",
+      "description": "Weekly consolidation on San Lucas Clinic technical challenges.",
+      "url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
+      "pdf_url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
+      "type": "Homework"
     }
   ],
   "glossary": [
@@ -162,6 +176,12 @@
       "phonetic": "/əkˌsesə'bɪləti/",
       "definition": "Acessibilidade",
       "class_id": 0
+    },
+    {
+      "term": "Air exchange rate",
+      "phonetic": "/er ɪks'tʃeɪndʒ reɪt/",
+      "definition": "Taxa de renovação do ar",
+      "class_id": 18
     },
     {
       "term": "Aluminium",
@@ -179,7 +199,7 @@
       "term": "Backup Generator",
       "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
       "definition": "Gerador de emergência",
-      "class_id": 14
+      "class_id": 18
     },
     {
       "term": "Bedroom",
@@ -203,7 +223,7 @@
       "term": "Blackout",
       "phonetic": "/ˈblækˌaʊt/",
       "definition": "Apagão / Queda de energia",
-      "class_id": 14
+      "class_id": 18
     },
     {
       "term": "Blueprint",
@@ -222,6 +242,12 @@
       "phonetic": "/'bʌdʒɪt/",
       "definition": "Orçamento",
       "class_id": 0
+    },
+    {
+      "term": "Career",
+      "phonetic": "/kəˈrɪər/",
+      "definition": "Carreira (Atenção à tônica no final)",
+      "class_id": 18
     },
     {
       "term": "Chicken / Kitchen",
@@ -257,7 +283,7 @@
       "term": "Consultation Room",
       "phonetic": "/ˌkɒnsl'teɪʃn ruːm/",
       "definition": "Consultório",
-      "class_id": 0
+      "class_id": 18
     },
     {
       "term": "Copper",
@@ -293,12 +319,6 @@
       "term": "Draft",
       "phonetic": "/dræft/",
       "definition": "Rascunho / Esboço",
-      "class_id": 0
-    },
-    {
-      "term": "Draft",
-      "phonetic": "/dræft/",
-      "definition": "Rascunho / Minuta",
       "class_id": 17
     },
     {
@@ -330,6 +350,12 @@
       "phonetic": "/ɪk'striːm spɔːrts/",
       "definition": "Esportes radicais (Skydiving, Zipline)",
       "class_id": 2
+    },
+    {
+      "term": "Faced",
+      "phonetic": "/feɪst/",
+      "definition": "Enfrentado / Encarado",
+      "class_id": 18
     },
     {
       "term": "Floor Plan",
@@ -407,7 +433,7 @@
       "term": "HVAC",
       "phonetic": "/ˌeɪtʃ viː eɪ 'siː/",
       "definition": "Heating, Ventilation and AC",
-      "class_id": 13
+      "class_id": 18
     },
     {
       "term": "Inclusion",
@@ -437,7 +463,7 @@
       "term": "Issue",
       "phonetic": "/ˈɪʃuː/",
       "definition": "Problema / Questão técnica",
-      "class_id": 16
+      "class_id": 18
     },
     {
       "term": "Lack of",
@@ -467,7 +493,7 @@
       "term": "Medical Imaging",
       "phonetic": "/'medɪkl 'ɪmədʒɪŋ/",
       "definition": "Imaginologia (Ex: Sala de Raio-X)",
-      "class_id": 0
+      "class_id": 18
     },
     {
       "term": "Named",
@@ -478,8 +504,8 @@
     {
       "term": "Outage",
       "phonetic": "/ˈaʊtɪdʒ/",
-      "definition": "Interrupção de serviço (energia/água)",
-      "class_id": 15
+      "definition": "Falta/Queda (energia/água)",
+      "class_id": 18
     },
     {
       "term": "Patient Flow",
@@ -533,13 +559,7 @@
       "term": "Regarding",
       "phonetic": "/rɪ'ɡɑːrdɪŋ/",
       "definition": "Sobre / Acerca de",
-      "class_id": 6
-    },
-    {
-      "term": "Regarding",
-      "phonetic": "/rɪ'ɡɑːrdɪŋ/",
-      "definition": "Sobre / Em relação a",
-      "class_id": 16
+      "class_id": 18
     },
     {
       "term": "Right after",
@@ -568,14 +588,8 @@
     {
       "term": "Stakeholders",
       "phonetic": "/ˈsteɪkˌhoʊldərz/",
-      "definition": "Partes interessadas (diretoria, etc)",
-      "class_id": 15
-    },
-    {
-      "term": "Stakeholders",
-      "phonetic": "/'steɪkhoʊldərz/",
-      "definition": "Partes interessadas (diretoria, etc)",
-      "class_id": 16
+      "definition": "Partes interessadas (Sócios/Envolvidos)",
+      "class_id": 18
     },
     {
       "term": "Stayed",
@@ -635,7 +649,7 @@
       "term": "To happen",
       "phonetic": "/'hæpən/",
       "definition": "Acontecer",
-      "class_id": 16
+      "class_id": 18
     },
     {
       "term": "To inspect construction sites",
@@ -688,14 +702,8 @@
     {
       "term": "Ward",
       "phonetic": "/wɔːrd/",
-      "definition": "Ala / Enfermaria",
-      "class_id": 0
-    },
-    {
-      "term": "Ward",
-      "phonetic": "/wɔːrd/",
       "definition": "Ala hospitalar / Enfermaria",
-      "class_id": 14
+      "class_id": 18
     },
     {
       "term": "Wash the dishes",
@@ -712,14 +720,8 @@
     {
       "term": "Wing",
       "phonetic": "/wɪŋ/",
-      "definition": "Ala (setor abrangente)",
-      "class_id": 14
-    },
-    {
-      "term": "Wing",
-      "phonetic": "/wɪŋ/",
       "definition": "Ala hospitalar / Setor",
-      "class_id": 16
+      "class_id": 18
     },
     {
       "term": "Wood",
