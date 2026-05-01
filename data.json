@@ -163,10 +163,17 @@
       "type": "Study Guide"
     },
     {
-      "title": "Homework & Case Study - Class 18",
+      "title": "Weekend Workbook - Class 18",
       "description": "Weekly consolidation on San Lucas Clinic technical challenges.",
       "url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
       "pdf_url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
+      "type": "Homework"
+    },
+    {
+      "title": "Drilling List - Class 18",
+      "description": "20 sentences for global consolidation (Conditionals & Present Perfect).",
+      "url": "resources/drilling_class_18.html",
+      "pdf_url": "resources/Monica_Araujo_Drilling_List_Consolidated.pdf",
       "type": "Homework"
     }
   ],
