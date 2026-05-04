@@ -175,6 +175,13 @@
       "url": "resources/drilling_class_18.html",
       "pdf_url": "resources/Monica_Araujo_Drilling_List_Consolidated.pdf",
       "type": "Homework"
+    },
+    {
+      "title": "Homework Class 19",
+      "description": "Prepositions of Place (Spatial Design & Blueprints).",
+      "url": "resources/homework_class_19.html",
+      "pdf_url": "resources/Monica_Araujo_Aula_19_Homework.pdf",
+      "type": "Homework"
     }
   ],
   "glossary": [
@@ -213,6 +220,18 @@
       "phonetic": "/'bedruːm/",
       "definition": "Quarto (O cômodo)",
       "class_id": 5
+    },
+    {
+      "term": "Beside / Next to",
+      "phonetic": "/bɪˈsaɪd/ /nekst tuː/",
+      "definition": "Ao lado de / Próximo a",
+      "class_id": 19
+    },
+    {
+      "term": "Between",
+      "phonetic": "/bɪˈtwiːn/",
+      "definition": "Entre (dois pontos/objetos)",
+      "class_id": 19
     },
     {
       "term": "Big constructions",
@@ -365,6 +384,12 @@
       "class_id": 18
     },
     {
+      "term": "Fixture",
+      "phonetic": "/ˈfɪkstʃər/",
+      "definition": "Item fixo (ex: pia, luminária)",
+      "class_id": 19
+    },
+    {
       "term": "Floor Plan",
       "phonetic": "/flɔːr plæn/",
       "definition": "Planta de piso",
@@ -443,6 +468,12 @@
       "class_id": 18
     },
     {
+      "term": "In front of",
+      "phonetic": "/ɪn frʌnt əv/",
+      "definition": "Em frente a",
+      "class_id": 19
+    },
+    {
       "term": "Inclusion",
       "phonetic": "/ɪn'kluːʒn/",
       "definition": "Inclusão",
@@ -507,6 +538,12 @@
       "phonetic": "/neɪmd/",
       "definition": "Nomeado/Chamado (ex: name of the company)",
       "class_id": 3
+    },
+    {
+      "term": "Opposite",
+      "phonetic": "/ˈɒpəzɪt/",
+      "definition": "Oposto / De frente para",
+      "class_id": 19
     },
     {
       "term": "Outage",
@@ -585,6 +622,12 @@
       "phonetic": "/'skedʒuːl/",
       "definition": "Agenda / Cronograma / Agendar",
       "class_id": 7
+    },
+    {
+      "term": "Site",
+      "phonetic": "/saɪt/",
+      "definition": "Local (da obra ou da clínica)",
+      "class_id": 19
     },
     {
       "term": "Specialists",
@@ -687,6 +730,12 @@
       "phonetic": "/ˈtrʌbəlˌʃut/",
       "definition": "Identificar e resolver problemas",
       "class_id": 15
+    },
+    {
+      "term": "Under / Below",
+      "phonetic": "/ˈʌndər/ /bɪˈloʊ/",
+      "definition": "Embaixo / Abaixo de",
+      "class_id": 19
     },
     {
       "term": "Unfortunately",
