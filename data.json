@@ -130,7 +130,7 @@
       "id": 19,
       "date": "2026-05-05",
       "title": "Prepositions of Place: Spatial Design",
-      "summary": "Mastering In, On, At in technical contexts. Describing layouts, technical fixtures and hospital circulations.",
+      "summary": "Mastering In, On, At in technical contexts. Lessons on fixtures, leakings and blueprint spatial relationships.",
       "url": "classes/2026-05-05.html"
     }
   ],
@@ -209,6 +209,12 @@
       "phonetic": "/ˌæljə'mɪniəm/",
       "definition": "Alumínio",
       "class_id": 9
+    },
+    {
+      "term": "Among",
+      "phonetic": "/əˈmʌŋ/",
+      "definition": "Entre (muitos)",
+      "class_id": 19
     },
     {
       "term": "Architect",
@@ -541,6 +547,12 @@
       "class_id": 0
     },
     {
+      "term": "Leak / Leaking",
+      "phonetic": "/liːk/",
+      "definition": "Vazar / Vazamento",
+      "class_id": 19
+    },
+    {
       "term": "LEED",
       "phonetic": "/liːd/",
       "definition": "Leadership in Energy and Environmental Design (Certificação)",
@@ -557,6 +569,12 @@
       "phonetic": "/'medɪkl 'ɪmədʒɪŋ/",
       "definition": "Imaginologia (Ex: Sala de Raio-X)",
       "class_id": 18
+    },
+    {
+      "term": "Migraine",
+      "phonetic": "/ˈmaɪɡreɪn/",
+      "definition": "Enxaqueca",
+      "class_id": 19
     },
     {
       "term": "Named",
@@ -647,6 +665,12 @@
       "phonetic": "/'skedʒuːl/",
       "definition": "Agenda / Cronograma / Agendar",
       "class_id": 7
+    },
+    {
+      "term": "Sink",
+      "phonetic": "/sɪŋk/",
+      "definition": "Pia / Afundar",
+      "class_id": 19
     },
     {
       "term": "Site",
@@ -743,6 +767,12 @@
       "phonetic": "/'vɪzɪt/",
       "definition": "Visitar clientes",
       "class_id": 1
+    },
+    {
+      "term": "Tough",
+      "phonetic": "/tʌf/",
+      "definition": "Pesado / Duro / Complicado",
+      "class_id": 19
     },
     {
       "term": "Trivia",
