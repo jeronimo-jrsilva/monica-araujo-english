@@ -125,6 +125,13 @@
       "title": "Technical Challenges & Power Outages",
       "summary": "Finalizing the San Lucas case study. Deep dive into HVAC challenges and crisis management during power outages.",
       "url": "classes/2026-05-01.html"
+    },
+    {
+      "id": 19,
+      "date": "2026-05-05",
+      "title": "Prepositions of Place: Spatial Design",
+      "summary": "Mastering In, On, At in technical contexts. Describing layouts, technical fixtures and hospital circulations.",
+      "url": "classes/2026-05-05.html"
     }
   ],
   "resources": [
@@ -210,6 +217,12 @@
       "class_id": 1
     },
     {
+      "term": "Arrangement",
+      "phonetic": "/əˈreɪndʒmənt/",
+      "definition": "Arranjo físico / Disposição",
+      "class_id": 19
+    },
+    {
       "term": "Backup Generator",
       "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
       "definition": "Gerador de emergência",
@@ -292,6 +305,12 @@
       "phonetic": "/'tʃaɪldbɜːrθ/",
       "definition": "Parto (Ação de dar à luz)",
       "class_id": 6
+    },
+    {
+      "term": "Clearance",
+      "phonetic": "/ˈklɪərəns/",
+      "definition": "Espaçamento livre / Folga técnica",
+      "class_id": 19
     },
     {
       "term": "Compliance",
@@ -382,6 +401,12 @@
       "phonetic": "/feɪst/",
       "definition": "Enfrentado / Encarado",
       "class_id": 18
+    },
+    {
+      "term": "Fitting",
+      "phonetic": "/ˈfɪtɪŋ/",
+      "definition": "Acessório / Peça de conexão",
+      "class_id": 19
     },
     {
       "term": "Fixture",
