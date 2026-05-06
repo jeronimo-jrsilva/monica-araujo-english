@@ -674,6 +674,12 @@
       "class_id": 7
     },
     {
+      "term": "Signage",
+      "phonetic": "/ˈsaɪnɪdʒ/",
+      "definition": "Sinalização",
+      "class_id": 20
+    },
+    {
       "term": "Sink",
       "phonetic": "/sɪŋk/",
       "definition": "Pia / Afundar",
@@ -714,6 +720,18 @@
       "phonetic": "/stɪl/",
       "definition": "Ainda",
       "class_id": 6
+    },
+    {
+      "term": "Stretcher",
+      "phonetic": "/ˈstretʃər/",
+      "definition": "Maca",
+      "class_id": 20
+    },
+    {
+      "term": "Strip",
+      "phonetic": "/strɪp/",
+      "definition": "Faixa (de sinalização/corredor)",
+      "class_id": 20
     },
     {
       "term": "Struggling",
@@ -828,6 +846,12 @@
       "phonetic": "/wɒʃ ðə 'dɪʃɪz/",
       "definition": "Lavar a louça",
       "class_id": 2
+    },
+    {
+      "term": "Waste",
+      "phonetic": "/weɪst/",
+      "definition": "Resíduos / Lixo técnico",
+      "class_id": 20
     },
     {
       "term": "Winery",
