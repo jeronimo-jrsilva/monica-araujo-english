@@ -139,6 +139,13 @@
       "title": "Spatial Drills & Hospital Flows",
       "summary": "Mastering prepositions of movement (To, From, Through, Along) and logistics flow in healthcare environments.",
       "url": "classes/2026-05-06.html"
+    },
+    {
+      "id": 21,
+      "date": "2026-05-07",
+      "title": "Advanced Prepositions & Tech Specs",
+      "summary": "Complex spatial relationships (Beyond, Throughout) and hospital finish specifications (Seamless, Anti-microbial).",
+      "url": "classes/2026-05-07.html"
     }
   ],
   "resources": [
@@ -206,6 +213,12 @@
       "class_id": 0
     },
     {
+      "term": "Against",
+      "phonetic": "/əˈɡenst/",
+      "definition": "Encostado em / Contra",
+      "class_id": 21
+    },
+    {
       "term": "Air exchange rate",
       "phonetic": "/er ɪks'tʃeɪndʒ reɪt/",
       "definition": "Taxa de renovação do ar",
@@ -222,6 +235,12 @@
       "phonetic": "/əˈmʌŋ/",
       "definition": "Entre (muitos)",
       "class_id": 19
+    },
+    {
+      "term": "Anti-microbial",
+      "phonetic": "/ˌænti maɪˈkroʊbiəl/",
+      "definition": "Antimicrobiano",
+      "class_id": 21
     },
     {
       "term": "Architect",
@@ -260,6 +279,12 @@
       "class_id": 19
     },
     {
+      "term": "Beyond",
+      "phonetic": "/bɪˈjɒnd/",
+      "definition": "Além de / Para lá de",
+      "class_id": 21
+    },
+    {
       "term": "Big constructions",
       "phonetic": "/bɪɡ kən'strʌkʃənz/",
       "definition": "Grandes obras / construções",
@@ -296,6 +321,12 @@
       "class_id": 0
     },
     {
+      "term": "By way of",
+      "phonetic": "/baɪ weɪ əv/",
+      "definition": "Por meio de / Rota",
+      "class_id": 21
+    },
+    {
       "term": "Career",
       "phonetic": "/kəˈrɪər/",
       "definition": "Carreira (Atenção à tônica no final)",
@@ -320,10 +351,22 @@
       "class_id": 6
     },
     {
+      "term": "Cladding",
+      "phonetic": "/ˈklædɪŋ/",
+      "definition": "Revestimento externo / Fachada",
+      "class_id": 21
+    },
+    {
       "term": "Clearance",
       "phonetic": "/ˈklɪərəns/",
       "definition": "Espaçamento livre / Folga técnica",
       "class_id": 19
+    },
+    {
+      "term": "Coating",
+      "phonetic": "/ˈkoʊtɪŋ/",
+      "definition": "Revestimento / Pintura técnica",
+      "class_id": 21
     },
     {
       "term": "Compliance",
@@ -356,10 +399,22 @@
       "class_id": 4
     },
     {
+      "term": "Critically ill patients",
+      "phonetic": "/ˈkrɪtɪkəli ɪl ˈpeɪʃnts/",
+      "definition": "Pacientes em estado crítico",
+      "class_id": 20
+    },
+    {
       "term": "Deadline",
       "phonetic": "/'dedlaɪn/",
       "definition": "Prazo final (Não negociável)",
       "class_id": 7
+    },
+    {
+      "term": "Disposal area",
+      "phonetic": "/dɪˈspoʊzl ˈeəriə/",
+      "definition": "Área de descarte",
+      "class_id": 20
     },
     {
       "term": "Dissertation",
@@ -542,6 +597,12 @@
       "class_id": 18
     },
     {
+      "term": "Joint",
+      "phonetic": "/dʒɔɪnt/",
+      "definition": "Junta / Emenda",
+      "class_id": 21
+    },
+    {
       "term": "Lack of",
       "phonetic": "/læk əv/",
       "definition": "Falta de",
@@ -572,6 +633,12 @@
       "class_id": 3
     },
     {
+      "term": "Main",
+      "phonetic": "/meɪn/",
+      "definition": "Principal",
+      "class_id": 20
+    },
+    {
       "term": "Medical Imaging",
       "phonetic": "/'medɪkl 'ɪmədʒɪŋ/",
       "definition": "Imaginologia (Ex: Sala de Raio-X)",
@@ -590,6 +657,12 @@
       "class_id": 3
     },
     {
+      "term": "Non-slip",
+      "phonetic": "/nɒn slɪp/",
+      "definition": "Antiderrapante",
+      "class_id": 21
+    },
+    {
       "term": "Opposite",
       "phonetic": "/ˈɒpəzɪt/",
       "definition": "Oposto / De frente para",
@@ -600,6 +673,12 @@
       "phonetic": "/ˈaʊtɪdʒ/",
       "definition": "Falta/Queda (energia/água)",
       "class_id": 18
+    },
+    {
+      "term": "Past",
+      "phonetic": "/pæst/",
+      "definition": "Passando por / Além de",
+      "class_id": 21
     },
     {
       "term": "Patient Flow",
@@ -644,6 +723,12 @@
       "class_id": 16
     },
     {
+      "term": "Reach",
+      "phonetic": "/riːtʃ/",
+      "definition": "Alcançar / Chegar a",
+      "class_id": 20
+    },
+    {
       "term": "Redundancy",
       "phonetic": "/rɪ'dʌndənsi/",
       "definition": "Redundância (Sistemas de backup)",
@@ -662,16 +747,34 @@
       "class_id": 5
     },
     {
+      "term": "Rooftop",
+      "phonetic": "/ˈruːftɒp/",
+      "definition": "Terraço / Cobertura",
+      "class_id": 20
+    },
+    {
       "term": "Safe / Safer",
       "phonetic": "/seɪf/ - /'seɪfər/",
       "definition": "Seguro / Mais seguro",
       "class_id": 17
     },
     {
+      "term": "Sample",
+      "phonetic": "/ˈsæmpl/",
+      "definition": "Amostra",
+      "class_id": 20
+    },
+    {
       "term": "Schedule",
       "phonetic": "/'skedʒuːl/",
       "definition": "Agenda / Cronograma / Agendar",
       "class_id": 7
+    },
+    {
+      "term": "Seamless",
+      "phonetic": "/ˈsiːmləs/",
+      "definition": "Sem emendas / Monolítico",
+      "class_id": 21
     },
     {
       "term": "Signage",
@@ -746,6 +849,12 @@
       "class_id": 0
     },
     {
+      "term": "Throughout",
+      "phonetic": "/θruːˈaʊt/",
+      "definition": "Por todo / Em toda a extensão",
+      "class_id": 21
+    },
+    {
       "term": "Tidy up",
       "phonetic": "/'taɪdi ʌp/",
       "definition": "Arrumar / Organizar",
@@ -800,6 +909,12 @@
       "class_id": 19
     },
     {
+      "term": "Toward",
+      "phonetic": "/təˈwɔːrd/",
+      "definition": "Em direção a",
+      "class_id": 21
+    },
+    {
       "term": "Trivia",
       "phonetic": "/'trɪviə/",
       "definition": "Curiosidades / Fatos",
@@ -828,6 +943,12 @@
       "phonetic": "/ˌʌp'deɪt/",
       "definition": "Atualizar / Atualização",
       "class_id": 7
+    },
+    {
+      "term": "Via",
+      "phonetic": "/ˈvaɪə/",
+      "definition": "Via / Por meio de",
+      "class_id": 21
     },
     {
       "term": "Waiting Area",
@@ -864,6 +985,12 @@
       "phonetic": "/wɪŋ/",
       "definition": "Ala hospitalar / Setor",
       "class_id": 18
+    },
+    {
+      "term": "Within",
+      "phonetic": "/wɪˈðɪn/",
+      "definition": "Dentro de / No limite de",
+      "class_id": 21
     },
     {
       "term": "Wood",
