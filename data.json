@@ -453,6 +453,18 @@
       "class_id": 5
     },
     {
+      "term": "Ensures",
+      "phonetic": "/ɪnˈʃʊərz/",
+      "definition": "Garante / Certifica",
+      "class_id": 21
+    },
+    {
+      "term": "Entire",
+      "phonetic": "/ɪnˈtaɪər/",
+      "definition": "Inteiro / Todo",
+      "class_id": 21
+    },
+    {
       "term": "Expensive",
       "phonetic": "/ɪk'spensɪv/",
       "definition": "Caro",
@@ -487,6 +499,12 @@
       "phonetic": "/flɔːr plæn/",
       "definition": "Planta de piso",
       "class_id": 0
+    },
+    {
+      "term": "Flow",
+      "phonetic": "/floʊ/",
+      "definition": "Fluxo (Atenção ao som de 'O')",
+      "class_id": 21
     },
     {
       "term": "Frozen",
