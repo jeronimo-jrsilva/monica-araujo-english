@@ -146,6 +146,13 @@
       "title": "Advanced Prepositions & Tech Specs",
       "summary": "Complex spatial relationships (Beyond, Throughout) and hospital finish specifications (Seamless, Anti-microbial).",
       "url": "classes/2026-05-07.html"
+    },
+    {
+      "id": 22,
+      "date": "2026-05-09",
+      "title": "Hospital Lighting & Intensifiers",
+      "summary": "Mastering Adverbs of Degree (Significantly, Barely) and technical lighting vocabulary (Glare, Fixtures, Dimmers).",
+      "url": "classes/2026-05-09.html"
     }
   ],
   "resources": [
@@ -203,6 +210,13 @@
       "url": "resources/drilling_class_19.html",
       "pdf_url": "resources/Monica_Araujo_Drilling_List_Consolidated.pdf",
       "type": "Homework"
+    },
+    {
+      "title": "Homework Class 22",
+      "description": "Hospital Lighting, Fixtures and Adverbs of Intensity Exercises.",
+      "url": "resources/2026-05-09_Homework_22.md",
+      "pdf_url": "resources/2026-05-09_Homework_22.pdf",
+      "type": "Homework"
     }
   ],
   "glossary": [
@@ -259,6 +273,12 @@
       "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
       "definition": "Gerador de emergência",
       "class_id": 18
+    },
+    {
+      "term": "Barely",
+      "phonetic": "/ˈbeəli/",
+      "definition": "Mal / Quase nada (Intensidade mínima)",
+      "class_id": 22
     },
     {
       "term": "Bedroom",
@@ -351,6 +371,12 @@
       "class_id": 6
     },
     {
+      "term": "Circadian Lighting",
+      "phonetic": "/sɜːrˈkeɪdiən ˈlaɪtɪŋ/",
+      "definition": "Iluminação natural / Ciclo circadiano",
+      "class_id": 22
+    },
+    {
       "term": "Cladding",
       "phonetic": "/ˈklædɪŋ/",
       "definition": "Revestimento externo / Fachada",
@@ -409,6 +435,12 @@
       "phonetic": "/'dedlaɪn/",
       "definition": "Prazo final (Não negociável)",
       "class_id": 7
+    },
+    {
+      "term": "Dimmer",
+      "phonetic": "/ˈdɪmər/",
+      "definition": "Regulador de intensidade (Luz)",
+      "class_id": 22
     },
     {
       "term": "Disposal area",
@@ -471,6 +503,12 @@
       "class_id": 4
     },
     {
+      "term": "Extremely",
+      "phonetic": "/ɪkˈstriːmli/",
+      "definition": "Extremamente (Intensidade máxima)",
+      "class_id": 22
+    },
+    {
       "term": "Extreme Sports",
       "phonetic": "/ɪk'striːm spɔːrts/",
       "definition": "Esportes radicais (Skydiving, Zipline)",
@@ -492,7 +530,13 @@
       "term": "Fixture",
       "phonetic": "/ˈfɪkstʃər/",
       "definition": "Item fixo (ex: pia, luminária)",
-      "class_id": 19
+      "class_id": 22
+    },
+    {
+      "term": "Flicker",
+      "phonetic": "/ˈflɪkər/",
+      "definition": "Oscilação / Tremulação da luz",
+      "class_id": 22
     },
     {
       "term": "Floor Plan",
@@ -517,6 +561,12 @@
       "phonetic": "/'fɜːrnɪtʃər/",
       "definition": "Móveis",
       "class_id": 2
+    },
+    {
+      "term": "Glare",
+      "phonetic": "/ɡler/",
+      "definition": "Ofuscamento / Luz incômoda",
+      "class_id": 22
     },
     {
       "term": "Glass",
@@ -633,6 +683,18 @@
       "class_id": 0
     },
     {
+      "term": "Lead",
+      "phonetic": "/liːd/",
+      "definition": "Liderar / Conduzir",
+      "class_id": 22
+    },
+    {
+      "term": "Lead",
+      "phonetic": "/led/",
+      "definition": "Chumbo (Metal)",
+      "class_id": 22
+    },
+    {
       "term": "Leak / Leaking",
       "phonetic": "/liːk/",
       "definition": "Vazar / Vazamento",
@@ -643,6 +705,12 @@
       "phonetic": "/liːd/",
       "definition": "Leadership in Energy and Environmental Design (Certificação)",
       "class_id": 17
+    },
+    {
+      "term": "Lighting",
+      "phonetic": "/ˈlaɪtɪŋ/",
+      "definition": "Iluminação",
+      "class_id": 22
     },
     {
       "term": "Located",
@@ -759,6 +827,12 @@
       "class_id": 18
     },
     {
+      "term": "Relatively",
+      "phonetic": "/ˈrelətɪvli/",
+      "definition": "Relativamente",
+      "class_id": 22
+    },
+    {
       "term": "Right after",
       "phonetic": "/raɪt 'æftər/",
       "definition": "Logo em seguida",
@@ -801,6 +875,12 @@
       "class_id": 20
     },
     {
+      "term": "Significantly",
+      "phonetic": "/sɪɡˈnɪfɪkəntli/",
+      "definition": "Significativamente / Muito",
+      "class_id": 22
+    },
+    {
       "term": "Sink",
       "phonetic": "/sɪŋk/",
       "definition": "Pia / Afundar",
@@ -811,6 +891,12 @@
       "phonetic": "/saɪt/",
       "definition": "Local (da obra ou da clínica)",
       "class_id": 19
+    },
+    {
+      "term": "Slightly",
+      "phonetic": "/ˈslaɪtli/",
+      "definition": "Levemente / Um pouco",
+      "class_id": 22
     },
     {
       "term": "Specialists",
@@ -979,6 +1065,12 @@
       "phonetic": "/wɔːrd/",
       "definition": "Ala hospitalar / Enfermaria",
       "class_id": 18
+    },
+    {
+      "term": "Warm Light",
+      "phonetic": "/wɔːrm laɪt/",
+      "definition": "Luz quente (amarelada)",
+      "class_id": 22
     },
     {
       "term": "Wash the dishes",
