@@ -503,16 +503,16 @@
       "class_id": 4
     },
     {
-      "term": "Extremely",
-      "phonetic": "/ɪkˈstriːmli/",
-      "definition": "Extremamente (Intensidade máxima)",
-      "class_id": 22
-    },
-    {
       "term": "Extreme Sports",
       "phonetic": "/ɪk'striːm spɔːrts/",
       "definition": "Esportes radicais (Skydiving, Zipline)",
       "class_id": 2
+    },
+    {
+      "term": "Extremely",
+      "phonetic": "/ɪkˈstriːmli/",
+      "definition": "Extremamente (Intensidade máxima)",
+      "class_id": 22
     },
     {
       "term": "Faced",
