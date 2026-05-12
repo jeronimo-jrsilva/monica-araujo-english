@@ -160,6 +160,13 @@
       "title": "International Project Scenarios (India Case Study)",
       "summary": "Expanding professional horizons through a residence project in India. Consolidation of Too/Enough with countable/uncountable nouns.",
       "url": "classes/2026-05-11.html"
+    },
+    {
+      "id": 24,
+      "date": "2026-05-12",
+      "title": "Passive Voice & Technical Specs",
+      "summary": "Introduction to Passive Voice for technical reports and architectural specifications. Mastering irregular past participles (Built, Bought, Chosen, Worn).",
+      "url": "classes/2026-05-12.html"
     }
   ],
   "resources": [
@@ -442,6 +449,12 @@
       "phonetic": "/ˈkrɪtɪkəli ɪl ˈpeɪʃnts/",
       "definition": "Pacientes em estado crítico",
       "class_id": 20
+    },
+    {
+      "term": "Custom",
+      "phonetic": "/ˈkʌstəm/",
+      "definition": "Personalizado / Sob medida",
+      "class_id": 24
     },
     {
       "term": "Deadline",
@@ -846,6 +859,12 @@
       "class_id": 16
     },
     {
+      "term": "PPE (Personal Protective Equipment)",
+      "phonetic": "/ˌpiː piː ˈiː/",
+      "definition": "EPI (Equipamento de Proteção Individual)",
+      "class_id": 24
+    },
+    {
       "term": "Proposal",
       "phonetic": "/prə'poʊzl/",
       "definition": "Proposta (ex: workshop proposal)",
@@ -1014,6 +1033,12 @@
       "class_id": 0
     },
     {
+      "term": "Technicians",
+      "phonetic": "/tekˈnɪʃənz/",
+      "definition": "Técnicos (Atenção à tônica no NI)",
+      "class_id": 24
+    },
+    {
       "term": "Through",
       "phonetic": "/θruː/",
       "definition": "Através de / Por meio de",
@@ -1036,6 +1061,12 @@
       "phonetic": "/taɪt 'dedlaɪn/",
       "definition": "Prazo apertado",
       "class_id": 17
+    },
+    {
+      "term": "To believe",
+      "phonetic": "/tə bɪˈliːv/",
+      "definition": "Acreditar",
+      "class_id": 24
     },
     {
       "term": "To deal with",
@@ -1072,6 +1103,12 @@
       "phonetic": "/'vɪzɪt/",
       "definition": "Visitar clientes",
       "class_id": 1
+    },
+    {
+      "term": "To wear",
+      "phonetic": "/tə wer/",
+      "definition": "Vestir / Usar (Roupas/EPI)",
+      "class_id": 24
     },
     {
       "term": "Tough",
@@ -1146,6 +1183,12 @@
       "class_id": 22
     },
     {
+      "term": "Warn",
+      "phonetic": "/wɔːrn/",
+      "definition": "Aviso / Advertência",
+      "class_id": 24
+    },
+    {
       "term": "Wash the dishes",
       "phonetic": "/wɒʃ ðə 'dɪʃɪz/",
       "definition": "Lavar a louça",
@@ -1192,6 +1235,18 @@
       "phonetic": "/'wɜːrkʃɒp/",
       "definition": "Oficina / Workshop",
       "class_id": 8
+    },
+    {
+      "term": "Worm",
+      "phonetic": "/wɜːrm/",
+      "definition": "Verme / Minhoca",
+      "class_id": 24
+    },
+    {
+      "term": "Worn",
+      "phonetic": "/wɔːrn/",
+      "definition": "Gasto / Usado (Particípio de Wear)",
+      "class_id": 24
     }
   ]
 }
