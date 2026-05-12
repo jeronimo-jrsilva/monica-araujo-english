@@ -264,6 +264,12 @@
       "class_id": 21
     },
     {
+      "term": "Apparently",
+      "phonetic": "/əˈpærəntli/",
+      "definition": "Aparentemente",
+      "class_id": 23
+    },
+    {
       "term": "Architect",
       "phonetic": "/'ɑːrkɪtekt/",
       "definition": "Arquiteto (Atenção ao som de 'K')",
@@ -618,6 +624,18 @@
       "class_id": 6
     },
     {
+      "term": "Hole",
+      "phonetic": "/hoʊl/",
+      "definition": "Buraco / Abertura",
+      "class_id": 23
+    },
+    {
+      "term": "Horizons",
+      "phonetic": "/həˈraɪznz/",
+      "definition": "Horizontes",
+      "class_id": 23
+    },
+    {
       "term": "How are you?",
       "phonetic": "/haʊ ɑːr juː/",
       "definition": "Como você está?",
@@ -652,6 +670,12 @@
       "phonetic": "/ɪn'kluːʒn/",
       "definition": "Inclusão",
       "class_id": 8
+    },
+    {
+      "term": "India",
+      "phonetic": "/ˈɪndiə/",
+      "definition": "Índia",
+      "class_id": 23
     },
     {
       "term": "Intend",
@@ -792,6 +816,12 @@
       "class_id": 1
     },
     {
+      "term": "Pleasant",
+      "phonetic": "/ˈpleznt/",
+      "definition": "Agradável",
+      "class_id": 23
+    },
+    {
       "term": "Policy",
       "phonetic": "/'pɒləsi/",
       "definition": "Política / Diretriz",
@@ -826,6 +856,18 @@
       "phonetic": "/riːtʃ/",
       "definition": "Alcançar / Chegar a",
       "class_id": 20
+    },
+    {
+      "term": "Received",
+      "phonetic": "/rɪˈsiːvd/",
+      "definition": "Recebido / Recebeu",
+      "class_id": 23
+    },
+    {
+      "term": "Recently",
+      "phonetic": "/ˈriːsntli/",
+      "definition": "Recentemente",
+      "class_id": 23
     },
     {
       "term": "Redundancy",
@@ -912,6 +954,12 @@
       "class_id": 22
     },
     {
+      "term": "Smell",
+      "phonetic": "/smel/",
+      "definition": "Cheiro / Cheirar",
+      "class_id": 23
+    },
+    {
       "term": "Specialists",
       "phonetic": "/'speʃəlɪsts/",
       "definition": "Especialistas (Pronúncia: Spé-chalists)",
@@ -964,6 +1012,12 @@
       "phonetic": "/sə'steɪnəbl/",
       "definition": "Sustentável",
       "class_id": 0
+    },
+    {
+      "term": "Through",
+      "phonetic": "/θruː/",
+      "definition": "Através de / Por meio de",
+      "class_id": 23
     },
     {
       "term": "Throughout",
@@ -1038,6 +1092,12 @@
       "class_id": 3
     },
     {
+      "term": "Trouble",
+      "phonetic": "/ˈtrʌbl/",
+      "definition": "Encrenca / Problema",
+      "class_id": 23
+    },
+    {
       "term": "Troubleshoot",
       "phonetic": "/ˈtrʌbəlˌʃut/",
       "definition": "Identificar e resolver problemas",
@@ -1096,6 +1156,12 @@
       "phonetic": "/weɪst/",
       "definition": "Resíduos / Lixo técnico",
       "class_id": 20
+    },
+    {
+      "term": "Whole",
+      "phonetic": "/hoʊl/",
+      "definition": "Todo / Inteiro / Totalidade",
+      "class_id": 23
     },
     {
       "term": "Winery",
