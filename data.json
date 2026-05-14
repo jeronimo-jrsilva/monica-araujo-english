@@ -167,6 +167,13 @@
       "title": "Passive Voice & Technical Specs",
       "summary": "Introduction to Passive Voice for technical reports and architectural specifications. Mastering irregular past participles (Built, Bought, Chosen, Worn).",
       "url": "classes/2026-05-12.html"
+    },
+    {
+      "id": 25,
+      "date": "2026-05-13",
+      "title": "Precision with Relative Clauses",
+      "summary": "Mastering Who, Which, That, Where to connect technical ideas. Introduction to One/Ones as substitutes to avoid repetition in specifications.",
+      "url": "classes/2026-05-13.html"
     }
   ],
   "resources": [
@@ -799,6 +806,12 @@
       "class_id": 21
     },
     {
+      "term": "One / Ones",
+      "phonetic": "/wʌn/ /wʌnz/",
+      "definition": "Substitutos de substantivos (evitar repetição)",
+      "class_id": 25
+    },
+    {
       "term": "Opposite",
       "phonetic": "/ˈɒpəzɪt/",
       "definition": "Oposto / De frente para",
@@ -835,6 +848,12 @@
       "class_id": 23
     },
     {
+      "term": "Plumbing",
+      "phonetic": "/ˈplʌmɪŋ/",
+      "definition": "Encanamento (B mudo)",
+      "class_id": 25
+    },
+    {
       "term": "Policy",
       "phonetic": "/'pɒləsi/",
       "definition": "Política / Diretriz",
@@ -863,6 +882,18 @@
       "phonetic": "/ˌpiː piː ˈiː/",
       "definition": "EPI (Equipamento de Proteção Individual)",
       "class_id": 24
+    },
+    {
+      "term": "Preview",
+      "phonetic": "/ˈpriːvjuː/",
+      "definition": "Previsão / Prévia",
+      "class_id": 25
+    },
+    {
+      "term": "Previous",
+      "phonetic": "/ˈpriːviəs/",
+      "definition": "Anterior",
+      "class_id": 25
     },
     {
       "term": "Proposal",
@@ -901,6 +932,12 @@
       "class_id": 18
     },
     {
+      "term": "Relative Clause",
+      "phonetic": "/ˈrelətɪv klɔːz/",
+      "definition": "Oração subordinada adjetiva (Conector)",
+      "class_id": 25
+    },
+    {
       "term": "Relatively",
       "phonetic": "/ˈrelətɪvli/",
       "definition": "Relativamente",
@@ -925,6 +962,12 @@
       "class_id": 17
     },
     {
+      "term": "Safety",
+      "phonetic": "/ˈseɪfti/",
+      "definition": "Segurança (Passiva/Proteção)",
+      "class_id": 25
+    },
+    {
       "term": "Sample",
       "phonetic": "/ˈsæmpl/",
       "definition": "Amostra",
@@ -941,6 +984,12 @@
       "phonetic": "/ˈsiːmləs/",
       "definition": "Sem emendas / Monolítico",
       "class_id": 21
+    },
+    {
+      "term": "Security",
+      "phonetic": "/sɪˈkjʊərəti/",
+      "definition": "Segurança (Ativa/Vigilância)",
+      "class_id": 25
     },
     {
       "term": "Signage",
@@ -1009,6 +1058,12 @@
       "class_id": 6
     },
     {
+      "term": "Store / Storage",
+      "phonetic": "/stɔːr/ /ˈstɔːrɪdʒ/",
+      "definition": "Armazenar / Armazenamento",
+      "class_id": 25
+    },
+    {
       "term": "Stretcher",
       "phonetic": "/ˈstretʃər/",
       "definition": "Maca",
@@ -1027,6 +1082,12 @@
       "class_id": 6
     },
     {
+      "term": "Supplier",
+      "phonetic": "/səˈplaɪər/",
+      "definition": "Fornecedor",
+      "class_id": 25
+    },
+    {
       "term": "Sustainable",
       "phonetic": "/sə'steɪnəbl/",
       "definition": "Sustentável",
@@ -1037,6 +1098,12 @@
       "phonetic": "/tekˈnɪʃənz/",
       "definition": "Técnicos (Atenção à tônica no NI)",
       "class_id": 24
+    },
+    {
+      "term": "The day before yesterday",
+      "phonetic": "/ðə deɪ bɪˈfɔːr ˈjestədeɪ/",
+      "definition": "Anteontem",
+      "class_id": 25
     },
     {
       "term": "Through",
@@ -1201,6 +1268,12 @@
       "class_id": 20
     },
     {
+      "term": "Which / Witch",
+      "phonetic": "/wɪtʃ/",
+      "definition": "Homófonos (Qual / Bruxa)",
+      "class_id": 25
+    },
+    {
       "term": "Whole",
       "phonetic": "/hoʊl/",
       "definition": "Todo / Inteiro / Totalidade",
@@ -1223,6 +1296,12 @@
       "phonetic": "/wɪˈðɪn/",
       "definition": "Dentro de / No limite de",
       "class_id": 21
+    },
+    {
+      "term": "Won / One",
+      "phonetic": "/wʌn/",
+      "definition": "Homófonos (Ganhou / Um)",
+      "class_id": 25
     },
     {
       "term": "Wood",
