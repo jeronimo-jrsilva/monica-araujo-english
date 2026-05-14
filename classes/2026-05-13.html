@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Relatório Executivo Premium</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root {
+--bg: #f8f9fa;
+--text: #1a1a1a;
+--accent: #2c3e50;
+--card-bg: #ffffff;
+--border: #e1e4e8;
+--shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+body {
+font-family: 'Inter', sans-serif;
+background-color: var(--bg);
+color: var(--text);
+line-height: 1.6;
+margin: 0;
+padding-bottom: 3rem;
+}
+.container { max-width: 850px; margin: 0 auto; padding: 2rem; }
+header { border-bottom: 1px solid var(--border); background: white; padding: 2.5rem 0; }
+header h1 { font-weight: 300; letter-spacing: -2px; margin-bottom: 0; font-size: 2.5rem; color: var(--accent); }
+.subtitle { color: #666; font-size: 0.8rem; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px; }
+.section-title { font-size: 0.75rem; text-transform: uppercase; color: #95a5a6; letter-spacing: 2.5px; margin-top: 4rem; margin-bottom: 1.5rem;
+border-bottom: 1px solid var(--border);
+padding-bottom: 10px;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+user-select: none;
+}
+.section-title::-webkit-details-marker { display: none; }
+.section-title::after {
+content: '+';
+font-size: 1.2rem;
+font-weight: 300;
+color: var(--accent);
+transition: transform 0.2s ease;
+}
+details[open] .section-title::after {
+content: '−';
+}
+details[open] .section-title {
+margin-bottom: 1.5rem;
+}
+details summary:focus { outline: none; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+padding: 1.8rem;
+border-radius: 8px;
+display: block;
+text-decoration: none;
+color: inherit;
+transition: all 0.25s ease;
+box-shadow: var(--shadow);
+}
+.card:hover { border-color: var(--accent); transform: translateY(-3px); }
+.card.active { border-left: 6px solid var(--accent); display: flex; justify-content: space-between; align-items: center; }
+.topic { font-size: 1.2rem; font-weight: 600; color: var(--accent); }
+.resource-card { display: flex; flex-direction: column; justify-content: space-between; position: relative; }
+.resource-card .status-badge { position: absolute; top: 1.8rem; right: 1.8rem; }
+.resource-card h3 { margin-right: 5rem; }
+.status-badge { background: #ecf0f1; padding: 6px 14px; border-radius: 20px; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #34495e;
+text-transform: uppercase;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+.history-card h3 { margin: 10px 0 5px 0; font-size: 1.1rem; }
+.history-card p { font-size: 0.9rem; color: #7f8c8d; margin: 0; }
+.resource .icon { font-size: 1.5rem; margin-bottom: 15px; }
+.section-header { display: flex; justify-content: space-between; align-items: flex-end; }
+.controls button {
+background: white;
+border: 1px solid var(--border);
+padding: 6px 12px;
+border-radius: 4px;
+font-size: 0.75rem;
+cursor: pointer;
+margin-left: 5px;
+color: var(--accent);
+}
+.controls button:hover { background: #f0f0f0; }
+.search-box { margin-bottom: 2rem; }
+.search-box input {
+width: 100%;
+padding: 12px;
+border: 1px solid var(--border);
+border-radius: 8px;
+font-size: 1rem;
+box-sizing: border-box;
+}
+.glossary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.glossary-item {
+background: white;
+border: 1px solid var(--border);
+padding: 1rem;
+border-radius: 6px;
+}
+.glossary-item .term { font-size: 1rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 5px; }
+.glossary-item .term small { color: #888; display: block; font-size: 0.7rem; }
+.glossary-item .definition { font-size: 0.85rem; color: #444; }
+.glossary-item .backlink { font-size: 0.7rem; margin-top: 10px; color: #999; }
+.glossary-item .backlink a { color: var(--accent); text-decoration: none; }
+footer { margin-top: 5rem; text-align: center; border-top: 1px solid var(--border); padding-top: 2rem; color: #95a5a6; font-size: 0.8rem; }
+
+@media (max-width: 600px) {
+.container { padding: 1.5rem; }
+header h1 { font-size: 2rem; }
+.card.active { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
+
+.lesson-content { background: white; padding: 3rem; border-radius: 8px; border: 1px solid var(--border); margin-top: 2rem; }
+.lesson-content h2 { margin-top: 2rem; color: var(--accent); border: none; padding: 0; font-size: 1.5rem; }
+.lesson-content ul { padding-left: 20px; }
+.lesson-content li { margin-bottom: 8px; }
+.lesson-content code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
+
+.resource-links { display: flex; gap: 10px; margin-top: 1rem; }
+.btn-mini {
+display: inline-block;
+padding: 6px 12px;
+background: #3498db;
+color: white !important;
+font-size: 0.75rem;
+font-weight: 600;
+border-radius: 6px;
+text-decoration: none;
+transition: background 0.2s;
+}
+.btn-mini:hover { background: #2980b9; }
+.btn-pdf { background: #e74c3c; }
+.btn-pdf:hover { background: #c0392b; }
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Relatório Executivo Premium</h1>
+</header>
+<h1 id="aula-25-relative-clauses-identifying-with-oneones">Aula 25:
+Relative Clauses &amp; Identifying with One/Ones</h1>
+<h2 id="warm-up-passive-voice-review">⚡ Warm-up: Passive Voice
+Review</h2>
+<p><em>Review from Class 24 (The “Report” Tone):</em> - “We delivered
+the project yesterday.” -&gt;<strong>The project was delivered
+yesterday.</strong>- “The technicians follow the safety standards.”
+-&gt;<strong>Safety standards are followed by the technicians.</strong>-
+“Mônica chose the sustainable material.” -&gt;<strong>The sustainable
+material was chosen by Mônica.</strong>### 🔍 Contrast: Safety
+vs. Security -<strong>Safety:</strong>Passive protection (safety
+standards, safety equipment). -<strong>Security:</strong>Active
+protection (guards, alarms, active systems).</p>
+<hr />
+<h2 id="grammar-1-relative-clauses-the-connectors">🚀 Grammar 1:
+Relative Clauses (The Connectors)</h2>
+<p><em>Relative Clauses connect ideas and create fluid technical
+descriptions.</em></p>
+<h3 id="key-pronouns">🔍 Key Pronouns:</h3>
+<p>-<strong>WHO (People):</strong>For professionals or team members. -
+<em>Ex:</em> “The specialist<strong>who</strong>calculates the
+load-bearing capacity…” -<strong>WHICH (Things):</strong>For objects,
+materials, laws or documents. - <em>Ex:</em> “The
+standard<strong>which</strong>regulates hospital lighting…”
+-<strong>THAT (People/Things):</strong>Versatile, used mainly in
+information essential for the sentence. - <em>Ex:</em> “The only
+material<strong>that</strong>meets the budget is vinyl.” -<strong>WHERE
+(Places):</strong>For rooms, sectors or construction sites. -
+<em>Ex:</em> “The area<strong>where</strong>the vaccines are stored must
+have backup power.”</p>
+<hr />
+<h2 id="grammar-2-the-power-of-one-ones">🚀 Grammar 2: The Power of ONE
+/ ONES</h2>
+<p><em>Used to substitute a noun already mentioned, avoiding
+monotony.</em></p>
+<h3 id="key-examples">🛠 Key Examples:</h3>
+<p>-<strong>Identifying:</strong>”Which layout do you prefer?” -&gt; “I
+prefer the<strong>ones</strong>with the open floor plan.”
+-<strong>Contrasting:</strong>”These fixtures are good, but
+the<strong>ones</strong>we used in the previous project were better.”
+-<strong>The “Special” One:</strong>”The<strong>one</strong>who leads
+the BIM coordination is Mônica.”</p>
+<hr />
+<h2 id="practical-drills-classroom-results">🛠 Practical Drills
+(Classroom Results)</h2>
+<ol type="1">
+<li>“We have a contractor. He is responsible for the foundations.”
+-&gt;<strong>The contractor WHO is responsible for the
+foundations.</strong>2. “I am looking for the blueprint. It shows the
+plumbing system.” -&gt;<strong>I am looking for the blueprint WHICH
+shows the plumbing system.</strong>3. “This is the wing. We will install
+the new HVAC system there.” -&gt;<strong>This is the wing WHERE we will
+install the new HVAC system.</strong>4. “There were many suppliers.
+The<strong>onesthat</strong>offered the best price were chosen.”</li>
+</ol>
+<hr />
+<h2 id="professional-vocabulary-phonetic-focus">🗣 Professional
+Vocabulary &amp; Phonetic Focus</h2>
+<p>-<strong>The day before yesterday:</strong>Anteontem.
+-<strong>Plumbing:</strong>Encanamento (Attention to the silent ‘b’).
+-<strong>Suppliers:</strong>Fornecedores.
+-<strong>Previous:</strong>Anterior. -<strong>Preview:</strong>Previsão.
+-<strong>Store / Storage:</strong>Armazenar / Armazenamento.
+-<strong>Which</strong>(/wɪtʃ/) vs<strong>Witch</strong>(/wɪtʃ/) -
+Homophones. -<strong>One</strong>(/wʌn/) vs<strong>Won</strong>(/wʌn/) -
+Homophones.</p>
+<hr />
+<h2 id="transbordo-para-aula-26">🌊 Transbordo para Aula 26</h2>
+<p><em>Conteúdo planejado que será abordado na próxima sessão:</em> -
+Drilling 2: Specification Accuracy (The one(s) that/which/who complex
+structures). - Drilling 3: Error Correction (Audit Mode). - Oral
+Practice: “The Specification Challenge”.</p>
+</body>
+</html>
