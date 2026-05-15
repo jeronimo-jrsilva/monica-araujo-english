@@ -174,6 +174,13 @@
       "title": "Precision with Relative Clauses",
       "summary": "Mastering Who, Which, That, Where to connect technical ideas. Introduction to One/Ones as substitutes to avoid repetition in specifications.",
       "url": "classes/2026-05-13.html"
+    },
+    {
+      "id": 26,
+      "date": "2026-05-15",
+      "title": "Vastu Shastra: The Science of Vedic Architecture",
+      "summary": "Ancient Indian science of design. Harmonizing spaces with the Five Elements (Panchbhootas) and cardinal directions for energy flow.",
+      "url": "classes/2026-05-15.html"
     }
   ],
   "resources": [
@@ -990,6 +997,12 @@
       "phonetic": "/sɪˈkjʊərəti/",
       "definition": "Segurança (Ativa/Vigilância)",
       "class_id": 25
+    },
+    {
+      "term": "Sharp angles / Poison arrows",
+      "phonetic": "/ʃɑːrp ˈæŋɡəlz/ /ˈpɔɪzn ˈæroʊz/",
+      "definition": "Ângulos Agudos (Flechas)",
+      "class_id": 26
     },
     {
       "term": "Signage",
