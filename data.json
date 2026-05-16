@@ -181,6 +181,13 @@
       "title": "Vastu Shastra: The Science of Vedic Architecture",
       "summary": "Ancient Indian science of design. Harmonizing spaces with the Five Elements (Panchbhootas) and cardinal directions for energy flow.",
       "url": "classes/2026-05-15.html"
+    },
+    {
+      "id": 27,
+      "date": "2026-05-16",
+      "title": "Vastu Shastra Drillings & Grammar Review",
+      "summary": "Consolidating Vastu concepts through Passive Voice and Relative Clauses drills. Reviewing Too/Enough and One/Ones in architectural contexts.",
+      "url": "classes/2026-05-16.html"
     }
   ],
   "resources": [
@@ -279,6 +286,12 @@
       "class_id": 19
     },
     {
+      "term": "Anchor / Anchoring",
+      "phonetic": "/'æŋkər/",
+      "definition": "Âncora / Ancoragem",
+      "class_id": 27
+    },
+    {
       "term": "Anti-microbial",
       "phonetic": "/ˌænti maɪˈkroʊbiəl/",
       "definition": "Antimicrobiano",
@@ -361,6 +374,12 @@
       "phonetic": "/'bluːprɪnt/",
       "definition": "Planta baixa / Projeto técnico",
       "class_id": 0
+    },
+    {
+      "term": "Brahmsthan",
+      "phonetic": "/'brʌmˌstɑːn/",
+      "definition": "Centro da casa (Espaço sagrado)",
+      "class_id": 27
     },
     {
       "term": "Bribes",
@@ -855,6 +874,12 @@
       "class_id": 23
     },
     {
+      "term": "Plinth",
+      "phonetic": "/plɪnθ/",
+      "definition": "Pedestal / Base / Nível de Rodapé",
+      "class_id": 27
+    },
+    {
       "term": "Plumbing",
       "phonetic": "/ˈplʌmɪŋ/",
       "definition": "Encanamento (B mudo)",
@@ -1035,6 +1060,12 @@
       "class_id": 22
     },
     {
+      "term": "Sloping ground",
+      "phonetic": "/ˈsloʊpɪŋ ɡraʊnd/",
+      "definition": "Terreno inclinado",
+      "class_id": 27
+    },
+    {
       "term": "Smell",
       "phonetic": "/smel/",
       "definition": "Cheiro / Cheirar",
@@ -1045,6 +1076,12 @@
       "phonetic": "/'speʃəlɪsts/",
       "definition": "Especialistas (Pronúncia: Spé-chalists)",
       "class_id": 6
+    },
+    {
+      "term": "Stability",
+      "phonetic": "/stə'bɪləti/",
+      "definition": "Estabilidade",
+      "class_id": 27
     },
     {
       "term": "Stakeholders",
@@ -1141,6 +1178,12 @@
       "phonetic": "/taɪt 'dedlaɪn/",
       "definition": "Prazo apertado",
       "class_id": 17
+    },
+    {
+      "term": "Timber",
+      "phonetic": "/'tɪmbər/",
+      "definition": "Madeira (de construção)",
+      "class_id": 27
     },
     {
       "term": "To believe",
