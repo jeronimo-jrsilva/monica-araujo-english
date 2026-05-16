@@ -760,6 +760,12 @@
       "class_id": 6
     },
     {
+      "term": "Laundry",
+      "phonetic": "/'lɔːndri/",
+      "definition": "Lavanderia",
+      "class_id": 27
+    },
+    {
       "term": "Layout",
       "phonetic": "/'leɪaʊt/",
       "definition": "Layout / Arranjo físico",
@@ -1232,6 +1238,12 @@
       "phonetic": "/tə wer/",
       "definition": "Vestir / Usar (Roupas/EPI)",
       "class_id": 24
+    },
+    {
+      "term": "Toilet",
+      "phonetic": "/'tɔɪlət/",
+      "definition": "Sanitário / Banheiro",
+      "class_id": 27
     },
     {
       "term": "Tough",
