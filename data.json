@@ -526,6 +526,12 @@
       "class_id": 17
     },
     {
+      "term": "Duct",
+      "phonetic": "/dʌkt/",
+      "definition": "Duto / Tubulação / 'Cano'",
+      "class_id": 28
+    },
+    {
       "term": "Employed",
       "phonetic": "/ɪm'plɔɪd/",
       "definition": "Empregado (Verbo)",
@@ -706,6 +712,12 @@
       "class_id": 18
     },
     {
+      "term": "ICU",
+      "phonetic": "/ˌaɪ siː ˈjuː/",
+      "definition": "UTI (Intensive Care Unit)",
+      "class_id": 28
+    },
+    {
       "term": "In front of",
       "phonetic": "/ɪn frʌnt əv/",
       "definition": "Em frente a",
@@ -800,6 +812,12 @@
       "phonetic": "/ˈlaɪtɪŋ/",
       "definition": "Iluminação",
       "class_id": 22
+    },
+    {
+      "term": "Lightning",
+      "phonetic": "/ˈlaɪtnɪŋ/",
+      "definition": "Relâmpago",
+      "class_id": 28
     },
     {
       "term": "Located",
@@ -1096,6 +1114,12 @@
       "class_id": 18
     },
     {
+      "term": "Stakeholders",
+      "phonetic": "/ˈsteɪkˌhoʊldərz/",
+      "definition": "Partes interessadas / Envolvidos",
+      "class_id": 28
+    },
+    {
       "term": "Stayed",
       "phonetic": "/steɪd/",
       "definition": "Ficou / Permaneceu",
@@ -1172,6 +1196,12 @@
       "phonetic": "/θruːˈaʊt/",
       "definition": "Por todo / Em toda a extensão",
       "class_id": 21
+    },
+    {
+      "term": "Thunder",
+      "phonetic": "/ˈθʌndər/",
+      "definition": "Trovão",
+      "class_id": 28
     },
     {
       "term": "Tidy up",
