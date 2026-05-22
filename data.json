@@ -533,10 +533,46 @@
       "class_id": 17
     },
     {
+      "term": "Chillers & Cooling Towers",
+      "phonetic": "/ˈtʃɪlərz ænd ˈkuːlɪŋ ˈtaʊərz/",
+      "definition": "Resfriadores e Torres de Resfriamento",
+      "class_id": 29
+    },
+    {
+      "term": "Dampers",
+      "phonetic": "/ˈdæmpərz/",
+      "definition": "Abafadores / Registros de controle de ar",
+      "class_id": 29
+    },
+    {
+      "term": "Diffusers",
+      "phonetic": "/dɪˈfjuːzərz/",
+      "definition": "Difusores (Grelhas de teto)",
+      "class_id": 29
+    },
+    {
       "term": "Duct",
       "phonetic": "/dʌkt/",
       "definition": "Duto / Tubulação / 'Cano'",
       "class_id": 28
+    },
+    {
+      "term": "Fan Coil Units (FCU)",
+      "phonetic": "/fæn kɔɪl ˈjuːnɪts/",
+      "definition": "Unidades de ventilação local",
+      "class_id": 29
+    },
+    {
+      "term": "Grilles",
+      "phonetic": "/ɡrɪlz/",
+      "definition": "Grelhas de ventilação",
+      "class_id": 29
+    },
+    {
+      "term": "HEPA Filters",
+      "phonetic": "/ˈhɛpə ˈfɪltərz/",
+      "definition": "Filtros de alta eficiência (Ar)",
+      "class_id": 29
     },
     {
       "term": "Employed",
