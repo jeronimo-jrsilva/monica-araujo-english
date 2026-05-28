@@ -209,6 +209,13 @@
       "title": "Site Safety & PPE",
       "summary": "High-density session on safety protocols, PPE vocabulary and risk management on construction sites.",
       "url": "classes/2026-05-23.html"
+    },
+    {
+      "id": "31 & 32",
+      "date": "2026-05-28",
+      "title": "Vastu Shastra Architecture & Existential Structures",
+      "summary": "Consolidated session covering architectural principles of Vastu Shastra, orientation, and advanced time-travel structures.",
+      "url": "classes/2026-05-28.html"
     }
   ],
   "resources": [
@@ -337,6 +344,12 @@
       "class_id": 19
     },
     {
+      "term": "Away from",
+      "phonetic": "/əˈweɪ frʌm/",
+      "definition": "Longe/afastado de",
+      "class_id": 31
+    },
+    {
       "term": "Backup Generator",
       "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
       "definition": "Gerador de emergência",
@@ -353,6 +366,12 @@
       "phonetic": "/ˈbæriərz/",
       "definition": "Barreiras / Tapumes",
       "class_id": 30
+    },
+    {
+      "term": "Bathtub",
+      "phonetic": "/ˈbæθtʌb/",
+      "definition": "Banheira",
+      "class_id": 31
     },
     {
       "term": "Bedroom",
@@ -413,6 +432,12 @@
       "phonetic": "/braɪbz/",
       "definition": "Subornos / Propinas",
       "class_id": 3
+    },
+    {
+      "term": "Briefing",
+      "phonetic": "/ˈbriːfɪŋ/",
+      "definition": "Reunião de alinhamento / Resumo",
+      "class_id": 31
     },
     {
       "term": "Budget",
@@ -499,6 +524,12 @@
       "class_id": 13
     },
     {
+      "term": "Confluence",
+      "phonetic": "/ˈkɒnfluəns/",
+      "definition": "Confluência",
+      "class_id": 31
+    },
+    {
       "term": "Consultation Room",
       "phonetic": "/ˌkɒnsl'teɪʃn ruːm/",
       "definition": "Consultório",
@@ -547,6 +578,12 @@
       "class_id": 29
     },
     {
+      "term": "Dimension",
+      "phonetic": "/dɪˈmɛnʃən/",
+      "definition": "Dimensão",
+      "class_id": 31
+    },
+    {
       "term": "Dimmer",
       "phonetic": "/ˈdɪmər/",
       "definition": "Regulador de intensidade (Luz)",
@@ -563,6 +600,12 @@
       "phonetic": "/ˌdɪsər'teɪʃn/",
       "definition": "Dissertação / Tese acadêmica",
       "class_id": 8
+    },
+    {
+      "term": "Distress",
+      "phonetic": "/dɪˈstrɛs/",
+      "definition": "Aflição",
+      "class_id": 31
     },
     {
       "term": "Downtown",
@@ -649,6 +692,12 @@
       "class_id": 18
     },
     {
+      "term": "Facing",
+      "phonetic": "/ˈfeɪsɪŋ/",
+      "definition": "Voltado/virado para",
+      "class_id": 31
+    },
+    {
       "term": "Fan Coil Units (FCU)",
       "phonetic": "/fæn kɔɪl ˈjuːnɪts/",
       "definition": "Unidades de ventilação local",
@@ -709,6 +758,12 @@
       "class_id": 2
     },
     {
+      "term": "Geographic north",
+      "phonetic": "",
+      "definition": "Norte geográfico",
+      "class_id": 31
+    },
+    {
       "term": "Glare",
       "phonetic": "/ɡler/",
       "definition": "Ofuscamento / Luz incômoda",
@@ -731,6 +786,12 @@
       "phonetic": "/ɡrɪlz/",
       "definition": "Grelhas de ventilação",
       "class_id": 29
+    },
+    {
+      "term": "Guest",
+      "phonetic": "/ɡɛst/",
+      "definition": "Visitante / Hóspede",
+      "class_id": 31
     },
     {
       "term": "Hard Hat / Helmet",
@@ -797,6 +858,12 @@
       "phonetic": "/həˈraɪznz/",
       "definition": "Horizontes",
       "class_id": 23
+    },
+    {
+      "term": "Host",
+      "phonetic": "/hoʊst/",
+      "definition": "Anfitrião",
+      "class_id": 31
     },
     {
       "term": "How are you?",
@@ -883,6 +950,12 @@
       "class_id": 6
     },
     {
+      "term": "Ladders",
+      "phonetic": "/ˈlædərz/",
+      "definition": "Escadas móveis (alumínio/abrir)",
+      "class_id": 31
+    },
+    {
       "term": "Laundry",
       "phonetic": "/'lɔːndri/",
       "definition": "Lavanderia",
@@ -937,6 +1010,18 @@
       "class_id": 3
     },
     {
+      "term": "Lungs",
+      "phonetic": "/lʌŋz/",
+      "definition": "Pulmões",
+      "class_id": 31
+    },
+    {
+      "term": "Magnetic north",
+      "phonetic": "",
+      "definition": "Norte magnético",
+      "class_id": 31
+    },
+    {
       "term": "Main",
       "phonetic": "/meɪn/",
       "definition": "Principal",
@@ -959,6 +1044,12 @@
       "phonetic": "/neɪmd/",
       "definition": "Nomeado/Chamado (ex: name of the company)",
       "class_id": 3
+    },
+    {
+      "term": "Navel / Belly button",
+      "phonetic": "/ˈneɪvəl/ / /ˈbɛli ˈbʌtən/",
+      "definition": "Umbigo",
+      "class_id": 31
     },
     {
       "term": "Non-slip",
@@ -1111,10 +1202,22 @@
       "class_id": 22
     },
     {
+      "term": "Reuse",
+      "phonetic": "/riːˈjuːz/",
+      "definition": "Reuso",
+      "class_id": 31
+    },
+    {
       "term": "Right after",
       "phonetic": "/raɪt 'æftər/",
       "definition": "Logo em seguida",
       "class_id": 5
+    },
+    {
+      "term": "Roof",
+      "phonetic": "/ruːf/",
+      "definition": "Telhado",
+      "class_id": 31
     },
     {
       "term": "Rooftop",
@@ -1177,6 +1280,12 @@
       "class_id": 25
     },
     {
+      "term": "Sewage",
+      "phonetic": "/ˈsuːɪdʒ/",
+      "definition": "Esgoto",
+      "class_id": 31
+    },
+    {
       "term": "Sharp angles / Poison arrows",
       "phonetic": "/ʃɑːrp ˈæŋɡəlz/ /ˈpɔɪzn ˈæroʊz/",
       "definition": "Ângulos Agudos (Flechas)",
@@ -1237,6 +1346,12 @@
       "class_id": 27
     },
     {
+      "term": "Stairs",
+      "phonetic": "/stɛərz/",
+      "definition": "Escadas fixas (alvenaria/madeira)",
+      "class_id": 31
+    },
+    {
       "term": "Stakeholders",
       "phonetic": "/ˈsteɪkˌhoʊldərz/",
       "definition": "Partes interessadas (Sócios/Envolvidos)",
@@ -1267,6 +1382,12 @@
       "class_id": 30
     },
     {
+      "term": "Steps",
+      "phonetic": "/stɛps/",
+      "definition": "Degraus",
+      "class_id": 31
+    },
+    {
       "term": "Still",
       "phonetic": "/stɪl/",
       "definition": "Ainda",
@@ -1277,6 +1398,24 @@
       "phonetic": "/stɔːr/ /ˈstɔːrɪdʒ/",
       "definition": "Armazenar / Armazenamento",
       "class_id": 25
+    },
+    {
+      "term": "Stove",
+      "phonetic": "/stoʊv/",
+      "definition": "Fogão",
+      "class_id": 31
+    },
+    {
+      "term": "Straight angles",
+      "phonetic": "/streɪt ˈæŋɡəlz/",
+      "definition": "Ângulos retos",
+      "class_id": 31
+    },
+    {
+      "term": "Street level",
+      "phonetic": "",
+      "definition": "Nível da rua",
+      "class_id": 31
     },
     {
       "term": "Stretcher",
@@ -1319,6 +1458,12 @@
       "phonetic": "/ðə deɪ bɪˈfɔːr ˈjestədeɪ/",
       "definition": "Anteontem",
       "class_id": 25
+    },
+    {
+      "term": "The stage is yours",
+      "phonetic": "",
+      "definition": "O palco é seu",
+      "class_id": 31
     },
     {
       "term": "Through",
@@ -1409,6 +1554,12 @@
       "phonetic": "/'tɔɪlət/",
       "definition": "Sanitário / Banheiro",
       "class_id": 27
+    },
+    {
+      "term": "Toilet",
+      "phonetic": "/ˈtɔɪlɪt/",
+      "definition": "Vaso sanitário",
+      "class_id": 31
     },
     {
       "term": "Tough",

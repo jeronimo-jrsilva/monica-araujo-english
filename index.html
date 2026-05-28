@@ -73,7 +73,7 @@
                 renderResources(portalData.resources || []);
                 
                 // Initial render: Newest First
-                const sorted = [...portalData.classes].sort((a, b) => b.id - a.id);
+                const sorted = [...portalData.classes].sort((a, b) => b.date.localeCompare(a.date));
                 renderClasses(sorted);
                 document.querySelector('button[onclick*="desc"]').classList.add('active');
                 
@@ -125,7 +125,7 @@
             event.target.classList.add('active');
 
             const sorted = [...portalData.classes].sort((a, b) => 
-                order === 'asc' ? a.id - b.id : b.id - a.id
+                order === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)
             );
             renderClasses(sorted);
         }
