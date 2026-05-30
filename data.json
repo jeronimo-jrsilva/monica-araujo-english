@@ -216,6 +216,13 @@
       "title": "Vastu Shastra Architecture & Existential Structures",
       "summary": "Consolidated session covering architectural principles of Vastu Shastra, orientation, and advanced time-travel structures.",
       "url": "classes/2026-05-28.html"
+    },
+    {
+      "id": 33,
+      "date": "2026-05-30",
+      "title": "Executive Reporting: Sentence Linkers",
+      "summary": "Mastering logical connectors for Addition, Contrast and Cause/Effect in high-level corporate reporting.",
+      "url": "classes/2026-05-30.html"
     }
   ],
   "resources": [
@@ -524,10 +531,28 @@
       "class_id": 13
     },
     {
+      "term": "Compromised",
+      "phonetic": "/'kɒmprəmaɪzd/",
+      "definition": "Apresenta falhas / Inadequado",
+      "class_id": 33
+    },
+    {
+      "term": "Concrete pouring",
+      "phonetic": "/'kɒnkriːt 'pɔːrɪŋ/",
+      "definition": "Concretagem",
+      "class_id": 33
+    },
+    {
       "term": "Confluence",
       "phonetic": "/ˈkɒnfluəns/",
       "definition": "Confluência",
       "class_id": 31
+    },
+    {
+      "term": "Consequently",
+      "phonetic": "/'kɒnsɪkwəntli/",
+      "definition": "Consequentemente",
+      "class_id": 33
     },
     {
       "term": "Consultation Room",
@@ -746,6 +771,12 @@
       "class_id": 21
     },
     {
+      "term": "Foundation",
+      "phonetic": "/faʊn'deɪʃn/",
+      "definition": "Fundação / Base",
+      "class_id": 33
+    },
+    {
       "term": "Frozen",
       "phonetic": "/'froʊzn/",
       "definition": "Congelado (Past Participle)",
@@ -756,6 +787,12 @@
       "phonetic": "/'fɜːrnɪtʃər/",
       "definition": "Móveis",
       "class_id": 2
+    },
+    {
+      "term": "Furthermore",
+      "phonetic": "/ˌfɜːrðər'mɔːr/",
+      "definition": "Além disso / Ademais",
+      "class_id": 33
     },
     {
       "term": "Geographic north",
@@ -792,6 +829,12 @@
       "phonetic": "/ɡɛst/",
       "definition": "Visitante / Hóspede",
       "class_id": 31
+    },
+    {
+      "term": "Halt",
+      "phonetic": "/hɔːlt/",
+      "definition": "Pausa / Interrupção",
+      "class_id": 33
     },
     {
       "term": "Hard Hat / Helmet",
@@ -1038,6 +1081,12 @@
       "phonetic": "/ˈmaɪɡreɪn/",
       "definition": "Enxaqueca",
       "class_id": 19
+    },
+    {
+      "term": "Moreover",
+      "phonetic": "/mɔːr'oʊvər/",
+      "definition": "Além do mais / Ademais",
+      "class_id": 33
     },
     {
       "term": "Named",
