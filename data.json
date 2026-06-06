@@ -223,6 +223,27 @@
       "title": "Executive Reporting: Sentence Linkers",
       "summary": "Mastering logical connectors for Addition, Contrast and Cause/Effect in high-level corporate reporting.",
       "url": "classes/2026-05-30.html"
+    },
+    {
+      "id": 34,
+      "date": "2026-06-04",
+      "title": "The Architect's Foundation: Basic Structures & Initial Connectors",
+      "summary": "Consolidation of auxiliary verbs (Do/Does/Did) and transition to Contrast connectors.",
+      "url": "classes/2026-06-04.html"
+    },
+    {
+      "id": 35,
+      "date": "2026-06-05",
+      "title": "Executive Planning & Contrast Fundamentals",
+      "summary": "Focus on Contrast connectors (Although/Despite) and executive planning vocabulary.",
+      "url": "classes/2026-06-05.html"
+    },
+    {
+      "id": 36,
+      "date": "2026-06-06",
+      "title": "Precision & Delegation: Relative Clauses & Causative Form",
+      "summary": "Mastering Relative Clauses for precision and Causative Form for delegation in healthcare design.",
+      "url": "classes/2026-06-06.html"
     }
   ],
   "resources": [
@@ -357,6 +378,12 @@
       "class_id": 31
     },
     {
+      "term": "Backlog",
+      "phonetic": "/ˈbækˌlɒɡ/",
+      "definition": "Tarefas acumuladas/pendentes",
+      "class_id": 36
+    },
+    {
       "term": "Backup Generator",
       "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
       "definition": "Gerador de emergência",
@@ -417,6 +444,12 @@
       "class_id": 1
     },
     {
+      "term": "Biohazard",
+      "phonetic": "/ˌbaɪoʊˈhæzərd/",
+      "definition": "Risco biológico",
+      "class_id": 36
+    },
+    {
       "term": "Blackout",
       "phonetic": "/ˈblækˌaʊt/",
       "definition": "Apagão / Queda de energia",
@@ -427,6 +460,24 @@
       "phonetic": "/'bluːprɪnt/",
       "definition": "Planta baixa / Projeto técnico",
       "class_id": 0
+    },
+    {
+      "term": "Blueprints",
+      "phonetic": "/ˈbluːˌprɪnts/",
+      "definition": "Plantas técnicas / Projetos originais",
+      "class_id": 36
+    },
+    {
+      "term": "Board",
+      "phonetic": "/bɔːrd/",
+      "definition": "Mesa diretora / Conselho / Diretoria",
+      "class_id": 36
+    },
+    {
+      "term": "Bottleneck",
+      "phonetic": "/ˈbɒt.əl.nek/",
+      "definition": "Gargalo",
+      "class_id": 36
     },
     {
       "term": "Brahmsthan",
@@ -529,6 +580,12 @@
       "phonetic": "/kəm'plaɪəns/",
       "definition": "Conformidade (Normas)",
       "class_id": 13
+    },
+    {
+      "term": "Compliance",
+      "phonetic": "/kəm'plaɪəns/",
+      "definition": "Conformidade / Obediência a leis",
+      "class_id": 36
     },
     {
       "term": "Compromised",
