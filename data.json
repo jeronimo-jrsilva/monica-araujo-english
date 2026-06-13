@@ -251,6 +251,13 @@
       "title": "Operational Phrasal Verbs & Advanced Causative Scenarios",
       "summary": "Executing actions and investigating discrepancies using management Phrasal Verbs; deep dive into delegation in critical scenarios.",
       "url": "classes/2026-06-11.html"
+    },
+    {
+      "id": 38,
+      "date": "2026-06-13",
+      "title": "Precision in Reporting & The Pre-Audit Challenge",
+      "summary": "Refining descriptive precision using Relative Clauses and consolidating executive delegation in a simulated briefing.",
+      "url": "classes/2026-06-13.html"
     }
   ],
   "resources": [
@@ -377,6 +384,12 @@
       "phonetic": "/əˈreɪndʒmənt/",
       "definition": "Arranjo físico / Disposição",
       "class_id": 19
+    },
+    {
+      "term": "Audit",
+      "phonetic": "/ˈɔːdɪt/",
+      "definition": "Auditoria",
+      "class_id": 38
     },
     {
       "term": "Away from",
@@ -635,6 +648,12 @@
       "phonetic": "/ˌkoʊ'wɜːrkər/",
       "definition": "Colega de trabalho",
       "class_id": 4
+    },
+    {
+      "term": "Cracked",
+      "phonetic": "/krækt/",
+      "definition": "Rachado",
+      "class_id": 38
     },
     {
       "term": "Critically ill patients",
@@ -1093,6 +1112,12 @@
       "class_id": 22
     },
     {
+      "term": "Lead Time",
+      "phonetic": "/ˈliːd ˌtaɪm/",
+      "definition": "Tempo de espera / Prazo de entrega",
+      "class_id": 38
+    },
+    {
       "term": "Leak / Leaking",
       "phonetic": "/liːk/",
       "definition": "Vazar / Vazamento",
@@ -1279,6 +1304,12 @@
       "class_id": 16
     },
     {
+      "term": "Punch List",
+      "phonetic": "/ˈpʌntʃ ˌlɪst/",
+      "definition": "Lista de pendências finais",
+      "class_id": 38
+    },
+    {
       "term": "Reach",
       "phonetic": "/riːtʃ/",
       "definition": "Alcançar / Chegar a",
@@ -1409,6 +1440,12 @@
       "phonetic": "/ʃɑːrp ˈæŋɡəlz/ /ˈpɔɪzn ˈæroʊz/",
       "definition": "Ângulos Agudos (Flechas)",
       "class_id": 26
+    },
+    {
+      "term": "Shielding",
+      "phonetic": "/ˈʃiːldɪŋ/",
+      "definition": "Blindagem / Isolamento",
+      "class_id": 38
     },
     {
       "term": "Signage",
@@ -1555,6 +1592,12 @@
       "class_id": 6
     },
     {
+      "term": "Stuck",
+      "phonetic": "/stʌk/",
+      "definition": "Preso / Travado",
+      "class_id": 38
+    },
+    {
       "term": "Supplier",
       "phonetic": "/səˈplaɪər/",
       "definition": "Fornecedor",
@@ -1627,6 +1670,12 @@
       "class_id": 24
     },
     {
+      "term": "To Brief",
+      "phonetic": "/tə briːf/",
+      "definition": "Dar instruções / Resumir o essencial",
+      "class_id": 38
+    },
+    {
       "term": "To deal with",
       "phonetic": "/diːl wɪð/",
       "definition": "Lidar com / Tratar de",
@@ -1655,6 +1704,12 @@
       "phonetic": "/meɪk/",
       "definition": "Fazer/Elaborar projetos",
       "class_id": 1
+    },
+    {
+      "term": "To Oversee",
+      "phonetic": "/tə ˌoʊ.vɚˈsiː/",
+      "definition": "Supervisionar / Gerenciar",
+      "class_id": 38
     },
     {
       "term": "To visit clients",
