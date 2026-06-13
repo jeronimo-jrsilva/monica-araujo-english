@@ -5,69 +5,74 @@ titulo: "2026-06-13_Aula_38_Monica_Araujo"
 aluna: "[[02_Cérebro/👤 Contatos/👤 Monica Araujo|Monica Araujo]]"
 aula: 38
 data: 2026-06-13
-topico: "The Drill Edition: Precision & Rapid Delegation"
-foco_comunicativo: "Mecanização do Causative Form e expansão de Relative Clauses através de drillings intensivos em múltiplos cenários técnicos."
+topico: "The Rapid-Fire Special: Mastery through Drills"
+foco_comunicativo: "Consolidação exaustiva de estruturas passadas (Causative, Modals, Past vs Present Perfect) através de drillings de reação instantânea."
 status: concluído
 ---
 
-# 🎓 Aula 38: Monica Araujo (13/06) - The Drill Edition
+# 🎓 Aula 38: Monica Araujo (13/06) - Rapid-Fire Special
 
 > [!abstract] Foco Pedagógico
-> Substituição de teoria passiva por mecanização ativa. A aluna deve construir 100% das frases baseada em gatilhos (triggers) de gestão e infraestrutura.
+> O objetivo hoje não é "aprender" e sim "automatizar". A aluna não deve ter tempo de pensar na regra, apenas em reagir ao cenário técnico.
 
 ---
 
-## ⚡ 1. The Causative Machine (Rapid-Fire Drill)
-*Objective: Instant delegation using HAVE + SOMETHING + DONE.*
+## ⚡ 1. The Causative Machine (New Scenarios)
+*Trigger: A failure occurs. Response: Delegate the fix (HAVE + SOMETHING + DONE).*
 
-**The Trigger:** "The [Element] is [Problem]."
-**The Response:** "I'll **have** the [Element] **[V3/Action]**."
-
-| Trigger (Problem) | Expected Response (Delegation) | Key Vocabulary |
-| :--- | :--- | :--- |
-| "The hospital elevator is stuck." | "I'll **have** it **fixed**." | `Stuck` |
-| "The floor tiles are cracked." | "I'll **have** them **replaced**." | `Cracked` |
-| "The budget was rejected." | "I'll **have** it **revised**." | `Revised` |
-| "The biohazard signs are missing." | "I'll **have** them **reprinted**." | `Missing` / `Reprinted` |
-| "The HVAC filters are dirty." | "I'll **have** them **cleaned**." | `Filters` / `Cleaned` |
-| "The contract has errors." | "I'll **have** it **ironed out**." | `Iron out` (Phrasal Verb) |
+| Trigger | Response (I'll have...) |
+| :--- | :--- |
+| "The security cameras are blurry." | "I'll **have** them **cleaned**." |
+| "The blueprints are outdated." | "I'll **have** them **updated**." |
+| "The fire alarm is beeping." | "I'll **have** it **checked**." |
+| "The paint is peeling in the lobby." | "I'll **have** it **repainted**." |
 
 ---
 
-## 🏗️ 2. The Precision Builder (Relative Clauses)
-*Objective: Merging simple sentences into high-density executive definitions.*
+## 🕒 2. The Time Machine (Past vs. Present Perfect)
+*Objective: Choosing between SPECIFIC PAST and UNFINISHED/TRACK RECORD.*
 
-**Drill:** Combine the two sentences using **WHO**, **WHICH**, or **THAT**.
+**Rule:** Specific time? -> **Past Simple**. No time/Still relevant? -> **Present Perfect**.
 
-1. **Subcontractor + ICU:** "He is the person. He repairs the HVAC."
-   - *Result:* "He is the subcontractor **who** repairs the HVAC in the ICU."
-2. **Blueprint + Board:** "This is the document. The board approved it."
-   - *Result:* "This is the blueprint **which** the board approved."
-3. **Bottleneck + Project:** "It is a situation. It delays our progress."
-   - *Result:* "It is a bottleneck **that** delays the project progress."
-4. **Punch List + Delivery:** "This is the list. It contains the final tasks."
-   - *Result:* "This is the punch list **which** we need to finish before delivery."
-
----
-
-## 🏆 3. Scenario React: The Crisis Briefing
-*Objective: Managing a mix of scenarios using Phrasal Verbs and Connectors.*
-
-**Context 1: The Government Audit (Infrastructure)**
-- Trigger: "The X-Ray shielding failed the pre-test."
-- Task: Brief the team using **LOOK INTO** and **ALTHOUGH**.
-
-**Context 2: The New Office (Logistics)**
-- Trigger: "The furniture delivery is held up at the port."
-- Task: Brief the team using **CARRY OUT** and **DESPITE**.
+| Scenario Trigger | Expected Reflex Response |
+| :--- | :--- |
+| "You (finish) the report yesterday?" | "Did you **finish** it?" |
+| "You (visit) the site recently?" | "Have you **visited** it?" |
+| "We (fix) the leak two hours ago." | "We **fixed** it." |
+| "I (never / see) this type of HVAC." | "I **have never seen**..." |
+| "The board (approve) the budget last week." | "The board **approved** it." |
 
 ---
 
-## 📚 4. Vocabulary Mastery
-- **Punch List:** Lista de pendências finais.
-- **To Brief:** Dar instruções essenciais.
-- **Lead Time:** Tempo total de espera/processo.
-- **Stuck / Cracked / Revised:** Preso / Rachado / Revisado.
+## 🛡️ 3. The Compliance Machine (Modals)
+*Objective: Quick reaction to safety/norm violations (MUST / SHOULD / CAN'T).*
+
+| Trigger (Violation) | Expected Reflex Response |
+| :--- | :--- |
+| "A worker is without a hard hat." | "He **must** wear it." |
+| "The emergency exit is blocked." | "We **should** clear it immediately." |
+| "A visitor wants to enter the ICU." | "He **can't** enter without a mask." |
+| "The lead time is too long." | "We **should** look into other suppliers." |
+
+---
+
+## 🧠 4. The Logical Machine (Conditionals)
+*Objective: Quick "What-If" for project management (If + Present -> Will / If + Past -> Would).*
+
+| Scenario (What if?) | Reflex Action |
+| :--- | :--- |
+| "If the audit starts now..." | "...we **will** be in trouble." |
+| "If we had more budget..." | "...we **would** hire more people." |
+| "If the elevator fails tomorrow..." | "...I **will** call the subcontractor." |
+| "If I were the CEO..." | "...I **would** change the policy." |
+
+---
+
+## 🏆 5. Final Challenge: The Multi-Task CEO
+*Scenario: 3 phone calls in a row.*
+1. **Call 1 (Problem):** The roof is leaking. (Use Causative).
+2. **Call 2 (Update):** The subcontractor arrived 5 mins ago. (Use Past Simple).
+3. **Call 3 (Warning):** The inspector is coming tomorrow. (Use Conditional).
 
 ---
 [[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/index|📂 Voltar ao Hub]] | [[02_Cérebro/👤 Contatos/👤 Monica Araujo|👤 Perfil Monica Araujo]]
