@@ -1,45 +1,50 @@
 Class 38: Monica Araujo (2026-06-13)
-Precision in Reporting & The Pre-Audit Challenge
+THE DRILL EDITION: Precision & Rapid Delegation
 
 ---
-1. Precision Review: Relative Clauses
-Define these items using WHO / WHICH / THAT:
+PART 1: THE CAUSATIVE MACHINE (Rapid-Fire)
+Delegate the solution for these problems:
 
-- A Subcontractor: "A person who..."
-- A Blueprint: "A document which..."
-- A Bottleneck: "A situation that..."
-- The Board: "The group who..."
-- A Punch List: "A list which..."
-- A Stakeholder: "Anyone who..."
+1. "The hospital elevator is stuck."
+   > (Response: I'll have it...)
 
----
-2. The Causative Matrix (Delegation)
-Structure: HAVE + SOMETHING + DONE
+2. "The floor tiles are cracked."
+   > (Response: I'll have them...)
 
-Scenario: The hospital elevator is stuck.
-Action: "I'll have it fixed."
+3. "The budget was rejected."
+   > (Response: I'll have it...)
 
-Scenario: The floor tiles are cracked.
-Action: "I'll have them replaced."
+4. "The biohazard signs are missing."
+   > (Response: I'll have them...)
 
-Scenario: The budget was rejected.
-Action: "I'll have it revised."
+5. "The HVAC filters are dirty."
+   > (Response: I'll have them...)
+
+6. "The contract has errors."
+   > (Response: I'll have it...)
 
 ---
-3. Challenge: The Pre-Audit Briefing
-Goal: 1-minute briefing for your team.
+PART 2: THE PRECISION BUILDER (Sentence Merging)
+Combine using WHO / WHICH / THAT:
 
-Constraints:
-- Use Phrasal Verbs (Carry out, Look into, Iron out).
-- Use Causative Forms (Have something done).
-- Use Connectors (Despite / Although).
-
-"Despite the delay, we will carry out the final inspection..."
+1. "He is the person. He repairs the HVAC."
+2. "This is the document. The board approved it."
+3. "It is a situation. It delays our progress."
+4. "This is the list. It contains the final tasks."
 
 ---
-4. Vocabulary
-- To Brief: To provide essential information.
-- To Oversee: To supervise/manage.
-- Lead Time: Time between start and finish.
-- Punch List: Remaining minor tasks.
-- Audit: Auditoria.
+PART 3: SCENARIO REACT (Crisis Briefing)
+Manage the situation using: LOOK INTO / CARRY OUT / ALTHOUGH / DESPITE.
+
+Context 1: The X-Ray shielding failed the pre-test.
+> Brief your team: _______________________
+
+Context 2: The furniture delivery is held up at the port.
+> Brief your team: _______________________
+
+---
+PART 4: VOCABULARY CHECK
+- Punch List
+- To Brief
+- Lead Time
+- Stuck / Cracked / Revised
