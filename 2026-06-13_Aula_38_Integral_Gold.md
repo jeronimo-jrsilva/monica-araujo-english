@@ -13,7 +13,7 @@ status: concluído
 # 🎓 Aula 38: Monica Araujo (13/06) - Endurance Edition
 
 > [!abstract] Foco Pedagógico
-> **Exaustão Produtiva.** Repetição rítmica para criar memória muscular linguística. Sem tempo para tradução mental.
+> **Exaustão Produtiva.** Repetição rítmica para criar memória muscular linguística. O resto da aula terá continuidade na terça-feira.
 
 ---
 
@@ -33,18 +33,18 @@ status: concluído
 
 ---
 
-## 🕒 2. The Time Machine (10 Drills)
+## 🕒 2. The Time Machine (10 Drills - CONTINUAÇÃO NA TERÇA)
 *Past Simple (Yesterday/Ago) vs. Present Perfect (Recently/Never/Ever).*
 
-1. "You (call) the subcontractor this morning?" -> "**Did** you **call**...?"
-2. "I (never / work) with this material before." -> "I **have never worked**..."
-3. "We (finish) the foundation last month." -> "We **finished**..."
+1. "The inspector (arrive) at the site ten minutes ago." -> "The inspector **arrived**..."
+2. "We (already / implement) the new safety measures." -> "We **have already implemented**..."
+3. "I (write) the punch list yesterday afternoon." -> "I **wrote**..."
 4. "She (already / send) the proposal?" -> "**Has** she **already sent**...?"
 5. "They (look into) the leak two hours ago." -> "They **looked into**..."
 6. "You (ever / oversee) a project this big?" -> "**Have** you **ever overseen**...?"
 7. "The board (cancel) the meeting yesterday." -> "The board **cancelled**..."
 8. "I (just / talk) to the inspector." -> "I **have just talked**..."
-9. "We (have) a major power outage in 2024." -> "We **had**..."
+9. "We (had) a major power outage in 2024." -> "We **had**..."
 10. "You (iron out) the details yet?" -> "**Have** you **ironed out**...?"
 
 ---
@@ -81,8 +81,16 @@ status: concluído
 
 ---
 
-## 🏆 Final Challenge: The "Blackout" Briefing
-A total power outage occurred. You have 2 minutes to use at least one drill from each machine to explain the situation and the solution to the Board.
+## 📚 5. Vocabulary Mastery (New Terms)
+- **Foundation:** Fundação / Base de estrutura.
+- **Inventory:** Inventário / Estoque.
+- **MRI:** Ressonância Magnética.
+- **Overheating:** Superaquecimento.
+- **Parking lot:** Estacionamento.
+- **Security protocol:** Protocolo de segurança.
+- **Slippery:** Escorregadio.
+- **Vibrating:** Vibrando / Vibração.
+- **Punch List:** Lista de pendências finais.
 
 ---
 [[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/index|📂 Voltar ao Hub]] | [[02_Cérebro/👤 Contatos/👤 Monica Araujo|👤 Perfil Monica Araujo]]

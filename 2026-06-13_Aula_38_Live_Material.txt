@@ -1,39 +1,47 @@
-Class 38: Monica Araujo (2026-06-13)
-THE ENDURANCE EDITION: 40-Drill Challenge
+Mônica - Aula 38
 
 ---
-1. THE CAUSATIVE MACHINE (10 DRILLS)
-Trigger: "The [Item] is [Problem]." -> Response: "I'll have it [V3]."
+1.
+"The [Item] is [Problem]." -> Response: "I'll have it [V3]."
 
 1. "The server room is overheating."
+
 2. "The hospital signs are in Portuguese only."
+
 3. "The MRI machine is vibrating."
+
 4. "The walls are dirty."
+
 5. "The software is crashing."
+
 6. "The parking lot lights are off."
+
 7. "The security protocol is old."
+
 8. "The floor is slippery."
+
 9. "The windows are broken."
+
 10. "The inventory is low."
 
 ---
-2. THE TIME MACHINE (10 DRILLS)
-Choose: DID YOU / HAVE YOU / WE [V2] / WE HAVE [V3].
+2.
+Past Simple vs Present Perfect
 
 1. "You (call) the subcontractor this morning?"
 2. "I (never / work) with this material before."
 3. "We (finish) the foundation last month."
-4. "She (already / send) the proposal?"
-5. "They (look into) the leak two hours ago."
-6. "You (ever / oversee) a project this big?"
-7. "The board (cancel) the meeting yesterday."
-8. "I (just / talk) to the inspector."
-9. "We (have) a major power outage in 2024."
-10. "You (iron out) the details yet?"
+4. "They (look into) the leak two hours ago."
+5. "You (ever / oversee) a project this big?"
+6. "The board (cancel) the meeting yesterday."
+7. "I (just / talk) to the inspector."
+8. "We (have) a major power outage in 2024."
+9. "You (iron out) the details yet?"
+10. "She (already / send) the proposal?"
 
 ---
-3. THE COMPLIANCE MACHINE (10 DRILLS)
-Respond with MUST / SHOULD / CAN'T.
+3.
+MUST / SHOULD / CAN'T.
 
 1. "A technician is smoking near the oxygen tanks."
 2. "The lead time is too long."
@@ -47,8 +55,8 @@ Respond with MUST / SHOULD / CAN'T.
 10. "Unauthorized people are in the server room."
 
 ---
-4. THE LOGICAL MACHINE (10 DRILLS)
-Instant prediction/hypothesis:
+4.
+Prediction/hypothesis:
 
 1. "If the audit starts late..."
 2. "If I had more time..."

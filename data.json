@@ -1052,6 +1052,12 @@
       "class_id": 6
     },
     {
+      "term": "Inventory",
+      "phonetic": "/ˈɪn.vən.tɔːr.i/",
+      "definition": "Inventário / Estoque",
+      "class_id": 38
+    },
+    {
       "term": "Iron",
       "phonetic": "/'aɪərn/",
       "definition": "Ferro",
@@ -1184,6 +1190,12 @@
       "class_id": 33
     },
     {
+      "term": "MRI (Magnetic Resonance Imaging)",
+      "phonetic": "/ˌem.ɑːrˈaɪ/",
+      "definition": "Ressonância Magnética",
+      "class_id": 38
+    },
+    {
       "term": "Named",
       "phonetic": "/neɪmd/",
       "definition": "Nomeado/Chamado (ex: name of the company)",
@@ -1218,6 +1230,18 @@
       "phonetic": "/ˈaʊtɪdʒ/",
       "definition": "Falta/Queda (energia/água)",
       "class_id": 18
+    },
+    {
+      "term": "Overheating",
+      "phonetic": "/ˌoʊ.vɚˈhiː.tɪŋ/",
+      "definition": "Superaquecimento",
+      "class_id": 38
+    },
+    {
+      "term": "Parking lot",
+      "phonetic": "/ˈpɑːr.kɪŋ ˌlɒt/",
+      "definition": "Estacionamento",
+      "class_id": 38
     },
     {
       "term": "Past",
@@ -1430,6 +1454,12 @@
       "class_id": 25
     },
     {
+      "term": "Security protocol",
+      "phonetic": "/sɪˈkjʊr.ə.ti ˈproʊ.tə.kɒl/",
+      "definition": "Protocolo de segurança",
+      "class_id": 38
+    },
+    {
       "term": "Sewage",
       "phonetic": "/ˈsuːɪdʒ/",
       "definition": "Esgoto",
@@ -1476,6 +1506,12 @@
       "phonetic": "/ˈslaɪtli/",
       "definition": "Levemente / Um pouco",
       "class_id": 22
+    },
+    {
+      "term": "Slippery",
+      "phonetic": "/ˈslɪp.ər.i/",
+      "definition": "Escorregadio",
+      "class_id": 38
     },
     {
       "term": "Sloping ground",
@@ -1788,6 +1824,12 @@
       "phonetic": "/ˈvaɪə/",
       "definition": "Via / Por meio de",
       "class_id": 21
+    },
+    {
+      "term": "Vibrating",
+      "phonetic": "/ˈvaɪ.breɪ.tɪŋ/",
+      "definition": "Vibrando / Vibração",
+      "class_id": 38
     },
     {
       "term": "Waiting Area",
