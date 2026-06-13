@@ -5,74 +5,84 @@ titulo: "2026-06-13_Aula_38_Monica_Araujo"
 aluna: "[[02_Cérebro/👤 Contatos/👤 Monica Araujo|Monica Araujo]]"
 aula: 38
 data: 2026-06-13
-topico: "The Rapid-Fire Special: Mastery through Drills"
-foco_comunicativo: "Consolidação exaustiva de estruturas passadas (Causative, Modals, Past vs Present Perfect) através de drillings de reação instantânea."
+topico: "The Endurance Edition: 40-Drill Challenge"
+foco_comunicativo: "Automatização exaustiva através de 40 drillings técnicos cobrindo delegação, tempo verbal, conformidade e lógica."
 status: concluído
 ---
 
-# 🎓 Aula 38: Monica Araujo (13/06) - Rapid-Fire Special
+# 🎓 Aula 38: Monica Araujo (13/06) - Endurance Edition
 
 > [!abstract] Foco Pedagógico
-> O objetivo hoje não é "aprender" e sim "automatizar". A aluna não deve ter tempo de pensar na regra, apenas em reagir ao cenário técnico.
+> **Exaustão Produtiva.** Repetição rítmica para criar memória muscular linguística. Sem tempo para tradução mental.
 
 ---
 
-## ⚡ 1. The Causative Machine (New Scenarios)
-*Trigger: A failure occurs. Response: Delegate the fix (HAVE + SOMETHING + DONE).*
+## ⚡ 1. The Causative Machine (10 Drills)
+*Trigger: Failure. Response: "I'll have it [V3]."*
 
-| Trigger | Response (I'll have...) |
-| :--- | :--- |
-| "The security cameras are blurry." | "I'll **have** them **cleaned**." |
-| "The blueprints are outdated." | "I'll **have** them **updated**." |
-| "The fire alarm is beeping." | "I'll **have** it **checked**." |
-| "The paint is peeling in the lobby." | "I'll **have** it **repainted**." |
-
----
-
-## 🕒 2. The Time Machine (Past vs. Present Perfect)
-*Objective: Choosing between SPECIFIC PAST and UNFINISHED/TRACK RECORD.*
-
-**Rule:** Specific time? -> **Past Simple**. No time/Still relevant? -> **Present Perfect**.
-
-| Scenario Trigger | Expected Reflex Response |
-| :--- | :--- |
-| "You (finish) the report yesterday?" | "Did you **finish** it?" |
-| "You (visit) the site recently?" | "Have you **visited** it?" |
-| "We (fix) the leak two hours ago." | "We **fixed** it." |
-| "I (never / see) this type of HVAC." | "I **have never seen**..." |
-| "The board (approve) the budget last week." | "The board **approved** it." |
+1. "The server room is overheating." -> "I'll **have** the AC **fixed**."
+2. "The hospital signs are in Portuguese only." -> "I'll **have** them **translated**."
+3. "The MRI machine is vibrating." -> "I'll **have** it **inspected**."
+4. "The walls are dirty." -> "I'll **have** them **repainted**."
+5. "The software is crashing." -> "I'll **have** it **updated**."
+6. "The parking lot lights are off." -> "I'll **have** the bulbs **replaced**."
+7. "The security protocol is old." -> "I'll **have** it **revised**."
+8. "The floor is slippery." -> "I'll **have** it **cleaned**."
+9. "The windows are broken." -> "I'll **have** them **repaired**."
+10. "The inventory is low." -> "I'll **have** more supplies **ordered**."
 
 ---
 
-## 🛡️ 3. The Compliance Machine (Modals)
-*Objective: Quick reaction to safety/norm violations (MUST / SHOULD / CAN'T).*
+## 🕒 2. The Time Machine (10 Drills)
+*Past Simple (Yesterday/Ago) vs. Present Perfect (Recently/Never/Ever).*
 
-| Trigger (Violation) | Expected Reflex Response |
-| :--- | :--- |
-| "A worker is without a hard hat." | "He **must** wear it." |
-| "The emergency exit is blocked." | "We **should** clear it immediately." |
-| "A visitor wants to enter the ICU." | "He **can't** enter without a mask." |
-| "The lead time is too long." | "We **should** look into other suppliers." |
-
----
-
-## 🧠 4. The Logical Machine (Conditionals)
-*Objective: Quick "What-If" for project management (If + Present -> Will / If + Past -> Would).*
-
-| Scenario (What if?) | Reflex Action |
-| :--- | :--- |
-| "If the audit starts now..." | "...we **will** be in trouble." |
-| "If we had more budget..." | "...we **would** hire more people." |
-| "If the elevator fails tomorrow..." | "...I **will** call the subcontractor." |
-| "If I were the CEO..." | "...I **would** change the policy." |
+1. "You (call) the subcontractor this morning?" -> "**Did** you **call**...?"
+2. "I (never / work) with this material before." -> "I **have never worked**..."
+3. "We (finish) the foundation last month." -> "We **finished**..."
+4. "She (already / send) the proposal?" -> "**Has** she **already sent**...?"
+5. "They (look into) the leak two hours ago." -> "They **looked into**..."
+6. "You (ever / oversee) a project this big?" -> "**Have** you **ever overseen**...?"
+7. "The board (cancel) the meeting yesterday." -> "The board **cancelled**..."
+8. "I (just / talk) to the inspector." -> "I **have just talked**..."
+9. "We (have) a major power outage in 2024." -> "We **had**..."
+10. "You (iron out) the details yet?" -> "**Have** you **ironed out**...?"
 
 ---
 
-## 🏆 5. Final Challenge: The Multi-Task CEO
-*Scenario: 3 phone calls in a row.*
-1. **Call 1 (Problem):** The roof is leaking. (Use Causative).
-2. **Call 2 (Update):** The subcontractor arrived 5 mins ago. (Use Past Simple).
-3. **Call 3 (Warning):** The inspector is coming tomorrow. (Use Conditional).
+## 🛡️ 3. The Compliance Machine (10 Drills)
+*MUST (Obligation) / SHOULD (Advice) / CAN'T (Prohibition).*
+
+1. "A technician is smoking near the oxygen tanks." -> "He **must** stop."
+2. "The lead time is too long." -> "We **should** find a new supplier."
+3. "A nurse forgot her ID badge." -> "She **must** go back and get it."
+4. "The budget is almost empty." -> "We **should** cut some costs."
+5. "A visitor is taking photos of the ICU." -> "He **can't** do that."
+6. "The fire exit is locked." -> "We **must** unlock it now."
+7. "The blueprints are confusing." -> "We **should** clarify them with the architect."
+8. "The worker is without safety goggles." -> "He **must** wear them."
+9. "The deadline is tomorrow." -> "We **should** carry out the final check today."
+10. "Unauthorized people are in the server room." -> "They **must** leave."
+
+---
+
+## 🧠 4. The Logical Machine (10 Drills)
+*Conditionals: If + Present -> Will / If + Past -> Would.*
+
+1. "If the audit starts late..." -> "...it **will** delay our weekend."
+2. "If I had more time..." -> "...I **would** oversee the whole process."
+3. "If the materials arrive today..." -> "...we **will** start the assembly."
+4. "If she were the manager..." -> "...she **would** hire more subcontractors."
+5. "If the client rejects the plan..." -> "...we **will** have to revise it."
+6. "If the elevator failed again..." -> "...I **would** demand a refund."
+7. "If we find a bottleneck..." -> "...we **will** report it to the board."
+8. "If it were easy..." -> "...everyone **would** do it."
+9. "If the inspector comes now..." -> "...he **will** find many issues."
+10. "If you spoke to the CEO..." -> "...what **would** you say?"
+
+---
+
+## 🏆 Final Challenge: The "Blackout" Briefing
+A total power outage occurred. You have 2 minutes to use at least one drill from each machine to explain the situation and the solution to the Board.
 
 ---
 [[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/index|📂 Voltar ao Hub]] | [[02_Cérebro/👤 Contatos/👤 Monica Araujo|👤 Perfil Monica Araujo]]

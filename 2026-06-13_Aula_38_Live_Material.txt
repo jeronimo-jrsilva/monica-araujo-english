@@ -1,46 +1,68 @@
 Class 38: Monica Araujo (2026-06-13)
-THE RAPID-FIRE SPECIAL: Automatic Mastery
+THE ENDURANCE EDITION: 40-Drill Challenge
 
 ---
-1. THE CAUSATIVE MACHINE (Infrastructure Failures)
-Delegate the solution:
+1. THE CAUSATIVE MACHINE (10 DRILLS)
+Trigger: "The [Item] is [Problem]." -> Response: "I'll have it [V3]."
 
-- "The security cameras are blurry."
-- "The blueprints are outdated."
-- "The fire alarm is beeping."
-- "The paint is peeling in the lobby."
-
----
-2. THE TIME MACHINE (Past vs. Present Perfect)
-Reflex response (Check for time markers):
-
-- "You (finish) the report yesterday?"
-- "You (visit) the site recently?"
-- "We (fix) the leak two hours ago."
-- "I (never / see) this type of HVAC."
-- "The board (approve) the budget last week."
+1. "The server room is overheating."
+2. "The hospital signs are in Portuguese only."
+3. "The MRI machine is vibrating."
+4. "The walls are dirty."
+5. "The software is crashing."
+6. "The parking lot lights are off."
+7. "The security protocol is old."
+8. "The floor is slippery."
+9. "The windows are broken."
+10. "The inventory is low."
 
 ---
-3. THE COMPLIANCE MACHINE (Modals: MUST / SHOULD / CAN'T)
-React to the violation:
+2. THE TIME MACHINE (10 DRILLS)
+Choose: DID YOU / HAVE YOU / WE [V2] / WE HAVE [V3].
 
-- "A worker is without a hard hat."
-- "The emergency exit is blocked."
-- "A visitor wants to enter the ICU."
-- "The lead time is too long."
-
----
-4. THE LOGICAL MACHINE (Conditionals)
-Instant "What-if":
-
-- "If the audit starts now..."
-- "If we had more budget..."
-- "If the elevator fails tomorrow..."
-- "If I were the CEO..."
+1. "You (call) the subcontractor this morning?"
+2. "I (never / work) with this material before."
+3. "We (finish) the foundation last month."
+4. "She (already / send) the proposal?"
+5. "They (look into) the leak two hours ago."
+6. "You (ever / oversee) a project this big?"
+7. "The board (cancel) the meeting yesterday."
+8. "I (just / talk) to the inspector."
+9. "We (have) a major power outage in 2024."
+10. "You (iron out) the details yet?"
 
 ---
-5. FINAL CHALLENGE: THE MULTI-TASK CEO
-Manage 3 simultaneous phone calls:
-1. Problem (Causative)
-2. Update (Past Simple)
-3. Warning (Conditional)
+3. THE COMPLIANCE MACHINE (10 DRILLS)
+Respond with MUST / SHOULD / CAN'T.
+
+1. "A technician is smoking near the oxygen tanks."
+2. "The lead time is too long."
+3. "A nurse forgot her ID badge."
+4. "The budget is almost empty."
+5. "A visitor is taking photos of the ICU."
+6. "The fire exit is locked."
+7. "The blueprints are confusing."
+8. "The worker is without safety goggles."
+9. "The deadline is tomorrow."
+10. "Unauthorized people are in the server room."
+
+---
+4. THE LOGICAL MACHINE (10 DRILLS)
+Instant prediction/hypothesis:
+
+1. "If the audit starts late..."
+2. "If I had more time..."
+3. "If the materials arrive today..."
+4. "If she were the manager..."
+5. "If the client rejects the plan..."
+6. "If the elevator failed again..."
+7. "If we find a bottleneck..."
+8. "If it were easy..."
+9. "If the inspector comes now..."
+10. "If you spoke to the CEO..."
+
+---
+5. FINAL CHALLENGE: THE BLACKOUT BRIEFING
+Context: Total power outage.
+Task: Explain the situation and solution to the Board using structures from all 4 machines.
+- Time limit: 2 minutes.
