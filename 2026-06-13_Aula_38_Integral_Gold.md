@@ -38,9 +38,9 @@ status: concluído
 ## 🕒 2. Time Mastery: Past Simple vs. Present Perfect
 *Reflex Practice based on time markers.*
 
-1. "<strong>Did</strong> you <strong>call</strong> the subcontractor this morning?" (Specific Time)
-2. "I <strong>have never worked</strong> with this material before." (Life Experience)
-3. "We <strong>finished</strong> the foundation last month." (Specific Time)
+1. "**Did** you **call** the subcontractor this morning?" (Specific Time)
+2. "I **have never worked** with this material before." (Life Experience)
+3. "We **finished** the foundation last month." (Specific Time)
 
 ---
 
@@ -61,13 +61,16 @@ status: concluído
 
 ---
 
-## 📚 Vocabulary Mastery
-- **Foundation:** Fundação / Base.
-- **Inventory:** Inventário.
-- **MRI:** Ressonância Magnética.
-- **Overheating:** Superaquecimento.
-- **Slippery:** Escorregadio.
-- **Punch List:** Lista de pendências.
+## 1. Technical Glossary
+*Essential terms for this session.*
+
+- **Foundation**: Fundação / Base.
+- **Inventory**: Inventário.
+- **MRI**: Ressonância Magnética.
+- **Overheating**: Superaquecimento.
+- **Slippery**: Escorregadio.
+- **Punch List**: Lista de pendências.
+- **Lead Time**: Prazo de entrega / Tempo de espera.
 
 ---
 [[01_Fluxos/🎓 Ensino/🎓 Monica Araujo/index|📂 Voltar ao Hub]] | [[02_Cérebro/👤 Contatos/👤 Monica Araujo|👤 Perfil Monica Araujo]]

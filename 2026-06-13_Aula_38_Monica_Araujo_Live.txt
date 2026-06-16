@@ -1,0 +1,48 @@
+1. THE CAUSATIVE MACHINE: DELEGATION POWER
+Goal: Practice reflexive delegation.
+Response pattern: "I'll have it/them [DONE]."
+
+- Scenario: "The server room is overheating."
+- Response: __________________________________________________
+
+- Scenario: "The hospital signs are in Portuguese only."
+- Response: __________________________________________________
+
+- Scenario: "The MRI machine is vibrating."
+- Response: __________________________________________________
+
+- Scenario: "The walls are dirty."
+- Response: __________________________________________________
+
+- Scenario: "The software is crashing."
+- Response: __________________________________________________
+
+- Scenario: "The parking lot lights are off."
+- Response: __________________________________________________
+
+- Scenario: "The security protocol is old."
+- Response: __________________________________________________
+
+- Scenario: "The floor is slippery."
+- Response: __________________________________________________
+
+- Scenario: "The windows are broken."
+- Response: __________________________________________________
+
+- Scenario: "The inventory is low."
+- Response: __________________________________________________
+
+2. TIME MASTERY: PAST SIMPLE VS. PRESENT PERFECT
+
+- (Call) "__________ you __________ the subcontractor this morning?"
+- (Work) "I __________ never __________ with this material before."
+- (Finish) "We __________ the foundation last month."
+
+VOCABULARY OF THE DAY
+- Foundation
+- Inventory
+- MRI
+- Overheating
+- Slippery
+- Punch List
+- Lead Time
