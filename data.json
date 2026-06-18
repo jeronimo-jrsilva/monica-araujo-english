@@ -1,322 +1,1945 @@
 {
   "classes": [
-    {"id": 1, "date": "2026-04-08", "title": "Activation & Routine", "summary": "Introduce Yourself, Plurals and Office Routine.", "url": "classes/2026-04-08.html"},
-    {"id": 2, "date": "2026-04-09", "title": "Negative & Interrogative (Daily Life)", "summary": "Present Simple structures, Daily Routine and Extreme Sports.", "url": "classes/2026-04-09.html"},
-    {"id": 3, "date": "2026-04-10", "title": "3rd Person Singular & Company Policy", "summary": "Affirmative, Negative and Interrogative forms for He/She/It. Business ethics and routines.", "url": "classes/2026-04-10.html"},
-    {"id": 4, "date": "2026-04-13", "title": "Wh- Questions & Future Intentions", "summary": "Open vs. Closed questions and travel planning (Sicily context).", "url": "classes/2026-04-13.html"},
-    {"id": 5, "date": "2026-04-14", "title": "How & Intro to Past Simple", "summary": "Consolidation of Wh- Questions and Introduction to Past Simple (Daily Routine).", "url": "classes/2026-04-14.html"},
-    {"id": 6, "date": "2026-04-15", "title": "Present Continuous in Practice", "summary": "Applying -ING for ongoing projects (Maternity ward) and corporate challenges (Hiring/Tech).", "url": "classes/2026-04-15.html"},
-    {"id": 7, "date": "2026-04-16", "title": "Future: Will vs. Going to", "summary": "Differentiating spontaneous decisions from planned future actions in architecture projects.", "url": "classes/2026-04-16.html"},
-    {"id": 8, "date": "2026-04-17", "title": "Weekly Review & Project Presentation", "summary": "Consolidating Past, Present and Future through real-life activities and professional simulation.", "url": "classes/2026-04-17.html"},
-    {"id": 9, "date": "2026-04-20", "title": "Comparing Environments (Comparatives)", "summary": "Using comparative and superlative structures to analyze architectural materials and hospital layouts.", "url": "classes/2026-04-20.html"},
-    {"id": 10, "date": "2026-04-21", "title": "Modal Verbs & Compliance", "summary": "Introduction to Modal Verbs (Must, Should, Can, Would) and Imperative for Signage.", "url": "classes/2026-04-21.html"},
-    {"id": 11, "date": "2026-04-22", "title": "Modal Verbs Deep Dive & Case Scenarios", "summary": "Practical application of Modal Verbs in hospital design and technical regulations. Management vocabulary.", "url": "classes/2026-04-22.html"},
-    {"id": 12, "date": "2026-04-23", "title": "Conditionals: Zero, First & Second", "summary": "Reviewing conditional structures (If logic) applied to project management and architectural scenarios.", "url": "classes/2026-04-23.html"},
-    {"id": 13, "date": "2026-04-24", "title": "Present Perfect & Hypotheses", "summary": "Deep dive into Present Perfect for professional track record and Second Conditional for hypothetical scenarios.", "url": "classes/2026-04-24.html"},
-    {"id": 14, "date": "2026-04-27", "title": "Professional Track Record (Present Perfect)", "summary": "Mastering the 'Bridge' between past and present. Authority, duration (Since/For) and project status (Already/Yet).", "url": "classes/2026-04-27.html"},
-    {"id": 15, "date": "2026-04-28", "title": "Present Perfect Consolidation", "summary": "Focus on intensity and professional track record. Linking past experiences with present value.", "url": "classes/2026-04-28.html"},
-    {"id": 16, "date": "2026-04-29", "title": "Hospital Infrastructure & Technical Reporting", "summary": "Combining Present Perfect with technical architectural terminology for project updates.", "url": "classes/2026-04-29.html"},
-    {"id": 17, "date": "2026-04-30", "title": "Deep Dive & Text Mastery", "summary": "Analyzing technical texts and architectural case studies with focus on vocabulary and structure.", "url": "classes/2026-04-30.html"},
-    {"id": 18, "date": "2026-05-01", "title": "Case Study: San Lucas Clinic", "summary": "Technical analysis of hospital projects, environmental controls and flow management.", "url": "classes/2026-05-01.html"},
-    {"id": 19, "date": "2026-05-04", "title": "Prepositions of Place: Spatial Design", "summary": "Mastering prepositions (Behind, Across, Between) for blueprint reading and office navigation.", "url": "classes/2026-05-04.html"},
-    {"id": 20, "date": "2026-05-05", "title": "Prepositions Part 2 & Spatial Flow", "summary": "Advanced prepositions and movement verbs for patient flow and architectural circulation.", "url": "classes/2026-05-05.html"},
-    {"id": 21, "date": "2026-05-06", "title": "Spatial Drills & Hospital Flows", "summary": "Intensive practice on hospital layouts, material transitions and circulation logic.", "url": "classes/2026-05-06.html"},
-    {"id": 22, "date": "2026-05-07", "title": "Hospital Lighting & Adverbs of Intensity", "summary": "Technical vocabulary for lighting design (Glare, Dimmer, Lux) and adverbs (Slightly, Significantly).", "url": "classes/2026-05-07.html"},
-    {"id": 23, "date": "2026-05-09", "title": "Vastu Shastra & Technical Review", "summary": "Integrating ancient architectural wisdom with modern technical requirements and review of past weeks.", "url": "classes/2026-05-09.html"},
-    {"id": 24, "date": "2026-05-11", "title": "Reporting Technical Failures", "summary": "Vocabulary for malfunctions, repairs and technical reporting in hospital environments.", "url": "classes/2026-05-11.html"},
-    {"id": 25, "date": "2026-05-12", "title": "Relative Clauses & Identity", "summary": "Defining people and objects through relative clauses (Who, Which, That) in professional contexts.", "url": "classes/2026-05-12.html"},
-    {"id": 26, "date": "2026-05-13", "title": "Hospital Materials & Finishes", "summary": "Advanced vocabulary for surfaces, coatings and hygienic standards in clinical design.", "url": "classes/2026-05-13.html"},
-    {"id": 27, "date": "2026-05-15", "title": "Project Lifecycle & Milestones", "summary": "Describing the phases of an architectural project from initial concept to completion.", "url": "classes/2026-05-15.html"},
-    {"id": 28, "date": "2026-05-16", "title": "Executive Reporting & Decisions", "summary": "Using Reported Speech and authority verbs to communicate client decisions and technical changes.", "url": "classes/2026-05-16.html"},
-    {"id": 29, "date": "2026-05-22", "title": "Advanced HVAC & Causative Form", "summary": "Expanding healthcare environmental controls (HEPA, Chillers, Dampers) and mastering the Causative Form for professional delegation.", "url": "classes/2026-05-22.html"},
-    {"id": 30, "date": "2026-05-23", "title": "Site Safety & PPE", "summary": "High-density session on safety protocols, PPE vocabulary and risk management on construction sites.", "url": "classes/2026-05-23.html"},
-    {"id": "31 & 32", "date": "2026-05-28", "title": "Vastu Shastra Architecture & Existential Structures", "summary": "Consolidated session covering architectural principles of Vastu Shastra, orientation, and advanced time-travel structures.", "url": "classes/2026-05-28.html"},
-    {"id": 33, "date": "2026-05-30", "title": "Executive Reporting: Sentence Linkers", "summary": "Mastering logical connectors for Addition, Contrast and Cause/Effect in high-level corporate reporting.", "url": "classes/2026-05-30.html"},
-    {"id": 34, "date": "2026-06-04", "title": "The Architect's Foundation: Basic Structures & Initial Connectors", "summary": "Consolidation of auxiliary verbs (Do/Does/Did) and transition to Contrast connectors.", "url": "classes/2026-06-04.html"},
-    {"id": 35, "date": "2026-06-05", "title": "Executive Planning & Contrast Fundamentals", "summary": "Focus on Contrast connectors (Although/Despite) and executive planning vocabulary.", "url": "classes/2026-06-05.html"},
-    {"id": 36, "date": "2026-06-06", "title": "Precision & Delegation: Relative Clauses & Causative Form", "summary": "Mastering Relative Clauses for precision and Causative Form for delegation in healthcare design.", "url": "classes/2026-06-06.html"},
-    {"id": 37, "date": "2026-06-11", "title": "Operational Phrasal Verbs & Advanced Causative Scenarios", "summary": "Executing actions and investigating discrepancies using management Phrasal Verbs; deep dive into delegation in critical scenarios.", "url": "classes/2026-06-11.html"},
-    {"id": 38, "date": "2026-06-13", "title": "Precision in Reporting & The Pre-Audit Challenge (Part 1)", "summary": "Mastering delegation reflexes with the Causative Form (Have something done) and contrasting Past Simple vs. Present Perfect in technical reporting scenarios.", "url": "classes/2026-06-13.html"},
-    {"id": 39, "date": "2026-06-16", "title": "Endurance Review & The Pre-Audit Briefing", "summary": "Consolidation of verb tenses (Past vs Present Perfect) and execution of executive briefings using Relative Clauses.", "url": "classes/2026-06-16.html"}
+    {
+      "id": 1,
+      "date": "2026-04-08",
+      "title": "Activation & Routine",
+      "summary": "Introduce Yourself, Plurals and Office Routine.",
+      "url": "classes/2026-04-08.html"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-09",
+      "title": "Negative & Interrogative (Daily Life)",
+      "summary": "Present Simple structures, Daily Routine and Extreme Sports.",
+      "url": "classes/2026-04-09.html"
+    },
+    {
+      "id": 3,
+      "date": "2026-04-10",
+      "title": "3rd Person Singular & Company Policy",
+      "summary": "Affirmative, Negative and Interrogative forms for He/She/It. Business ethics and routines.",
+      "url": "classes/2026-04-10.html"
+    },
+    {
+      "id": 4,
+      "date": "2026-04-13",
+      "title": "Wh- Questions & Future Intentions",
+      "summary": "Open vs. Closed questions and travel planning (Sicily context).",
+      "url": "classes/2026-04-13.html"
+    },
+    {
+      "id": 5,
+      "date": "2026-04-14",
+      "title": "How & Intro to Past Simple",
+      "summary": "Consolidation of Wh- Questions and Introduction to Past Simple (Daily Routine).",
+      "url": "classes/2026-04-14.html"
+    },
+    {
+      "id": 6,
+      "date": "2026-04-15",
+      "title": "Present Continuous in Practice",
+      "summary": "Applying -ING for ongoing projects (Maternity ward) and corporate challenges (Hiring/Tech).",
+      "url": "classes/2026-04-15.html"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-16",
+      "title": "Future: Will vs. Going to",
+      "summary": "Differentiating spontaneous decisions from planned future actions in architecture projects.",
+      "url": "classes/2026-04-16.html"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-17",
+      "title": "Weekly Review & Project Presentation",
+      "summary": "Consolidating Past, Present and Future through real-life activities and professional simulation.",
+      "url": "classes/2026-04-17.html"
+    },
+    {
+      "id": 9,
+      "date": "2026-04-20",
+      "title": "Comparing Environments (Comparatives)",
+      "summary": "Using comparative and superlative structures to analyze architectural materials and hospital layouts.",
+      "url": "classes/2026-04-20.html"
+    },
+    {
+      "id": 10,
+      "date": "2026-04-21",
+      "title": "Modal Verbs & Compliance",
+      "summary": "Introduction to Modal Verbs (Must, Should, Can, Would) and Imperative for Signage.",
+      "url": "classes/2026-04-21.html"
+    },
+    {
+      "id": 11,
+      "date": "2026-04-22",
+      "title": "Modal Verbs Deep Dive & Case Scenarios",
+      "summary": "Practical application of Modal Verbs in hospital design and technical regulations. Management vocabulary.",
+      "url": "classes/2026-04-22.html"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-23",
+      "title": "Conditionals: Zero, First & Second",
+      "summary": "Reviewing conditional structures (If logic) applied to project management and architectural scenarios.",
+      "url": "classes/2026-04-23.html"
+    },
+    {
+      "id": 13,
+      "date": "2026-04-24",
+      "title": "Present Perfect & Hypotheses",
+      "summary": "Deep dive into Present Perfect for professional track record and Second Conditional for hypothetical scenarios.",
+      "url": "classes/2026-04-24.html"
+    },
+    {
+      "id": 14,
+      "date": "2026-04-27",
+      "title": "Professional Track Record (Present Perfect)",
+      "summary": "Mastering the 'Bridge' between past and present. Authority, duration (Since/For) and project status (Already/Yet).",
+      "url": "classes/2026-04-27.html"
+    },
+    {
+      "id": 15,
+      "date": "2026-04-28",
+      "title": "Present Perfect Consolidation",
+      "summary": "Focus on intensity and professional track record. Linking past experiences with present value.",
+      "url": "classes/2026-04-28.html"
+    },
+    {
+      "id": 16,
+      "date": "2026-04-29",
+      "title": "Hospital Infrastructure & Technical Reporting",
+      "summary": "Combining Present Perfect with technical architectural terminology for project updates.",
+      "url": "classes/2026-04-29.html"
+    },
+    {
+      "id": 17,
+      "date": "2026-04-30",
+      "title": "Deep Dive & Text Mastery",
+      "summary": "Analyzing technical texts and architectural case studies with focus on vocabulary and structure.",
+      "url": "classes/2026-04-30.html"
+    },
+    {
+      "id": 18,
+      "date": "2026-05-01",
+      "title": "Case Study: San Lucas Clinic",
+      "summary": "Technical analysis of hospital projects, environmental controls and flow management.",
+      "url": "classes/2026-05-01.html"
+    },
+    {
+      "id": 19,
+      "date": "2026-05-04",
+      "title": "Prepositions of Place: Spatial Design",
+      "summary": "Mastering prepositions (Behind, Across, Between) for blueprint reading and office navigation.",
+      "url": "classes/2026-05-04.html"
+    },
+    {
+      "id": 20,
+      "date": "2026-05-05",
+      "title": "Prepositions Part 2 & Spatial Flow",
+      "summary": "Advanced prepositions and movement verbs for patient flow and architectural circulation.",
+      "url": "classes/2026-05-05.html"
+    },
+    {
+      "id": 21,
+      "date": "2026-05-06",
+      "title": "Spatial Drills & Hospital Flows",
+      "summary": "Intensive practice on hospital layouts, material transitions and circulation logic.",
+      "url": "classes/2026-05-06.html"
+    },
+    {
+      "id": 22,
+      "date": "2026-05-07",
+      "title": "Hospital Lighting & Adverbs of Intensity",
+      "summary": "Technical vocabulary for lighting design (Glare, Dimmer, Lux) and adverbs (Slightly, Significantly).",
+      "url": "classes/2026-05-07.html"
+    },
+    {
+      "id": 23,
+      "date": "2026-05-09",
+      "title": "Vastu Shastra & Technical Review",
+      "summary": "Integrating ancient architectural wisdom with modern technical requirements and review of past weeks.",
+      "url": "classes/2026-05-09.html"
+    },
+    {
+      "id": 24,
+      "date": "2026-05-11",
+      "title": "Reporting Technical Failures",
+      "summary": "Vocabulary for malfunctions, repairs and technical reporting in hospital environments.",
+      "url": "classes/2026-05-11.html"
+    },
+    {
+      "id": 25,
+      "date": "2026-05-12",
+      "title": "Relative Clauses & Identity",
+      "summary": "Defining people and objects through relative clauses (Who, Which, That) in professional contexts.",
+      "url": "classes/2026-05-12.html"
+    },
+    {
+      "id": 26,
+      "date": "2026-05-13",
+      "title": "Hospital Materials & Finishes",
+      "summary": "Advanced vocabulary for surfaces, coatings and hygienic standards in clinical design.",
+      "url": "classes/2026-05-13.html"
+    },
+    {
+      "id": 27,
+      "date": "2026-05-15",
+      "title": "Project Lifecycle & Milestones",
+      "summary": "Describing the phases of an architectural project from initial concept to completion.",
+      "url": "classes/2026-05-15.html"
+    },
+    {
+      "id": 28,
+      "date": "2026-05-16",
+      "title": "Executive Reporting & Decisions",
+      "summary": "Using Reported Speech and authority verbs to communicate client decisions and technical changes.",
+      "url": "classes/2026-05-16.html"
+    },
+    {
+      "id": 29,
+      "date": "2026-05-22",
+      "title": "Advanced HVAC & Causative Form",
+      "summary": "Expanding healthcare environmental controls (HEPA, Chillers, Dampers) and mastering the Causative Form for professional delegation.",
+      "url": "classes/2026-05-22.html"
+    },
+    {
+      "id": 30,
+      "date": "2026-05-23",
+      "title": "Site Safety & PPE",
+      "summary": "High-density session on safety protocols, PPE vocabulary and risk management on construction sites.",
+      "url": "classes/2026-05-23.html"
+    },
+    {
+      "id": "31 & 32",
+      "date": "2026-05-28",
+      "title": "Vastu Shastra Architecture & Existential Structures",
+      "summary": "Consolidated session covering architectural principles of Vastu Shastra, orientation, and advanced time-travel structures.",
+      "url": "classes/2026-05-28.html"
+    },
+    {
+      "id": 33,
+      "date": "2026-05-30",
+      "title": "Executive Reporting: Sentence Linkers",
+      "summary": "Mastering logical connectors for Addition, Contrast and Cause/Effect in high-level corporate reporting.",
+      "url": "classes/2026-05-30.html"
+    },
+    {
+      "id": 34,
+      "date": "2026-06-04",
+      "title": "The Architect's Foundation: Basic Structures & Initial Connectors",
+      "summary": "Consolidation of auxiliary verbs (Do/Does/Did) and transition to Contrast connectors.",
+      "url": "classes/2026-06-04.html"
+    },
+    {
+      "id": 35,
+      "date": "2026-06-05",
+      "title": "Executive Planning & Contrast Fundamentals",
+      "summary": "Focus on Contrast connectors (Although/Despite) and executive planning vocabulary.",
+      "url": "classes/2026-06-05.html"
+    },
+    {
+      "id": 36,
+      "date": "2026-06-06",
+      "title": "Precision & Delegation: Relative Clauses & Causative Form",
+      "summary": "Mastering Relative Clauses for precision and Causative Form for delegation in healthcare design.",
+      "url": "classes/2026-06-06.html"
+    },
+    {
+      "id": 37,
+      "date": "2026-06-11",
+      "title": "Operational Phrasal Verbs & Advanced Causative Scenarios",
+      "summary": "Executing actions and investigating discrepancies using management Phrasal Verbs; deep dive into delegation in critical scenarios.",
+      "url": "classes/2026-06-11.html"
+    },
+    {
+      "id": 38,
+      "date": "2026-06-13",
+      "title": "Precision in Reporting & The Pre-Audit Challenge (Part 1)",
+      "summary": "Mastering delegation reflexes with the Causative Form (Have something done) and contrasting Past Simple vs. Present Perfect in technical reporting scenarios.",
+      "url": "classes/2026-06-13.html"
+    },
+    {
+      "id": 39,
+      "date": "2026-06-16",
+      "title": "Endurance Review & The Pre-Audit Briefing",
+      "summary": "Consolidation of verb tenses (Past vs Present Perfect) and execution of executive briefings using Relative Clauses.",
+      "url": "classes/2026-06-16.html"
+    },
+    {
+      "id": 40,
+      "date": "2026-06-18",
+      "title": "Site Logs & Technical Compliance Drills",
+      "summary": "Intensive drilling on Past Simple for site reporting, Modal Verbs for compliance, and Technical Comparisons for architectural precision.",
+      "url": "classes/2026-06-18.html"
+    }
   ],
   "resources": [
-    {"title": "Common Irregular Verbs", "description": "One-pager reference for essential past tense verbs.", "url": "resources/irregular-verbs.html", "pdf_url": "resources/irregular-verbs.pdf", "type": "Study Guide"},
-    {"title": "Drilling List - Class 08", "description": "20 sentences for pronunciation practice (Past, Present, Future).", "url": "resources/homework_class_08.html", "type": "Homework"},
-    {"title": "Adjectives Comparison", "description": "Comprehensive list of comparatives and superlatives for architecture and general use.", "url": "resources/adjectives-comparison.html", "pdf_url": "resources/adjectives-comparison.pdf", "type": "Study Guide"},
-    {"title": "Homework Class 13", "description": "Present Perfect, Modals, and Conditionals Drills.", "url": "resources/homework_class_13.html", "pdf_url": "resources/homework_class_13.pdf", "type": "Homework"},
-    {"title": "Mastery Verb List", "description": "Essential Past and Participle forms for professional authority.", "url": "resources/verbs-past-participle.html", "pdf_url": "resources/verbs-past-participle.pdf", "type": "Study Guide"},
-    {"title": "Weekend Workbook - Class 18", "description": "Weekly consolidation on San Lucas Clinic technical challenges.", "url": "resources/Monica_Araujo_Aula_18_Homework.pdf", "pdf_url": "resources/Monica_Araujo_Aula_18_Homework.pdf", "type": "Homework"},
-    {"title": "Homework Class 19", "description": "Prepositions of Place (Spatial Design & Blueprints).", "url": "resources/homework_class_19.html", "pdf_url": "resources/Monica_Araujo_Aula_19_Homework.pdf", "type": "Homework"},
-    {"title": "Master Drilling List - Class 19", "description": "Consolidated fluency drills focusing on prepositions and phonetic contrasts (Corn/Corner, Tough/Taught).", "url": "resources/drilling_class_19.html", "pdf_url": "resources/Monica_Araujo_Drilling_List_Consolidated.pdf", "type": "Homework"},
-    {"title": "Homework Class 22", "description": "Hospital Lighting, Fixtures and Adverbs of Intensity Exercises.", "url": "resources/homework_class_22.html", "pdf_url": "resources/homework_class_22.pdf", "type": "Homework"}
+    {
+      "title": "Common Irregular Verbs",
+      "description": "One-pager reference for essential past tense verbs.",
+      "url": "resources/irregular-verbs.html",
+      "pdf_url": "resources/irregular-verbs.pdf",
+      "type": "Study Guide"
+    },
+    {
+      "title": "Drilling List - Class 08",
+      "description": "20 sentences for pronunciation practice (Past, Present, Future).",
+      "url": "resources/homework_class_08.html",
+      "type": "Homework"
+    },
+    {
+      "title": "Adjectives Comparison",
+      "description": "Comprehensive list of comparatives and superlatives for architecture and general use.",
+      "url": "resources/adjectives-comparison.html",
+      "pdf_url": "resources/adjectives-comparison.pdf",
+      "type": "Study Guide"
+    },
+    {
+      "title": "Homework Class 13",
+      "description": "Present Perfect, Modals, and Conditionals Drills.",
+      "url": "resources/homework_class_13.html",
+      "pdf_url": "resources/homework_class_13.pdf",
+      "type": "Homework"
+    },
+    {
+      "title": "Mastery Verb List",
+      "description": "Essential Past and Participle forms for professional authority.",
+      "url": "resources/verbs-past-participle.html",
+      "pdf_url": "resources/verbs-past-participle.pdf",
+      "type": "Study Guide"
+    },
+    {
+      "title": "Weekend Workbook - Class 18",
+      "description": "Weekly consolidation on San Lucas Clinic technical challenges.",
+      "url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
+      "pdf_url": "resources/Monica_Araujo_Aula_18_Homework.pdf",
+      "type": "Homework"
+    },
+    {
+      "title": "Homework Class 19",
+      "description": "Prepositions of Place (Spatial Design & Blueprints).",
+      "url": "resources/homework_class_19.html",
+      "pdf_url": "resources/Monica_Araujo_Aula_19_Homework.pdf",
+      "type": "Homework"
+    },
+    {
+      "title": "Master Drilling List - Class 19",
+      "description": "Consolidated fluency drills focusing on prepositions and phonetic contrasts (Corn/Corner, Tough/Taught).",
+      "url": "resources/drilling_class_19.html",
+      "pdf_url": "resources/Monica_Araujo_Drilling_List_Consolidated.pdf",
+      "type": "Homework"
+    },
+    {
+      "title": "Homework Class 22",
+      "description": "Hospital Lighting, Fixtures and Adverbs of Intensity Exercises.",
+      "url": "resources/homework_class_22.html",
+      "pdf_url": "resources/homework_class_22.pdf",
+      "type": "Homework"
+    }
   ],
   "glossary": [
-    {"term": "Accessibility", "phonetic": "/əkˌsesə'bɪləti/", "definition": "Acessibilidade", "class_id": 0},
-    {"term": "Against", "phonetic": "/əˈɡenst/", "definition": "Encostado em / Contra", "class_id": 21},
-    {"term": "Air exchange rate", "phonetic": "/er ɪks'tʃeɪndʒ reɪt/", "definition": "Taxa de renovação do ar", "class_id": 18},
-    {"term": "Aluminium", "phonetic": "/ˌæljə'mɪniəm/", "definition": "Alumínio", "class_id": 9},
-    {"term": "Among", "phonetic": "/əˈmʌŋ/", "definition": "Entre (muitos)", "class_id": 19},
-    {"term": "Anchor / Anchoring", "phonetic": "/'æŋkər/", "definition": "Âncora / Ancoragem", "class_id": 27},
-    {"term": "Anti-microbial", "phonetic": "/ˌænti maɪˈkroʊbiəl/", "definition": "Antimicrobiano", "class_id": 21},
-    {"term": "Apparently", "phonetic": "/əˈpærəntli/", "definition": "Aparentemente", "class_id": 23},
-    {"term": "Architect", "phonetic": "/'ɑːrkɪtekt/", "definition": "Arquiteto (Atenção ao som de 'K')", "class_id": 1},
-    {"term": "Arrangement", "phonetic": "/əˈreɪndʒmənt/", "definition": "Arranjo físico / Disposição", "class_id": 19},
-    {"term": "Audit", "phonetic": "/ˈɔːdɪt/", "definition": "Auditoria", "class_id": 38},
-    {"term": "Away from", "phonetic": "/əˈweɪ frʌm/", "definition": "Longe/afastado de", "class_id": 31},
-    {"term": "Backlog", "phonetic": "/ˈbækˌlɒɡ/", "definition": "Tarefas acumuladas/pendentes", "class_id": 36},
-    {"term": "Backup Generator", "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/", "definition": "Gerador de emergência", "class_id": 18},
-    {"term": "Barely", "phonetic": "/ˈbeəli/", "definition": "Mal / Quase nada (Intensidade mínima)", "class_id": 22},
-    {"term": "Barriers", "phonetic": "/ˈbæriərz/", "definition": "Barreiras / Tapumes", "class_id": 30},
-    {"term": "Bathtub", "phonetic": "/ˈbæθtʌb/", "definition": "Banheira", "class_id": 31},
-    {"term": "Bedroom", "phonetic": "/'bedruːm/", "definition": "Quarto (O cômodo)", "class_id": 5},
-    {"term": "Beside / Next to", "phonetic": "/bɪˈsaɪd/ /nekst tuː/", "definition": "Ao lado de / Próximo a", "class_id": 19},
-    {"term": "Between", "phonetic": "/bɪˈtwiːn/", "definition": "Entre (dois pontos/objetos)", "class_id": 19},
-    {"term": "Beyond", "phonetic": "/bɪˈjɒnd/", "definition": "Além de / Para lá de", "class_id": 21},
-    {"term": "Big constructions", "phonetic": "/bɪɡ kən'strʌkʃənz/", "definition": "Grandes obras / construções", "class_id": 3},
-    {"term": "BIM Specialist", "phonetic": "/'speʃəlɪst/", "definition": "Especialista em plataforma BIM", "class_id": 1},
-    {"term": "Biohazard", "phonetic": "/ˌbaɪoʊˈhæzərd/", "definition": "Risco biológico", "class_id": 36},
-    {"term": "Blackout", "phonetic": "/ˈblækˌaʊt/", "definition": "Apagão / Queda de energia", "class_id": 18},
-    {"term": "Blueprint", "phonetic": "/'bluːprɪnt/", "definition": "Planta baixa / Projeto técnico", "class_id": 0},
-    {"term": "Blueprints", "phonetic": "/ˈbluːˌprɪnts/", "definition": "Plantas técnicas / Projetos originais", "class_id": 36},
-    {"term": "Board", "phonetic": "/bɔːrd/", "definition": "Mesa diretora / Conselho / Diretoria", "class_id": 36},
-    {"term": "Bottleneck", "phonetic": "/ˈbɒt.əl.nek/", "definition": "Gargalo", "class_id": 36},
-    {"term": "Brahmsthan", "phonetic": "/'brʌmˌstɑːn/", "definition": "Centro da casa (Espaço sagrado)", "class_id": 27},
-    {"term": "Bribes", "phonetic": "/braɪbz/", "definition": "Subornos / Propinas", "class_id": 3},
-    {"term": "Briefing", "phonetic": "/ˈbriːfɪŋ/", "definition": "Reunião de alinhamento / Resumo", "class_id": 31},
-    {"term": "Budget", "phonetic": "/'bʌdʒɪt/", "definition": "Orçamento", "class_id": 0},
-    {"term": "By way of", "phonetic": "/baɪ weɪ əv/", "definition": "Por meio de / Rota", "class_id": 21},
-    {"term": "Career", "phonetic": "/kəˈrɪər/", "definition": "Carreira (Atenção à tônica no final)", "class_id": 18},
-    {"term": "Caution Tape", "phonetic": "/ˈkɔːʃn teɪp/", "definition": "Fita de isolamento / Sinalização", "class_id": 30},
-    {"term": "Chicken / Kitchen", "phonetic": "/'tʃɪkɪn / 'kɪtʃɪn/", "definition": "Pronúncia: Frango vs. Cozinha", "class_id": 2},
-    {"term": "Child / Children", "phonetic": "/tʃaɪld/ - /'tʃɪldrən/", "definition": "Criança (Singular) / Crianças (Plural)", "class_id": 1},
-    {"term": "Childbirth", "phonetic": "/'tʃaɪldbɜːrθ/", "definition": "Parto (Ação de dar à luz)", "class_id": 6},
-    {"term": "Chillers & Cooling Towers", "phonetic": "/ˈtʃɪlərz ænd ˈkuːlɪŋ ˈtaʊərz/", "definition": "Resfriadores e Torres de Resfriamento", "class_id": 29},
-    {"term": "Circadian Lighting", "phonetic": "/sɜːrˈkeɪdiən ˈlaɪtɪŋ/", "definition": "Iluminação natural / Ciclo circadiano", "class_id": 22},
-    {"term": "Cladding", "phonetic": "/ˈklædɪŋ/", "definition": "Revestimento externo / Fachada", "class_id": 21},
-    {"term": "Clearance", "phonetic": "/ˈklɪərəns/", "definition": "Espaçamento livre / Folga técnica", "class_id": 19},
-    {"term": "Coating", "phonetic": "/ˈkoʊtɪŋ/", "definition": "Revestimento / Pintura técnica", "class_id": 21},
-    {"term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas técnicas)", "class_id": 0},
-    {"term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade (Normas)", "class_id": 13},
-    {"term": "Compliance", "phonetic": "/kəm'plaɪəns/", "definition": "Conformidade / Obediência a leis", "class_id": 36},
-    {"term": "Compromised", "phonetic": "/'kɒmprəmaɪzd/", "definition": "Apresenta falhas / Inadequado", "class_id": 33},
-    {"term": "Concrete pouring", "phonetic": "/'kɒnkriːt 'pɔːrɪŋ/", "definition": "Concretagem", "class_id": 33},
-    {"term": "Confluence", "phonetic": "/ˈkɒnfluəns/", "definition": "Confluência", "class_id": 31},
-    {"term": "Consequently", "phonetic": "/'kɒnsɪkwəntli/", "definition": "Consequentemente", "class_id": 33},
-    {"term": "Consultation Room", "phonetic": "/ˌkɒnsl'teɪʃn ruːm/", "definition": "Consultório", "class_id": 18},
-    {"term": "Copper", "phonetic": "/'kɒpər/", "definition": "Cobre", "class_id": 9},
-    {"term": "Coworker", "phonetic": "/ˌkoʊ'wɜːrkər/", "definition": "Colega de trabalho", "class_id": 4},
-    {"term": "Cracked", "phonetic": "/krækt/", "definition": "Rachado", "class_id": 38},
-    {"term": "Critically ill patients", "phonetic": "/ˈkrɪtɪkəli ɪl ˈpeɪʃnts/", "definition": "Pacientes em estado crítico", "class_id": 20},
-    {"term": "Custom", "phonetic": "/ˈkʌstəm/", "definition": "Personalizado / Sob medida", "class_id": 24},
-    {"term": "Dampers", "phonetic": "/ˈdæmpərz/", "definition": "Abafadores / Registros de controle de ar", "class_id": 29},
-    {"term": "Deadline", "phonetic": "/'dedlaɪn/", "definition": "Prazo final (Não negociável)", "class_id": 7},
-    {"term": "Diffusers", "phonetic": "/dɪˈfjuːzərz/", "definition": "Difusores (Grelhas de teto)", "class_id": 29},
-    {"term": "Dimension", "phonetic": "/dɪˈmɛnʃən/", "definition": "Dimensão", "class_id": 31},
-    {"term": "Dimmer", "phonetic": "/ˈdɪmər/", "definition": "Regulador de intensidade (Luz)", "class_id": 22},
-    {"term": "Disposal area", "phonetic": "/dɪˈspoʊzl ˈeəriə/", "definition": "Área de descarte", "class_id": 20},
-    {"term": "Dissertation", "phonetic": "/ˌdɪsər'teɪʃn/", "definition": "Dissertação / Tese acadêmica", "class_id": 8},
-    {"term": "Distress", "phonetic": "/dɪˈstrɛs/", "definition": "Aflição", "class_id": 31},
-    {"term": "Downtown", "phonetic": "/'daʊntaʊn/", "definition": "Centro da cidade (área comercial)", "class_id": 3},
-    {"term": "Draft", "phonetic": "/dræft/", "definition": "Rascunho / Esboço", "class_id": 17},
-    {"term": "Duct", "phonetic": "/dʌkt/", "definition": "Duto / Tubulação / 'Cano'", "class_id": 28},
-    {"term": "Dust Mask / Respirator", "phonetic": "/dʌst mæsk / ˈrɛspəreɪtər/", "definition": "Máscara de pó / Respirador", "class_id": 30},
-    {"term": "Earplugs / Earmuffs", "phonetic": "/ˈɪəplʌɡz / ˈɪəmʌfs/", "definition": "Protetores auriculares (internos/externos)", "class_id": 30},
-    {"term": "Employed", "phonetic": "/ɪm'plɔɪd/", "definition": "Empregado (Verbo)", "class_id": 5},
-    {"term": "Employee", "phonetic": "/ɪm'plɔɪiː/", "definition": "Funcionário / Colaborador", "class_id": 5},
-    {"term": "Employer", "phonetic": "/ɪm'plɔɪər/", "definition": "Empregador / Patrão", "class_id": 5},
-    {"term": "Ensures", "phonetic": "/ɪnˈʃʊərz/", "definition": "Garante / Certifica", "class_id": 21},
-    {"term": "Entire", "phonetic": "/ɪnˈtaɪər/", "definition": "Inteiro / Todo", "class_id": 21},
-    {"term": "Expensive", "phonetic": "/ɪk'spensɪv/", "definition": "Caro", "class_id": 4},
-    {"term": "Extreme Sports", "phonetic": "/ɪk'striːm spɔːrts/", "definition": "Esportes radicais (Skydiving, Zipline)", "class_id": 2},
-    {"term": "Extremely", "phonetic": "/ɪkˈstriːmli/", "definition": "Extremamente (Intensidade máxima)", "class_id": 22},
-    {"term": "Faced", "phonetic": "/feɪst/", "definition": "Enfrentado / Encarado", "class_id": 18},
-    {"term": "Facing", "phonetic": "/ˈfeɪsɪŋ/", "definition": "Voltado/virado para", "class_id": 31},
-    {"term": "Fan Coil Units (FCU)", "phonetic": "/fæn kɔɪl ˈjuːnɪts/", "definition": "Unidades de ventilação local", "class_id": 29},
-    {"term": "Fire Extinguisher", "phonetic": "/ˈfaɪər ɪkˈstɪŋɡwɪʃər/", "definition": "Extintor de incêndio", "class_id": 30},
-    {"term": "First Aid Kit", "phonetic": "/fɜːrst eɪd kɪt/", "definition": "Kit de primeiros socorros", "class_id": 30},
-    {"term": "Fitting", "phonetic": "/ˈfɪtɪŋ/", "definition": "Acessório / Peça de conexão", "class_id": 19},
-    {"term": "Fixture", "phonetic": "/ˈfɪkstʃər/", "definition": "Item fixo (ex: pia, luminária)", "class_id": 22},
-    {"term": "Flicker", "phonetic": "/ˈflɪkər/", "definition": "Oscilação / Tremulação da luz", "class_id": 22},
-    {"term": "Floor Plan", "phonetic": "/flɔːr plæn/", "definition": "Planta de piso", "class_id": 0},
-    {"term": "Flow", "phonetic": "/floʊ/", "definition": "Fluxo (Atenção ao som de 'O')", "class_id": 21},
-    {"term": "Foundation", "phonetic": "/faʊn'deɪʃn/", "definition": "Fundação / Base", "class_id": 33},
-    {"term": "Frozen", "phonetic": "/'froʊzn/", "definition": "Congelado (Past Participle)", "class_id": 6},
-    {"term": "Furniture", "phonetic": "/'fɜːrnɪtʃər/", "definition": "Móveis", "class_id": 2},
-    {"term": "Furthermore", "phonetic": "/ˌfɜːrðər'mɔːr/", "definition": "Além disso / Ademais", "class_id": 33},
-    {"term": "Geographic north", "phonetic": "", "definition": "Norte geográfico", "class_id": 31},
-    {"term": "Glare", "phonetic": "/ɡler/", "definition": "Ofuscamento / Luz incômoda", "class_id": 22},
-    {"term": "Glass", "phonetic": "/ɡlæs/", "definition": "Vidro", "class_id": 9},
-    {"term": "Go ahead", "phonetic": "/ɡoʊ ə'hed/", "definition": "Vá em frente", "class_id": 3},
-    {"term": "Grilles", "phonetic": "/ɡrɪlz/", "definition": "Grelhas de ventilação", "class_id": 29},
-    {"term": "Guest", "phonetic": "/ɡɛst/", "definition": "Visitante / Hóspede", "class_id": 31},
-    {"term": "Halt", "phonetic": "/hɔːlt/", "definition": "Pausa / Interrupção", "class_id": 33},
-    {"term": "Hard Hat / Helmet", "phonetic": "/hɑːrd hæt / ˈhɛlmɪt/", "definition": "Capacete de segurança", "class_id": 30},
-    {"term": "Hazmat Suit", "phonetic": "/ˈhæzmæt suːt/", "definition": "Roupa para materiais perigosos", "class_id": 30},
-    {"term": "Healing Environment", "phonetic": "/'hiːlɪŋ ɪn'vaɪrənmənt/", "definition": "Ambiente de cura (Conceito de design)", "class_id": 0},
-    {"term": "Healthcare Specialist", "phonetic": "/'helθkeə/", "definition": "Especialista em saúde (arquitetura hospitalar)", "class_id": 1},
-    {"term": "Heat / Cold", "phonetic": "/hiːt / koʊld/", "definition": "Calor / Frio", "class_id": 2},
-    {"term": "HEPA Filters", "phonetic": "/ˈhɛpə ˈfɪltərz/", "definition": "Filtros de alta eficiência (Ar)", "class_id": 29},
-    {"term": "Hidden", "phonetic": "/'hɪdn/", "definition": "Escondido / Oculto", "class_id": 6},
-    {"term": "High-Visibility Vest", "phonetic": "/haɪ ˌvɪzəˈbɪləti vɛst/", "definition": "Colete refletivo", "class_id": 30},
-    {"term": "Hire", "phonetic": "/haɪər/", "definition": "Contratar (Pronúncia: Ráir)", "class_id": 6},
-    {"term": "Hole", "phonetic": "/hoʊl/", "definition": "Buraco / Abertura", "class_id": 23},
-    {"term": "Horizons", "phonetic": "/həˈraɪznz/", "definition": "Horizontes", "class_id": 23},
-    {"term": "Host", "phonetic": "/hoʊst/", "definition": "Anfitrião", "class_id": 31},
-    {"term": "How are you?", "phonetic": "/haʊ ɑːr juː/", "definition": "Como você está?", "class_id": 5},
-    {"term": "How many?", "phonetic": "/haʊ 'meni/", "definition": "Quantos? (Contáveis)", "class_id": 5},
-    {"term": "However", "phonetic": "/haʊˈevər/", "definition": "No entanto / Porém", "class_id": 23},
-    {"term": "HVAC", "phonetic": "/ˌeɪtʃ viː eɪ 'siː/", "definition": "Heating, Ventilation and AC", "class_id": 18},
-    {"term": "ICU", "phonetic": "/ˌaɪ siː ˈjuː/", "definition": "UTI (Intensive Care Unit)", "class_id": 28},
-    {"term": "In front of", "phonetic": "/ɪn frʌnt əv/", "definition": "Em frente a", "class_id": 19},
-    {"term": "Inclusion", "phonetic": "/ɪn'kluːʒn/", "definition": "Inclusão", "class_id": 8},
-    {"term": "India", "phonetic": "/ˈɪndiə/", "definition": "Índia", "class_id": 23},
-    {"term": "Intend", "phonetic": "/ɪn'tend/", "definition": "Pretender / Intentar", "class_id": 4},
-    {"term": "Intensive Care", "phonetic": "/ɪn'tensɪv keər/", "definition": "UTI (Unidade de Terapia Intensiva)", "class_id": 6},
-    {"term": "Inventory", "phonetic": "/ˈɪn.vən.tɔːr.i/", "definition": "Inventário / Estoque", "class_id": 38},
-    {"term": "Iron", "phonetic": "/'aɪərn/", "definition": "Ferro", "class_id": 9},
-    {"term": "Iron out", "phonetic": "/'aɪərn aʊt/", "definition": "Resolver pequenos detalhes", "class_id": 37},
-    {"term": "Issue", "phonetic": "/ˈɪʃuː/", "definition": "Problema / Questão técnica", "class_id": 18},
-    {"term": "Joint", "phonetic": "/dʒɔɪnt/", "definition": "Junta / Emenda", "class_id": 21},
-    {"term": "Lack of", "phonetic": "/læk əv/", "definition": "Falta de", "class_id": 6},
-    {"term": "Ladders", "phonetic": "/ˈlædərz/", "definition": "Escadas móveis (alumínio/abrir)", "class_id": 31},
-    {"term": "Laundry", "phonetic": "/'lɔːndri/", "definition": "Lavanderia", "class_id": 27},
-    {"term": "Layout", "phonetic": "/'leɪaʊt/", "definition": "Layout / Arranjo físico", "class_id": 0},
-    {"term": "Lead", "phonetic": "/liːd/", "definition": "Liderar / Conduzir", "class_id": 22},
-    {"term": "Lead", "phonetic": "/led/", "definition": "Chumbo (Metal)", "class_id": 22},
-    {"term": "Lead Time", "phonetic": "/ˈliːd ˌtaɪm/", "definition": "Tempo de espera / Prazo de entrega", "class_id": 38},
-    {"term": "Leak / Leaking", "phonetic": "/liːk/", "definition": "Vazar / Vazamento", "class_id": 19},
-    {"term": "LEED", "phonetic": "/liːd/", "definition": "Leadership in Energy and Environmental Design (Certificação)", "class_id": 17},
-    {"term": "Lighting", "phonetic": "/ˈlaɪtɪŋ/", "definition": "Iluminação", "class_id": 22},
-    {"term": "Lightning", "phonetic": "/ˈlaɪtnɪŋ/", "definition": "Relâmpago", "class_id": 28},
-    {"term": "Located", "phonetic": "/loʊ'keɪtɪd/", "definition": "Localizado (ex: building location)", "class_id": 3},
-    {"term": "Lungs", "phonetic": "/lʌŋz/", "definition": "Pulmões", "class_id": 31},
-    {"term": "Magnetic north", "phonetic": "", "definition": "Norte magnético", "class_id": 31},
-    {"term": "Main", "phonetic": "/meɪn/", "definition": "Principal", "class_id": 20},
-    {"term": "Medical Imaging", "phonetic": "/'medɪkl 'ɪmədʒɪŋ/", "definition": "Imaginologia (Ex: Sala de Raio-X)", "class_id": 18},
-    {"term": "Migraine", "phonetic": "/ˈmaɪɡreɪn/", "definition": "Enxaqueca", "class_id": 19},
-    {"term": "Moreover", "phonetic": "/mɔːr'oʊvər/", "definition": "Além do mais / Ademais", "class_id": 33},
-    {"term": "MRI (Magnetic Resonance Imaging)", "phonetic": "/ˌem.ɑːrˈaɪ/", "definition": "Ressonância Magnética", "class_id": 38},
-    {"term": "Named", "phonetic": "/neɪmd/", "definition": "Nomeado/Chamado (ex: name of the company)", "class_id": 3},
-    {"term": "Navel / Belly button", "phonetic": "/ˈneɪvəl/ / /ˈbɛli ˈbʌtən/", "definition": "Umbigo", "class_id": 31},
-    {"term": "Non-slip", "phonetic": "/nɒn slɪp/", "definition": "Antiderrapante", "class_id": 21},
-    {"term": "One / Ones", "phonetic": "/wʌn/ /wʌnz/", "definition": "Substitutos de substantivos (evitar repetição)", "class_id": 25},
-    {"term": "Opposite", "phonetic": "/ˈɒpəzɪt/", "definition": "Oposto / De frente para", "class_id": 19},
-    {"term": "Outage", "phonetic": "/ˈaʊtɪdʒ/", "definition": "Falta/Queda (energia/água)", "class_id": 18},
-    {"term": "Overheating", "phonetic": "/ˈoʊ.vɚˈhiː.tɪŋ/", "definition": "Superaquecimento", "class_id": 38},
-    {"term": "Parking lot", "phonetic": "/ˈpɑːr.kɪŋ ˌlɒt/", "definition": "Estacionamento", "class_id": 38},
-    {"term": "Past", "phonetic": "/pæst/", "definition": "Passando por / Além de", "class_id": 21},
-    {"term": "Patient Flow", "phonetic": "/'peɪʃnt floʊ/", "definition": "Fluxo de pacientes (Crucial em hospitais)", "class_id": 0},
-    {"term": "Person / People", "phonetic": "/'pɜːrsn/ - /'piːpl/", "definition": "Pessoa (Singular) / Pessoas (Plural)", "class_id": 1},
-    {"term": "Pleasant", "phonetic": "/ˈpleznt/", "definition": "Agradável", "class_id": 23},
-    {"term": "Plinth", "phonetic": "/plɪnθ/", "definition": "Pedestal / Base / Nível de Rodapé", "class_id": 27},
-    {"term": "Plumbing", "phonetic": "/ˈplʌmɪŋ/", "definition": "Encanamento (B mudo)", "class_id": 25},
-    {"term": "Policy", "phonetic": "/'pɒləsi/", "definition": "Política / Diretriz", "class_id": 16},
-    {"term": "Polypropylene", "phonetic": "/ˌpɒli'proʊpəliːn/", "definition": "Polipropileno", "class_id": 9},
-    {"term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (Ex: I couldn't postpone my visit)", "class_id": 7},
-    {"term": "Postpone", "phonetic": "/poʊst'poʊn/", "definition": "Adiar (ex: postpone the meeting)", "class_id": 16},
-    {"term": "PPE (Personal Protective Equipment)", "phonetic": "/ˌpiː piː ˈiː/", "definition": "EPI (Equipamento de Proteção Individual)", "class_id": 24},
-    {"term": "Preview", "phonetic": "/ˈpriːvjuː/", "definition": "Previsão / Prévia", "class_id": 25},
-    {"term": "Previous", "phonetic": "/ˈpriːviəs/", "definition": "Anterior", "class_id": 25},
-    {"term": "Proposal", "phonetic": "/prə'poʊzl/", "definition": "Proposta (ex: workshop proposal)", "class_id": 16},
-    {"term": "Punch List", "phonetic": "/ˈpʌntʃ ˌlɪst/", "definition": "Lista de pendências finais", "class_id": 38},
-    {"term": "Reach", "phonetic": "/riːtʃ/", "definition": "Alcançar / Chegar a", "class_id": 20},
-    {"term": "Received", "phonetic": "/rɪˈsiːvd/", "definition": "Recebido / Recebeu", "class_id": 23},
-    {"term": "Recently", "phonetic": "/ˈriːsntli/", "definition": "Recentemente", "class_id": 23},
-    {"term": "Redundancy", "phonetic": "/rɪ'dʌndənsi/", "definition": "Redundância (Sistemas de backup)", "class_id": 13},
-    {"term": "Regarding", "phonetic": "/rɪ'ɡɑːrdɪŋ/", "definition": "Sobre / Acerca de", "class_id": 18},
-    {"term": "Relative Clause", "phonetic": "/ˈrelətɪv klɔːz/", "definition": "Oração subordinada adjetiva (Conector)", "class_id": 25},
-    {"term": "Relatively", "phonetic": "/ˈrelətɪvli/", "definition": "Relativamente", "class_id": 22},
-    {"term": "Reuse", "phonetic": "/riːˈjuːz/", "definition": "Reuso", "class_id": 31},
-    {"term": "Right after", "phonetic": "/raɪt 'æftər/", "definition": "Logo em seguida", "class_id": 5},
-    {"term": "Roof", "phonetic": "/ruːf/", "definition": "Telhado", "class_id": 31},
-    {"term": "Rooftop", "phonetic": "/ˈruːftɒp/", "definition": "Terraço / Cobertura", "class_id": 20},
-    {"term": "Safe / Safer", "phonetic": "/seɪf/ - /'seɪfər/", "definition": "Seguro / Mais seguro", "class_id": 17},
-    {"term": "Safety", "phonetic": "/ˈseɪfti/", "definition": "Segurança (Passiva/Proteção)", "class_id": 25},
-    {"term": "Safety Goggles", "phonetic": "/ˈseɪfti ˈɡɒɡəlz/", "definition": "Óculos de segurança", "class_id": 30},
-    {"term": "Safety Harness", "phonetic": "/ˈseɪfti ˈhɑːrnɪs/", "definition": "Cinto de segurança", "class_id": 30},
-    {"term": "Sample", "phonetic": "/ˈsæmpl/", "definition": "Amostra", "class_id": 20},
-    {"term": "Scaffolding", "phonetic": "/ˈskæfəldɪŋ/", "definition": "Andaime", "class_id": 30},
-    {"term": "Schedule", "phonetic": "/'skedʒuːl/", "definition": "Agenda / Cronograma / Agendar", "class_id": 7},
-    {"term": "Seamless", "phonetic": "/ˈsiːmləs/", "definition": "Sem emendas / Monolítico", "class_id": 21},
-    {"term": "Security", "phonetic": "/sɪˈkjʊərəti/", "definition": "Segurança (Ativa/Vigilância)", "class_id": 25},
-    {"term": "Security protocol", "phonetic": "/sɪˈkjʊr.ə.ti ˈproʊ.tə.kɒl/", "definition": "Protocolo de segurança", "class_id": 38},
-    {"term": "Sewage", "phonetic": "/ˈsuːɪdʒ/", "definition": "Esgoto", "class_id": 31},
-    {"term": "Sharp angles / Poison arrows", "phonetic": "/ʃɑːrp ˈæŋɡəlz/ /ˈpɔɪzn ˈæroʊz/", "definition": "Ângulos Agudos (Flechas)", "class_id": 26},
-    {"term": "Shielding", "phonetic": "/ˈʃiːldɪŋ/", "definition": "Blindagem / Isolamento", "class_id": 38},
-    {"term": "Signage", "phonetic": "/ˈsaɪnɪdʒ/", "definition": "Sinalização", "class_id": 20},
-    {"term": "Significantly", "phonetic": "/sɪɡˈnɪfɪkəntli/", "definition": "Significativamente / Muito", "class_id": 22},
-    {"term": "Sink", "phonetic": "/sɪŋk/", "definition": "Pia / Afundar", "class_id": 19},
-    {"term": "Site", "phonetic": "/saɪt/", "definition": "Local (da obra ou da clínica)", "class_id": 19},
-    {"term": "Slightly", "phonetic": "/ˈslaɪtli/", "definition": "Levemente / Um pouco", "class_id": 22},
-    {"term": "Slippery", "phonetic": "/ˈslɪp.ər.i/", "definition": "Escorregadio", "class_id": 38},
-    {"term": "Sloping ground", "phonetic": "/ˈsloʊpɪŋ ɡraʊnd/", "definition": "Terreno inclinado", "class_id": 27},
-    {"term": "Smell", "phonetic": "/smel/", "definition": "Cheiro / Cheirar", "class_id": 23},
-    {"term": "Specialists", "phonetic": "/'speʃəlɪsts/", "definition": "Especialistas (Pronúncia: Spé-chalists)", "class_id": 6},
-    {"term": "Stability", "phonetic": "/stə'bɪləti/", "definition": "Estabilidade", "class_id": 27},
-    {"term": "Stairs", "phonetic": "/stɛərz/", "definition": "Escadas fixas (alvenaria/madeira)", "class_id": 31},
-    {"term": "Stakeholders", "phonetic": "/ˈsteɪkˌhoʊldərz/", "definition": "Partes interessadas (Sócios/Envolvidos)", "class_id": 18},
-    {"term": "Stakeholders", "phonetic": "/ˈsteɪkˌhoʊldərz/", "definition": "Partes interessadas / Envolvidos", "class_id": 28},
-    {"term": "Stayed", "phonetic": "/steɪd/", "definition": "Ficou / Permaneceu", "class_id": 5},
-    {"term": "Steel", "phonetic": "/stiːl/", "definition": "Aço", "class_id": 9},
-    {"term": "Steel-Toed Boots", "phonetic": "/stiːl toʊd buːts/", "definition": "Botas bico de aço", "class_id": 30},
-    {"term": "Steps", "phonetic": "/stɛps/", "definition": "Degraus", "class_id": 31},
-    {"term": "Still", "phonetic": "/stɪl/", "definition": "Ainda", "class_id": 6},
-    {"term": "Store / Storage", "phonetic": "/stɔːr/ /ˈstɔːrɪdʒ/", "definition": "Armazenar / Armazenamento", "class_id": 25},
-    {"term": "Stove", "phonetic": "/stoʊv/", "definition": "Fogão", "class_id": 31},
-    {"term": "Straight angles", "phonetic": "/streɪt ˈæŋɡəlz/", "definition": "Ângulos retos", "class_id": 31},
-    {"term": "Street level", "phonetic": "", "definition": "Nível da rua", "class_id": 31},
-    {"term": "Stretcher", "phonetic": "/ˈstretʃər/", "definition": "Maca", "class_id": 20},
-    {"term": "Strip", "phonetic": "/strɪp/", "definition": "Faixa (de sinalização/corredor)", "class_id": 20},
-    {"term": "Struggling", "phonetic": "/'strʌɡlɪŋ/", "definition": "Lutando / Tendo dificuldade", "class_id": 6},
-    {"term": "Stuck", "phonetic": "/stʌk/", "definition": "Preso / Travado", "class_id": 38},
-    {"term": "Supplier", "phonetic": "/səˈplaɪər/", "definition": "Fornecedor", "class_id": 25},
-    {"term": "Sustainable", "phonetic": "/sə'steɪnəbl/", "definition": "Sustentável", "class_id": 0},
-    {"term": "Technicians", "phonetic": "/tekˈnɪʃənz/", "definition": "Técnicos (Atenção à tônica no NI)", "class_id": 24},
-    {"term": "The day before yesterday", "phonetic": "/ðə deɪ bɪˈfɔːr ˈjestədeɪ/", "definition": "Anteontem", "class_id": 25},
-    {"term": "The stage is yours", "phonetic": "", "definition": "O palco é seu", "class_id": 31},
-    {"term": "Through", "phonetic": "/θruː/", "definition": "Através de / Por meio de", "class_id": 23},
-    {"term": "Throughout", "phonetic": "/θruːˈaʊt/", "definition": "Por todo / Em toda a extensão", "class_id": 21},
-    {"term": "Thunder", "phonetic": "/ˈθʌndər/", "definition": "Trovão", "class_id": 28},
-    {"term": "Tidy up", "phonetic": "/'taɪdi ʌp/", "definition": "Arrumar / Organizar", "class_id": 2},
-    {"term": "Tight deadline", "phonetic": "/taɪt 'dedlaɪn/", "definition": "Prazo apertado", "class_id": 17},
-    {"term": "Timber", "phonetic": "/'tɪmbər/", "definition": "Madeira (de construção)", "class_id": 27},
-    {"term": "To believe", "phonetic": "/tə bɪˈliːv/", "definition": "Acreditar", "class_id": 24},
-    {"term": "To Brief", "phonetic": "/tə briːf/", "definition": "Dar instruções / Resumir o essencial", "class_id": 38},
-    {"term": "To deal with", "phonetic": "/diːl wɪð/", "definition": "Lidar com / Tratar de", "class_id": 17},
-    {"term": "To go to the gym", "phonetic": "/dʒɪm/", "definition": "Ir para a academia", "class_id": 2},
-    {"term": "To happen", "phonetic": "/'hæpən/", "definition": "Acontecer", "class_id": 18},
-    {"term": "To inspect construction sites", "phonetic": "/ɪn'spekt/", "definition": "Inspecionar canteiros de obra", "class_id": 1},
-    {"term": "To make projects", "phonetic": "/meɪk/", "definition": "Fazer/Elaborar projetos", "class_id": 1},
-    {"term": "To Oversee", "phonetic": "/tə ˌoʊ.vɚˈsiː/", "definition": "Supervisionar / Gerenciar", "class_id": 38},
-    {"term": "To visit clients", "phonetic": "/'vɪzɪt/", "definition": "Visitar clientes", "class_id": 1},
-    {"term": "To wear", "phonetic": "/tə wer/", "definition": "Vestir / Usar (Roupas/EPI)", "class_id": 24},
-    {"term": "Toilet", "phonetic": "/'tɔɪlət/", "definition": "Sanitário / Banheiro", "class_id": 27},
-    {"term": "Toilet", "phonetic": "/ˈtɔɪlɪt/", "definition": "Vaso sanitário", "class_id": 31},
-    {"term": "Tough", "phonetic": "/tʌf/", "definition": "Pesado / Duro / Complicado", "class_id": 19},
-    {"term": "Toward", "phonetic": "/təˈwɔːrd/", "definition": "Em direção a", "class_id": 21},
-    {"term": "Trivia", "phonetic": "/'trɪviə/", "definition": "Curiosidades / Fatos", "class_id": 3},
-    {"term": "Trouble", "phonetic": "/ˈtrʌbl/", "definition": "Encrenca / Problema", "class_id": 23},
-    {"term": "Troubleshoot", "phonetic": "/ˈtrʌbəlˌʃut/", "definition": "Identificar e resolver problemas", "class_id": 15},
-    {"term": "Under / Below", "phonetic": "/ˈʌndər/ /bɪˈloʊ/", "definition": "Embaixo / Abaixo de", "class_id": 19},
-    {"term": "Unfortunately", "phonetic": "/ʌn'fɔːrtʃunətli/", "definition": "Infelizmente", "class_id": 4},
-    {"term": "Update", "phonetic": "/ˌʌp'deɪt/", "definition": "Atualizar / Atualização", "class_id": 7},
-    {"term": "Via", "phonetic": "/ˈvaɪə/", "definition": "Via / Por meio de", "class_id": 21},
-    {"term": "Vibrating", "phonetic": "/ˈvaɪ.breɪ.tɪŋ/", "definition": "Vibrando / Vibração", "class_id": 38},
-    {"term": "Waiting Area", "phonetic": "/'weɪtɪŋ 'eəriə/", "definition": "Sala de espera", "class_id": 0},
-    {"term": "Ward", "phonetic": "/wɔːrd/", "definition": "Ala hospitalar / Enfermaria", "class_id": 18},
-    {"term": "Warm Light", "phonetic": "/wɔːrm laɪt/", "definition": "Luz quente (amarelada)", "class_id": 22},
-    {"term": "Warn", "phonetic": "/wɔːrn/", "definition": "Aviso / Advertência", "class_id": 24},
-    {"term": "Wash the dishes", "phonetic": "/wɒʃ ðə 'dɪʃɪz/", "definition": "Lavar a louça", "class_id": 2},
-    {"term": "Waste", "phonetic": "/weɪst/", "definition": "Resíduos / Lixo técnico", "class_id": 20},
-    {"term": "Which / Witch", "phonetic": "/wɪtʃ/", "definition": "Homófonos (Qual / Bruxa)", "class_id": 25},
-    {"term": "Whole", "phonetic": "/hoʊl/", "definition": "Todo / Inteiro / Totalidade", "class_id": 23},
-    {"term": "Winery", "phonetic": "/'waɪnəri/", "definition": "Vinícola", "class_id": 4},
-    {"term": "Wing", "phonetic": "/wɪŋ/", "definition": "Ala hospitalar / Setor", "class_id": 18},
-    {"term": "Within", "phonetic": "/wɪˈðɪn/", "definition": "Dentro de / No limite de", "class_id": 21},
-    {"term": "Won / One", "phonetic": "/wʌn/", "definition": "Homófonos (Ganhou / Um)", "class_id": 25},
-    {"term": "Wood", "phonetic": "/wʊd/", "definition": "Madeira", "class_id": 9},
-    {"term": "Workshop", "phonetic": "/'wɜːrkʃɒp/", "definition": "Oficina / Workshop", "class_id": 8},
-    {"term": "Worm", "phonetic": "/wɜːrm/", "definition": "Verme / Minhoca", "class_id": 24},
-    {"term": "Worn", "phonetic": "/wɔːrn/", "definition": "Gasto / Usado (Particípio de Wear)", "class_id": 24}
+    {
+      "term": "Accessibility",
+      "phonetic": "/əkˌsesə'bɪləti/",
+      "definition": "Acessibilidade",
+      "class_id": 0
+    },
+    {
+      "term": "Against",
+      "phonetic": "/əˈɡenst/",
+      "definition": "Encostado em / Contra",
+      "class_id": 21
+    },
+    {
+      "term": "Air exchange rate",
+      "phonetic": "/er ɪks'tʃeɪndʒ reɪt/",
+      "definition": "Taxa de renovação do ar",
+      "class_id": 18
+    },
+    {
+      "term": "Aluminium",
+      "phonetic": "/ˌæljə'mɪniəm/",
+      "definition": "Alumínio",
+      "class_id": 9
+    },
+    {
+      "term": "Among",
+      "phonetic": "/əˈmʌŋ/",
+      "definition": "Entre (muitos)",
+      "class_id": 19
+    },
+    {
+      "term": "Anchor / Anchoring",
+      "phonetic": "/'æŋkər/",
+      "definition": "Âncora / Ancoragem",
+      "class_id": 27
+    },
+    {
+      "term": "Anti-microbial",
+      "phonetic": "/ˌænti maɪˈkroʊbiəl/",
+      "definition": "Antimicrobiano",
+      "class_id": 21
+    },
+    {
+      "term": "Apparently",
+      "phonetic": "/əˈpærəntli/",
+      "definition": "Aparentemente",
+      "class_id": 23
+    },
+    {
+      "term": "Architect",
+      "phonetic": "/'ɑːrkɪtekt/",
+      "definition": "Arquiteto (Atenção ao som de 'K')",
+      "class_id": 1
+    },
+    {
+      "term": "Arrangement",
+      "phonetic": "/əˈreɪndʒmənt/",
+      "definition": "Arranjo físico / Disposição",
+      "class_id": 19
+    },
+    {
+      "term": "Audit",
+      "phonetic": "/ˈɔːdɪt/",
+      "definition": "Auditoria",
+      "class_id": 38
+    },
+    {
+      "term": "Away from",
+      "phonetic": "/əˈweɪ frʌm/",
+      "definition": "Longe/afastado de",
+      "class_id": 31
+    },
+    {
+      "term": "Backlog",
+      "phonetic": "/ˈbækˌlɒɡ/",
+      "definition": "Tarefas acumuladas/pendentes",
+      "class_id": 36
+    },
+    {
+      "term": "Backup Generator",
+      "phonetic": "/ˈbækʌp ˈdʒɛnəreɪtər/",
+      "definition": "Gerador de emergência",
+      "class_id": 18
+    },
+    {
+      "term": "Barely",
+      "phonetic": "/ˈbeəli/",
+      "definition": "Mal / Quase nada (Intensidade mínima)",
+      "class_id": 22
+    },
+    {
+      "term": "Barriers",
+      "phonetic": "/ˈbæriərz/",
+      "definition": "Barreiras / Tapumes",
+      "class_id": 30
+    },
+    {
+      "term": "Bathtub",
+      "phonetic": "/ˈbæθtʌb/",
+      "definition": "Banheira",
+      "class_id": 31
+    },
+    {
+      "term": "Bedroom",
+      "phonetic": "/'bedruːm/",
+      "definition": "Quarto (O cômodo)",
+      "class_id": 5
+    },
+    {
+      "term": "Beside / Next to",
+      "phonetic": "/bɪˈsaɪd/ /nekst tuː/",
+      "definition": "Ao lado de / Próximo a",
+      "class_id": 19
+    },
+    {
+      "term": "Between",
+      "phonetic": "/bɪˈtwiːn/",
+      "definition": "Entre (dois pontos/objetos)",
+      "class_id": 19
+    },
+    {
+      "term": "Beyond",
+      "phonetic": "/bɪˈjɒnd/",
+      "definition": "Além de / Para lá de",
+      "class_id": 21
+    },
+    {
+      "term": "Big constructions",
+      "phonetic": "/bɪɡ kən'strʌkʃənz/",
+      "definition": "Grandes obras / construções",
+      "class_id": 3
+    },
+    {
+      "term": "BIM Specialist",
+      "phonetic": "/'speʃəlɪst/",
+      "definition": "Especialista em plataforma BIM",
+      "class_id": 1
+    },
+    {
+      "term": "Biohazard",
+      "phonetic": "/ˌbaɪoʊˈhæzərd/",
+      "definition": "Risco biológico",
+      "class_id": 36
+    },
+    {
+      "term": "Blackout",
+      "phonetic": "/ˈblækˌaʊt/",
+      "definition": "Apagão / Queda de energia",
+      "class_id": 18
+    },
+    {
+      "term": "Blueprint",
+      "phonetic": "/'bluːprɪnt/",
+      "definition": "Planta baixa / Projeto técnico",
+      "class_id": 0
+    },
+    {
+      "term": "Blueprints",
+      "phonetic": "/ˈbluːˌprɪnts/",
+      "definition": "Plantas técnicas / Projetos originais",
+      "class_id": 36
+    },
+    {
+      "term": "Board",
+      "phonetic": "/bɔːrd/",
+      "definition": "Mesa diretora / Conselho / Diretoria",
+      "class_id": 36
+    },
+    {
+      "term": "Bottleneck",
+      "phonetic": "/ˈbɒt.əl.nek/",
+      "definition": "Gargalo",
+      "class_id": 36
+    },
+    {
+      "term": "Brahmsthan",
+      "phonetic": "/'brʌmˌstɑːn/",
+      "definition": "Centro da casa (Espaço sagrado)",
+      "class_id": 27
+    },
+    {
+      "term": "Bribes",
+      "phonetic": "/braɪbz/",
+      "definition": "Subornos / Propinas",
+      "class_id": 3
+    },
+    {
+      "term": "Briefing",
+      "phonetic": "/ˈbriːfɪŋ/",
+      "definition": "Reunião de alinhamento / Resumo",
+      "class_id": 31
+    },
+    {
+      "term": "Budget",
+      "phonetic": "/'bʌdʒɪt/",
+      "definition": "Orçamento",
+      "class_id": 0
+    },
+    {
+      "term": "By way of",
+      "phonetic": "/baɪ weɪ əv/",
+      "definition": "Por meio de / Rota",
+      "class_id": 21
+    },
+    {
+      "term": "Career",
+      "phonetic": "/kəˈrɪər/",
+      "definition": "Carreira (Atenção à tônica no final)",
+      "class_id": 18
+    },
+    {
+      "term": "Caution Tape",
+      "phonetic": "/ˈkɔːʃn teɪp/",
+      "definition": "Fita de isolamento / Sinalização",
+      "class_id": 30
+    },
+    {
+      "term": "Chicken / Kitchen",
+      "phonetic": "/'tʃɪkɪn / 'kɪtʃɪn/",
+      "definition": "Pronúncia: Frango vs. Cozinha",
+      "class_id": 2
+    },
+    {
+      "term": "Child / Children",
+      "phonetic": "/tʃaɪld/ - /'tʃɪldrən/",
+      "definition": "Criança (Singular) / Crianças (Plural)",
+      "class_id": 1
+    },
+    {
+      "term": "Childbirth",
+      "phonetic": "/'tʃaɪldbɜːrθ/",
+      "definition": "Parto (Ação de dar à luz)",
+      "class_id": 6
+    },
+    {
+      "term": "Chillers & Cooling Towers",
+      "phonetic": "/ˈtʃɪlərz ænd ˈkuːlɪŋ ˈtaʊərz/",
+      "definition": "Resfriadores e Torres de Resfriamento",
+      "class_id": 29
+    },
+    {
+      "term": "Circadian Lighting",
+      "phonetic": "/sɜːrˈkeɪdiən ˈlaɪtɪŋ/",
+      "definition": "Iluminação natural / Ciclo circadiano",
+      "class_id": 22
+    },
+    {
+      "term": "Cladding",
+      "phonetic": "/ˈklædɪŋ/",
+      "definition": "Revestimento externo / Fachada",
+      "class_id": 21
+    },
+    {
+      "term": "Clearance",
+      "phonetic": "/ˈklɪərəns/",
+      "definition": "Espaçamento livre / Folga técnica",
+      "class_id": 19
+    },
+    {
+      "term": "Coating",
+      "phonetic": "/ˈkoʊtɪŋ/",
+      "definition": "Revestimento / Pintura técnica",
+      "class_id": 21
+    },
+    {
+      "term": "Compliance",
+      "phonetic": "/kəm'plaɪəns/",
+      "definition": "Conformidade (Normas técnicas)",
+      "class_id": 0
+    },
+    {
+      "term": "Compliance",
+      "phonetic": "/kəm'plaɪəns/",
+      "definition": "Conformidade (Normas)",
+      "class_id": 13
+    },
+    {
+      "term": "Compliance",
+      "phonetic": "/kəm'plaɪəns/",
+      "definition": "Conformidade / Obediência a leis",
+      "class_id": 36
+    },
+    {
+      "term": "Compromised",
+      "phonetic": "/'kɒmprəmaɪzd/",
+      "definition": "Apresenta falhas / Inadequado",
+      "class_id": 33
+    },
+    {
+      "term": "Concrete pouring",
+      "phonetic": "/'kɒnkriːt 'pɔːrɪŋ/",
+      "definition": "Concretagem",
+      "class_id": 33
+    },
+    {
+      "term": "Confluence",
+      "phonetic": "/ˈkɒnfluəns/",
+      "definition": "Confluência",
+      "class_id": 31
+    },
+    {
+      "term": "Consequently",
+      "phonetic": "/'kɒnsɪkwəntli/",
+      "definition": "Consequentemente",
+      "class_id": 33
+    },
+    {
+      "term": "Consultation Room",
+      "phonetic": "/ˌkɒnsl'teɪʃn ruːm/",
+      "definition": "Consultório",
+      "class_id": 18
+    },
+    {
+      "term": "Copper",
+      "phonetic": "/'kɒpər/",
+      "definition": "Cobre",
+      "class_id": 9
+    },
+    {
+      "term": "Coworker",
+      "phonetic": "/ˌkoʊ'wɜːrkər/",
+      "definition": "Colega de trabalho",
+      "class_id": 4
+    },
+    {
+      "term": "Cracked",
+      "phonetic": "/krækt/",
+      "definition": "Rachado",
+      "class_id": 38
+    },
+    {
+      "term": "Critically ill patients",
+      "phonetic": "/ˈkrɪtɪkəli ɪl ˈpeɪʃnts/",
+      "definition": "Pacientes em estado crítico",
+      "class_id": 20
+    },
+    {
+      "term": "Custom",
+      "phonetic": "/ˈkʌstəm/",
+      "definition": "Personalizado / Sob medida",
+      "class_id": 24
+    },
+    {
+      "term": "Dampers",
+      "phonetic": "/ˈdæmpərz/",
+      "definition": "Abafadores / Registros de controle de ar",
+      "class_id": 29
+    },
+    {
+      "term": "Deadline",
+      "phonetic": "/'dedlaɪn/",
+      "definition": "Prazo final (Não negociável)",
+      "class_id": 7
+    },
+    {
+      "term": "Diffusers",
+      "phonetic": "/dɪˈfjuːzərz/",
+      "definition": "Difusores (Grelhas de teto)",
+      "class_id": 29
+    },
+    {
+      "term": "Dimension",
+      "phonetic": "/dɪˈmɛnʃən/",
+      "definition": "Dimensão",
+      "class_id": 31
+    },
+    {
+      "term": "Dimmer",
+      "phonetic": "/ˈdɪmər/",
+      "definition": "Regulador de intensidade (Luz)",
+      "class_id": 22
+    },
+    {
+      "term": "Disposal area",
+      "phonetic": "/dɪˈspoʊzl ˈeəriə/",
+      "definition": "Área de descarte",
+      "class_id": 20
+    },
+    {
+      "term": "Dissertation",
+      "phonetic": "/ˌdɪsər'teɪʃn/",
+      "definition": "Dissertação / Tese acadêmica",
+      "class_id": 8
+    },
+    {
+      "term": "Distress",
+      "phonetic": "/dɪˈstrɛs/",
+      "definition": "Aflição",
+      "class_id": 31
+    },
+    {
+      "term": "Downtown",
+      "phonetic": "/'daʊntaʊn/",
+      "definition": "Centro da cidade (área comercial)",
+      "class_id": 3
+    },
+    {
+      "term": "Draft",
+      "phonetic": "/dræft/",
+      "definition": "Rascunho / Esboço",
+      "class_id": 17
+    },
+    {
+      "term": "Duct",
+      "phonetic": "/dʌkt/",
+      "definition": "Duto / Tubulação / 'Cano'",
+      "class_id": 28
+    },
+    {
+      "term": "Dust Mask / Respirator",
+      "phonetic": "/dʌst mæsk / ˈrɛspəreɪtər/",
+      "definition": "Máscara de pó / Respirador",
+      "class_id": 30
+    },
+    {
+      "term": "Earplugs / Earmuffs",
+      "phonetic": "/ˈɪəplʌɡz / ˈɪəmʌfs/",
+      "definition": "Protetores auriculares (internos/externos)",
+      "class_id": 30
+    },
+    {
+      "term": "Employed",
+      "phonetic": "/ɪm'plɔɪd/",
+      "definition": "Empregado (Verbo)",
+      "class_id": 5
+    },
+    {
+      "term": "Employee",
+      "phonetic": "/ɪm'plɔɪiː/",
+      "definition": "Funcionário / Colaborador",
+      "class_id": 5
+    },
+    {
+      "term": "Employer",
+      "phonetic": "/ɪm'plɔɪər/",
+      "definition": "Empregador / Patrão",
+      "class_id": 5
+    },
+    {
+      "term": "Ensures",
+      "phonetic": "/ɪnˈʃʊərz/",
+      "definition": "Garante / Certifica",
+      "class_id": 21
+    },
+    {
+      "term": "Entire",
+      "phonetic": "/ɪnˈtaɪər/",
+      "definition": "Inteiro / Todo",
+      "class_id": 21
+    },
+    {
+      "term": "Expensive",
+      "phonetic": "/ɪk'spensɪv/",
+      "definition": "Caro",
+      "class_id": 4
+    },
+    {
+      "term": "Extreme Sports",
+      "phonetic": "/ɪk'striːm spɔːrts/",
+      "definition": "Esportes radicais (Skydiving, Zipline)",
+      "class_id": 2
+    },
+    {
+      "term": "Extremely",
+      "phonetic": "/ɪkˈstriːmli/",
+      "definition": "Extremamente (Intensidade máxima)",
+      "class_id": 22
+    },
+    {
+      "term": "Faced",
+      "phonetic": "/feɪst/",
+      "definition": "Enfrentado / Encarado",
+      "class_id": 18
+    },
+    {
+      "term": "Facing",
+      "phonetic": "/ˈfeɪsɪŋ/",
+      "definition": "Voltado/virado para",
+      "class_id": 31
+    },
+    {
+      "term": "Fan Coil Units (FCU)",
+      "phonetic": "/fæn kɔɪl ˈjuːnɪts/",
+      "definition": "Unidades de ventilação local",
+      "class_id": 29
+    },
+    {
+      "term": "Fire Extinguisher",
+      "phonetic": "/ˈfaɪər ɪkˈstɪŋɡwɪʃər/",
+      "definition": "Extintor de incêndio",
+      "class_id": 30
+    },
+    {
+      "term": "First Aid Kit",
+      "phonetic": "/fɜːrst eɪd kɪt/",
+      "definition": "Kit de primeiros socorros",
+      "class_id": 30
+    },
+    {
+      "term": "Fitting",
+      "phonetic": "/ˈfɪtɪŋ/",
+      "definition": "Acessório / Peça de conexão",
+      "class_id": 19
+    },
+    {
+      "term": "Fixture",
+      "phonetic": "/ˈfɪkstʃər/",
+      "definition": "Item fixo (ex: pia, luminária)",
+      "class_id": 22
+    },
+    {
+      "term": "Flicker",
+      "phonetic": "/ˈflɪkər/",
+      "definition": "Oscilação / Tremulação da luz",
+      "class_id": 22
+    },
+    {
+      "term": "Floor Plan",
+      "phonetic": "/flɔːr plæn/",
+      "definition": "Planta de piso",
+      "class_id": 0
+    },
+    {
+      "term": "Flow",
+      "phonetic": "/floʊ/",
+      "definition": "Fluxo (Atenção ao som de 'O')",
+      "class_id": 21
+    },
+    {
+      "term": "Foundation",
+      "phonetic": "/faʊn'deɪʃn/",
+      "definition": "Fundação / Base",
+      "class_id": 33
+    },
+    {
+      "term": "Frozen",
+      "phonetic": "/'froʊzn/",
+      "definition": "Congelado (Past Participle)",
+      "class_id": 6
+    },
+    {
+      "term": "Furniture",
+      "phonetic": "/'fɜːrnɪtʃər/",
+      "definition": "Móveis",
+      "class_id": 2
+    },
+    {
+      "term": "Furthermore",
+      "phonetic": "/ˌfɜːrðər'mɔːr/",
+      "definition": "Além disso / Ademais",
+      "class_id": 33
+    },
+    {
+      "term": "Geographic north",
+      "phonetic": "",
+      "definition": "Norte geográfico",
+      "class_id": 31
+    },
+    {
+      "term": "Glare",
+      "phonetic": "/ɡler/",
+      "definition": "Ofuscamento / Luz incômoda",
+      "class_id": 22
+    },
+    {
+      "term": "Glass",
+      "phonetic": "/ɡlæs/",
+      "definition": "Vidro",
+      "class_id": 9
+    },
+    {
+      "term": "Go ahead",
+      "phonetic": "/ɡoʊ ə'hed/",
+      "definition": "Vá em frente",
+      "class_id": 3
+    },
+    {
+      "term": "Grilles",
+      "phonetic": "/ɡrɪlz/",
+      "definition": "Grelhas de ventilação",
+      "class_id": 29
+    },
+    {
+      "term": "Guest",
+      "phonetic": "/ɡɛst/",
+      "definition": "Visitante / Hóspede",
+      "class_id": 31
+    },
+    {
+      "term": "Halt",
+      "phonetic": "/hɔːlt/",
+      "definition": "Pausa / Interrupção",
+      "class_id": 33
+    },
+    {
+      "term": "Hard Hat / Helmet",
+      "phonetic": "/hɑːrd hæt / ˈhɛlmɪt/",
+      "definition": "Capacete de segurança",
+      "class_id": 30
+    },
+    {
+      "term": "Hazmat Suit",
+      "phonetic": "/ˈhæzmæt suːt/",
+      "definition": "Roupa para materiais perigosos",
+      "class_id": 30
+    },
+    {
+      "term": "Healing Environment",
+      "phonetic": "/'hiːlɪŋ ɪn'vaɪrənmənt/",
+      "definition": "Ambiente de cura (Conceito de design)",
+      "class_id": 0
+    },
+    {
+      "term": "Healthcare Specialist",
+      "phonetic": "/'helθkeə/",
+      "definition": "Especialista em saúde (arquitetura hospitalar)",
+      "class_id": 1
+    },
+    {
+      "term": "Heat / Cold",
+      "phonetic": "/hiːt / koʊld/",
+      "definition": "Calor / Frio",
+      "class_id": 2
+    },
+    {
+      "term": "HEPA Filters",
+      "phonetic": "/ˈhɛpə ˈfɪltərz/",
+      "definition": "Filtros de alta eficiência (Ar)",
+      "class_id": 29
+    },
+    {
+      "term": "Hidden",
+      "phonetic": "/'hɪdn/",
+      "definition": "Escondido / Oculto",
+      "class_id": 6
+    },
+    {
+      "term": "High-Visibility Vest",
+      "phonetic": "/haɪ ˌvɪzəˈbɪləti vɛst/",
+      "definition": "Colete refletivo",
+      "class_id": 30
+    },
+    {
+      "term": "Hire",
+      "phonetic": "/haɪər/",
+      "definition": "Contratar (Pronúncia: Ráir)",
+      "class_id": 6
+    },
+    {
+      "term": "Hole",
+      "phonetic": "/hoʊl/",
+      "definition": "Buraco / Abertura",
+      "class_id": 23
+    },
+    {
+      "term": "Horizons",
+      "phonetic": "/həˈraɪznz/",
+      "definition": "Horizontes",
+      "class_id": 23
+    },
+    {
+      "term": "Host",
+      "phonetic": "/hoʊst/",
+      "definition": "Anfitrião",
+      "class_id": 31
+    },
+    {
+      "term": "How are you?",
+      "phonetic": "/haʊ ɑːr juː/",
+      "definition": "Como você está?",
+      "class_id": 5
+    },
+    {
+      "term": "How many?",
+      "phonetic": "/haʊ 'meni/",
+      "definition": "Quantos? (Contáveis)",
+      "class_id": 5
+    },
+    {
+      "term": "However",
+      "phonetic": "/haʊˈevər/",
+      "definition": "No entanto / Porém",
+      "class_id": 23
+    },
+    {
+      "term": "HVAC",
+      "phonetic": "/ˌeɪtʃ viː eɪ 'siː/",
+      "definition": "Heating, Ventilation and AC",
+      "class_id": 18
+    },
+    {
+      "term": "ICU",
+      "phonetic": "/ˌaɪ siː ˈjuː/",
+      "definition": "UTI (Intensive Care Unit)",
+      "class_id": 28
+    },
+    {
+      "term": "In front of",
+      "phonetic": "/ɪn frʌnt əv/",
+      "definition": "Em frente a",
+      "class_id": 19
+    },
+    {
+      "term": "Inclusion",
+      "phonetic": "/ɪn'kluːʒn/",
+      "definition": "Inclusão",
+      "class_id": 8
+    },
+    {
+      "term": "India",
+      "phonetic": "/ˈɪndiə/",
+      "definition": "Índia",
+      "class_id": 23
+    },
+    {
+      "term": "Intend",
+      "phonetic": "/ɪn'tend/",
+      "definition": "Pretender / Intentar",
+      "class_id": 4
+    },
+    {
+      "term": "Intensive Care",
+      "phonetic": "/ɪn'tensɪv keər/",
+      "definition": "UTI (Unidade de Terapia Intensiva)",
+      "class_id": 6
+    },
+    {
+      "term": "Inventory",
+      "phonetic": "/ˈɪn.vən.tɔːr.i/",
+      "definition": "Inventário / Estoque",
+      "class_id": 38
+    },
+    {
+      "term": "Iron",
+      "phonetic": "/'aɪərn/",
+      "definition": "Ferro",
+      "class_id": 9
+    },
+    {
+      "term": "Iron out",
+      "phonetic": "/'aɪərn aʊt/",
+      "definition": "Resolver pequenos detalhes",
+      "class_id": 37
+    },
+    {
+      "term": "Issue",
+      "phonetic": "/ˈɪʃuː/",
+      "definition": "Problema / Questão técnica",
+      "class_id": 18
+    },
+    {
+      "term": "Joint",
+      "phonetic": "/dʒɔɪnt/",
+      "definition": "Junta / Emenda",
+      "class_id": 21
+    },
+    {
+      "term": "Lack of",
+      "phonetic": "/læk əv/",
+      "definition": "Falta de",
+      "class_id": 6
+    },
+    {
+      "term": "Ladders",
+      "phonetic": "/ˈlædərz/",
+      "definition": "Escadas móveis (alumínio/abrir)",
+      "class_id": 31
+    },
+    {
+      "term": "Laundry",
+      "phonetic": "/'lɔːndri/",
+      "definition": "Lavanderia",
+      "class_id": 27
+    },
+    {
+      "term": "Layout",
+      "phonetic": "/'leɪaʊt/",
+      "definition": "Layout / Arranjo físico",
+      "class_id": 0
+    },
+    {
+      "term": "Lead",
+      "phonetic": "/liːd/",
+      "definition": "Liderar / Conduzir",
+      "class_id": 22
+    },
+    {
+      "term": "Lead",
+      "phonetic": "/led/",
+      "definition": "Chumbo (Metal)",
+      "class_id": 22
+    },
+    {
+      "term": "Lead Time",
+      "phonetic": "/ˈliːd ˌtaɪm/",
+      "definition": "Tempo de espera / Prazo de entrega",
+      "class_id": 38
+    },
+    {
+      "term": "Leak / Leaking",
+      "phonetic": "/liːk/",
+      "definition": "Vazar / Vazamento",
+      "class_id": 19
+    },
+    {
+      "term": "LEED",
+      "phonetic": "/liːd/",
+      "definition": "Leadership in Energy and Environmental Design (Certificação)",
+      "class_id": 17
+    },
+    {
+      "term": "Lighting",
+      "phonetic": "/ˈlaɪtɪŋ/",
+      "definition": "Iluminação",
+      "class_id": 22
+    },
+    {
+      "term": "Lightning",
+      "phonetic": "/ˈlaɪtnɪŋ/",
+      "definition": "Relâmpago",
+      "class_id": 28
+    },
+    {
+      "term": "Located",
+      "phonetic": "/loʊ'keɪtɪd/",
+      "definition": "Localizado (ex: building location)",
+      "class_id": 3
+    },
+    {
+      "term": "Lungs",
+      "phonetic": "/lʌŋz/",
+      "definition": "Pulmões",
+      "class_id": 31
+    },
+    {
+      "term": "Magnetic north",
+      "phonetic": "",
+      "definition": "Norte magnético",
+      "class_id": 31
+    },
+    {
+      "term": "Main",
+      "phonetic": "/meɪn/",
+      "definition": "Principal",
+      "class_id": 20
+    },
+    {
+      "term": "Medical Imaging",
+      "phonetic": "/'medɪkl 'ɪmədʒɪŋ/",
+      "definition": "Imaginologia (Ex: Sala de Raio-X)",
+      "class_id": 18
+    },
+    {
+      "term": "Migraine",
+      "phonetic": "/ˈmaɪɡreɪn/",
+      "definition": "Enxaqueca",
+      "class_id": 19
+    },
+    {
+      "term": "Moreover",
+      "phonetic": "/mɔːr'oʊvər/",
+      "definition": "Além do mais / Ademais",
+      "class_id": 33
+    },
+    {
+      "term": "MRI (Magnetic Resonance Imaging)",
+      "phonetic": "/ˌem.ɑːrˈaɪ/",
+      "definition": "Ressonância Magnética",
+      "class_id": 38
+    },
+    {
+      "term": "Named",
+      "phonetic": "/neɪmd/",
+      "definition": "Nomeado/Chamado (ex: name of the company)",
+      "class_id": 3
+    },
+    {
+      "term": "Navel / Belly button",
+      "phonetic": "/ˈneɪvəl/ / /ˈbɛli ˈbʌtən/",
+      "definition": "Umbigo",
+      "class_id": 31
+    },
+    {
+      "term": "Non-slip",
+      "phonetic": "/nɒn slɪp/",
+      "definition": "Antiderrapante",
+      "class_id": 21
+    },
+    {
+      "term": "One / Ones",
+      "phonetic": "/wʌn/ /wʌnz/",
+      "definition": "Substitutos de substantivos (evitar repetição)",
+      "class_id": 25
+    },
+    {
+      "term": "Opposite",
+      "phonetic": "/ˈɒpəzɪt/",
+      "definition": "Oposto / De frente para",
+      "class_id": 19
+    },
+    {
+      "term": "Outage",
+      "phonetic": "/ˈaʊtɪdʒ/",
+      "definition": "Falta/Queda (energia/água)",
+      "class_id": 18
+    },
+    {
+      "term": "Overheating",
+      "phonetic": "/ˈoʊ.vɚˈhiː.tɪŋ/",
+      "definition": "Superaquecimento",
+      "class_id": 38
+    },
+    {
+      "term": "Parking lot",
+      "phonetic": "/ˈpɑːr.kɪŋ ˌlɒt/",
+      "definition": "Estacionamento",
+      "class_id": 38
+    },
+    {
+      "term": "Past",
+      "phonetic": "/pæst/",
+      "definition": "Passando por / Além de",
+      "class_id": 21
+    },
+    {
+      "term": "Patient Flow",
+      "phonetic": "/'peɪʃnt floʊ/",
+      "definition": "Fluxo de pacientes (Crucial em hospitais)",
+      "class_id": 0
+    },
+    {
+      "term": "Person / People",
+      "phonetic": "/'pɜːrsn/ - /'piːpl/",
+      "definition": "Pessoa (Singular) / Pessoas (Plural)",
+      "class_id": 1
+    },
+    {
+      "term": "Pleasant",
+      "phonetic": "/ˈpleznt/",
+      "definition": "Agradável",
+      "class_id": 23
+    },
+    {
+      "term": "Plinth",
+      "phonetic": "/plɪnθ/",
+      "definition": "Pedestal / Base / Nível de Rodapé",
+      "class_id": 27
+    },
+    {
+      "term": "Plumbing",
+      "phonetic": "/ˈplʌmɪŋ/",
+      "definition": "Encanamento (B mudo)",
+      "class_id": 25
+    },
+    {
+      "term": "Policy",
+      "phonetic": "/'pɒləsi/",
+      "definition": "Política / Diretriz",
+      "class_id": 16
+    },
+    {
+      "term": "Polypropylene",
+      "phonetic": "/ˌpɒli'proʊpəliːn/",
+      "definition": "Polipropileno",
+      "class_id": 9
+    },
+    {
+      "term": "Postpone",
+      "phonetic": "/poʊst'poʊn/",
+      "definition": "Adiar (Ex: I couldn't postpone my visit)",
+      "class_id": 7
+    },
+    {
+      "term": "Postpone",
+      "phonetic": "/poʊst'poʊn/",
+      "definition": "Adiar (ex: postpone the meeting)",
+      "class_id": 16
+    },
+    {
+      "term": "PPE (Personal Protective Equipment)",
+      "phonetic": "/ˌpiː piː ˈiː/",
+      "definition": "EPI (Equipamento de Proteção Individual)",
+      "class_id": 24
+    },
+    {
+      "term": "Preview",
+      "phonetic": "/ˈpriːvjuː/",
+      "definition": "Previsão / Prévia",
+      "class_id": 25
+    },
+    {
+      "term": "Previous",
+      "phonetic": "/ˈpriːviəs/",
+      "definition": "Anterior",
+      "class_id": 25
+    },
+    {
+      "term": "Proposal",
+      "phonetic": "/prə'poʊzl/",
+      "definition": "Proposta (ex: workshop proposal)",
+      "class_id": 16
+    },
+    {
+      "term": "Punch List",
+      "phonetic": "/ˈpʌntʃ ˌlɪst/",
+      "definition": "Lista de pendências finais",
+      "class_id": 38
+    },
+    {
+      "term": "Reach",
+      "phonetic": "/riːtʃ/",
+      "definition": "Alcançar / Chegar a",
+      "class_id": 20
+    },
+    {
+      "term": "Received",
+      "phonetic": "/rɪˈsiːvd/",
+      "definition": "Recebido / Recebeu",
+      "class_id": 23
+    },
+    {
+      "term": "Recently",
+      "phonetic": "/ˈriːsntli/",
+      "definition": "Recentemente",
+      "class_id": 23
+    },
+    {
+      "term": "Redundancy",
+      "phonetic": "/rɪ'dʌndənsi/",
+      "definition": "Redundância (Sistemas de backup)",
+      "class_id": 13
+    },
+    {
+      "term": "Regarding",
+      "phonetic": "/rɪ'ɡɑːrdɪŋ/",
+      "definition": "Sobre / Acerca de",
+      "class_id": 18
+    },
+    {
+      "term": "Relative Clause",
+      "phonetic": "/ˈrelətɪv klɔːz/",
+      "definition": "Oração subordinada adjetiva (Conector)",
+      "class_id": 25
+    },
+    {
+      "term": "Relatively",
+      "phonetic": "/ˈrelətɪvli/",
+      "definition": "Relativamente",
+      "class_id": 22
+    },
+    {
+      "term": "Reuse",
+      "phonetic": "/riːˈjuːz/",
+      "definition": "Reuso",
+      "class_id": 31
+    },
+    {
+      "term": "Right after",
+      "phonetic": "/raɪt 'æftər/",
+      "definition": "Logo em seguida",
+      "class_id": 5
+    },
+    {
+      "term": "Roof",
+      "phonetic": "/ruːf/",
+      "definition": "Telhado",
+      "class_id": 31
+    },
+    {
+      "term": "Rooftop",
+      "phonetic": "/ˈruːftɒp/",
+      "definition": "Terraço / Cobertura",
+      "class_id": 20
+    },
+    {
+      "term": "Safe / Safer",
+      "phonetic": "/seɪf/ - /'seɪfər/",
+      "definition": "Seguro / Mais seguro",
+      "class_id": 17
+    },
+    {
+      "term": "Safety",
+      "phonetic": "/ˈseɪfti/",
+      "definition": "Segurança (Passiva/Proteção)",
+      "class_id": 25
+    },
+    {
+      "term": "Safety Goggles",
+      "phonetic": "/ˈseɪfti ˈɡɒɡəlz/",
+      "definition": "Óculos de segurança",
+      "class_id": 30
+    },
+    {
+      "term": "Safety Harness",
+      "phonetic": "/ˈseɪfti ˈhɑːrnɪs/",
+      "definition": "Cinto de segurança",
+      "class_id": 30
+    },
+    {
+      "term": "Sample",
+      "phonetic": "/ˈsæmpl/",
+      "definition": "Amostra",
+      "class_id": 20
+    },
+    {
+      "term": "Scaffolding",
+      "phonetic": "/ˈskæfəldɪŋ/",
+      "definition": "Andaime",
+      "class_id": 30
+    },
+    {
+      "term": "Schedule",
+      "phonetic": "/'skedʒuːl/",
+      "definition": "Agenda / Cronograma / Agendar",
+      "class_id": 7
+    },
+    {
+      "term": "Seamless",
+      "phonetic": "/ˈsiːmləs/",
+      "definition": "Sem emendas / Monolítico",
+      "class_id": 21
+    },
+    {
+      "term": "Security",
+      "phonetic": "/sɪˈkjʊərəti/",
+      "definition": "Segurança (Ativa/Vigilância)",
+      "class_id": 25
+    },
+    {
+      "term": "Security protocol",
+      "phonetic": "/sɪˈkjʊr.ə.ti ˈproʊ.tə.kɒl/",
+      "definition": "Protocolo de segurança",
+      "class_id": 38
+    },
+    {
+      "term": "Sewage",
+      "phonetic": "/ˈsuːɪdʒ/",
+      "definition": "Esgoto",
+      "class_id": 31
+    },
+    {
+      "term": "Sharp angles / Poison arrows",
+      "phonetic": "/ʃɑːrp ˈæŋɡəlz/ /ˈpɔɪzn ˈæroʊz/",
+      "definition": "Ângulos Agudos (Flechas)",
+      "class_id": 26
+    },
+    {
+      "term": "Shielding",
+      "phonetic": "/ˈʃiːldɪŋ/",
+      "definition": "Blindagem / Isolamento",
+      "class_id": 38
+    },
+    {
+      "term": "Signage",
+      "phonetic": "/ˈsaɪnɪdʒ/",
+      "definition": "Sinalização",
+      "class_id": 20
+    },
+    {
+      "term": "Significantly",
+      "phonetic": "/sɪɡˈnɪfɪkəntli/",
+      "definition": "Significativamente / Muito",
+      "class_id": 22
+    },
+    {
+      "term": "Sink",
+      "phonetic": "/sɪŋk/",
+      "definition": "Pia / Afundar",
+      "class_id": 19
+    },
+    {
+      "term": "Site",
+      "phonetic": "/saɪt/",
+      "definition": "Local (da obra ou da clínica)",
+      "class_id": 19
+    },
+    {
+      "term": "Slightly",
+      "phonetic": "/ˈslaɪtli/",
+      "definition": "Levemente / Um pouco",
+      "class_id": 22
+    },
+    {
+      "term": "Slippery",
+      "phonetic": "/ˈslɪp.ər.i/",
+      "definition": "Escorregadio",
+      "class_id": 38
+    },
+    {
+      "term": "Sloping ground",
+      "phonetic": "/ˈsloʊpɪŋ ɡraʊnd/",
+      "definition": "Terreno inclinado",
+      "class_id": 27
+    },
+    {
+      "term": "Smell",
+      "phonetic": "/smel/",
+      "definition": "Cheiro / Cheirar",
+      "class_id": 23
+    },
+    {
+      "term": "Specialists",
+      "phonetic": "/'speʃəlɪsts/",
+      "definition": "Especialistas (Pronúncia: Spé-chalists)",
+      "class_id": 6
+    },
+    {
+      "term": "Stability",
+      "phonetic": "/stə'bɪləti/",
+      "definition": "Estabilidade",
+      "class_id": 27
+    },
+    {
+      "term": "Stairs",
+      "phonetic": "/stɛərz/",
+      "definition": "Escadas fixas (alvenaria/madeira)",
+      "class_id": 31
+    },
+    {
+      "term": "Stakeholders",
+      "phonetic": "/ˈsteɪkˌhoʊldərz/",
+      "definition": "Partes interessadas (Sócios/Envolvidos)",
+      "class_id": 18
+    },
+    {
+      "term": "Stakeholders",
+      "phonetic": "/ˈsteɪkˌhoʊldərz/",
+      "definition": "Partes interessadas / Envolvidos",
+      "class_id": 28
+    },
+    {
+      "term": "Stayed",
+      "phonetic": "/steɪd/",
+      "definition": "Ficou / Permaneceu",
+      "class_id": 5
+    },
+    {
+      "term": "Steel",
+      "phonetic": "/stiːl/",
+      "definition": "Aço",
+      "class_id": 9
+    },
+    {
+      "term": "Steel-Toed Boots",
+      "phonetic": "/stiːl toʊd buːts/",
+      "definition": "Botas bico de aço",
+      "class_id": 30
+    },
+    {
+      "term": "Steps",
+      "phonetic": "/stɛps/",
+      "definition": "Degraus",
+      "class_id": 31
+    },
+    {
+      "term": "Still",
+      "phonetic": "/stɪl/",
+      "definition": "Ainda",
+      "class_id": 6
+    },
+    {
+      "term": "Store / Storage",
+      "phonetic": "/stɔːr/ /ˈstɔːrɪdʒ/",
+      "definition": "Armazenar / Armazenamento",
+      "class_id": 25
+    },
+    {
+      "term": "Stove",
+      "phonetic": "/stoʊv/",
+      "definition": "Fogão",
+      "class_id": 31
+    },
+    {
+      "term": "Straight angles",
+      "phonetic": "/streɪt ˈæŋɡəlz/",
+      "definition": "Ângulos retos",
+      "class_id": 31
+    },
+    {
+      "term": "Street level",
+      "phonetic": "",
+      "definition": "Nível da rua",
+      "class_id": 31
+    },
+    {
+      "term": "Stretcher",
+      "phonetic": "/ˈstretʃər/",
+      "definition": "Maca",
+      "class_id": 20
+    },
+    {
+      "term": "Strip",
+      "phonetic": "/strɪp/",
+      "definition": "Faixa (de sinalização/corredor)",
+      "class_id": 20
+    },
+    {
+      "term": "Struggling",
+      "phonetic": "/'strʌɡlɪŋ/",
+      "definition": "Lutando / Tendo dificuldade",
+      "class_id": 6
+    },
+    {
+      "term": "Stuck",
+      "phonetic": "/stʌk/",
+      "definition": "Preso / Travado",
+      "class_id": 38
+    },
+    {
+      "term": "Supplier",
+      "phonetic": "/səˈplaɪər/",
+      "definition": "Fornecedor",
+      "class_id": 25
+    },
+    {
+      "term": "Sustainable",
+      "phonetic": "/sə'steɪnəbl/",
+      "definition": "Sustentável",
+      "class_id": 0
+    },
+    {
+      "term": "Technicians",
+      "phonetic": "/tekˈnɪʃənz/",
+      "definition": "Técnicos (Atenção à tônica no NI)",
+      "class_id": 24
+    },
+    {
+      "term": "The day before yesterday",
+      "phonetic": "/ðə deɪ bɪˈfɔːr ˈjestədeɪ/",
+      "definition": "Anteontem",
+      "class_id": 25
+    },
+    {
+      "term": "The stage is yours",
+      "phonetic": "",
+      "definition": "O palco é seu",
+      "class_id": 31
+    },
+    {
+      "term": "Through",
+      "phonetic": "/θruː/",
+      "definition": "Através de / Por meio de",
+      "class_id": 23
+    },
+    {
+      "term": "Throughout",
+      "phonetic": "/θruːˈaʊt/",
+      "definition": "Por todo / Em toda a extensão",
+      "class_id": 21
+    },
+    {
+      "term": "Thunder",
+      "phonetic": "/ˈθʌndər/",
+      "definition": "Trovão",
+      "class_id": 28
+    },
+    {
+      "term": "Tidy up",
+      "phonetic": "/'taɪdi ʌp/",
+      "definition": "Arrumar / Organizar",
+      "class_id": 2
+    },
+    {
+      "term": "Tight deadline",
+      "phonetic": "/taɪt 'dedlaɪn/",
+      "definition": "Prazo apertado",
+      "class_id": 17
+    },
+    {
+      "term": "Timber",
+      "phonetic": "/'tɪmbər/",
+      "definition": "Madeira (de construção)",
+      "class_id": 27
+    },
+    {
+      "term": "To believe",
+      "phonetic": "/tə bɪˈliːv/",
+      "definition": "Acreditar",
+      "class_id": 24
+    },
+    {
+      "term": "To Brief",
+      "phonetic": "/tə briːf/",
+      "definition": "Dar instruções / Resumir o essencial",
+      "class_id": 38
+    },
+    {
+      "term": "To deal with",
+      "phonetic": "/diːl wɪð/",
+      "definition": "Lidar com / Tratar de",
+      "class_id": 17
+    },
+    {
+      "term": "To go to the gym",
+      "phonetic": "/dʒɪm/",
+      "definition": "Ir para a academia",
+      "class_id": 2
+    },
+    {
+      "term": "To happen",
+      "phonetic": "/'hæpən/",
+      "definition": "Acontecer",
+      "class_id": 18
+    },
+    {
+      "term": "To inspect construction sites",
+      "phonetic": "/ɪn'spekt/",
+      "definition": "Inspecionar canteiros de obra",
+      "class_id": 1
+    },
+    {
+      "term": "To make projects",
+      "phonetic": "/meɪk/",
+      "definition": "Fazer/Elaborar projetos",
+      "class_id": 1
+    },
+    {
+      "term": "To Oversee",
+      "phonetic": "/tə ˌoʊ.vɚˈsiː/",
+      "definition": "Supervisionar / Gerenciar",
+      "class_id": 38
+    },
+    {
+      "term": "To visit clients",
+      "phonetic": "/'vɪzɪt/",
+      "definition": "Visitar clientes",
+      "class_id": 1
+    },
+    {
+      "term": "To wear",
+      "phonetic": "/tə wer/",
+      "definition": "Vestir / Usar (Roupas/EPI)",
+      "class_id": 24
+    },
+    {
+      "term": "Toilet",
+      "phonetic": "/'tɔɪlət/",
+      "definition": "Sanitário / Banheiro",
+      "class_id": 27
+    },
+    {
+      "term": "Toilet",
+      "phonetic": "/ˈtɔɪlɪt/",
+      "definition": "Vaso sanitário",
+      "class_id": 31
+    },
+    {
+      "term": "Tough",
+      "phonetic": "/tʌf/",
+      "definition": "Pesado / Duro / Complicado",
+      "class_id": 19
+    },
+    {
+      "term": "Toward",
+      "phonetic": "/təˈwɔːrd/",
+      "definition": "Em direção a",
+      "class_id": 21
+    },
+    {
+      "term": "Trivia",
+      "phonetic": "/'trɪviə/",
+      "definition": "Curiosidades / Fatos",
+      "class_id": 3
+    },
+    {
+      "term": "Trouble",
+      "phonetic": "/ˈtrʌbl/",
+      "definition": "Encrenca / Problema",
+      "class_id": 23
+    },
+    {
+      "term": "Troubleshoot",
+      "phonetic": "/ˈtrʌbəlˌʃut/",
+      "definition": "Identificar e resolver problemas",
+      "class_id": 15
+    },
+    {
+      "term": "Under / Below",
+      "phonetic": "/ˈʌndər/ /bɪˈloʊ/",
+      "definition": "Embaixo / Abaixo de",
+      "class_id": 19
+    },
+    {
+      "term": "Unfortunately",
+      "phonetic": "/ʌn'fɔːrtʃunətli/",
+      "definition": "Infelizmente",
+      "class_id": 4
+    },
+    {
+      "term": "Update",
+      "phonetic": "/ˌʌp'deɪt/",
+      "definition": "Atualizar / Atualização",
+      "class_id": 7
+    },
+    {
+      "term": "Via",
+      "phonetic": "/ˈvaɪə/",
+      "definition": "Via / Por meio de",
+      "class_id": 21
+    },
+    {
+      "term": "Vibrating",
+      "phonetic": "/ˈvaɪ.breɪ.tɪŋ/",
+      "definition": "Vibrando / Vibração",
+      "class_id": 38
+    },
+    {
+      "term": "Waiting Area",
+      "phonetic": "/'weɪtɪŋ 'eəriə/",
+      "definition": "Sala de espera",
+      "class_id": 0
+    },
+    {
+      "term": "Ward",
+      "phonetic": "/wɔːrd/",
+      "definition": "Ala hospitalar / Enfermaria",
+      "class_id": 18
+    },
+    {
+      "term": "Warm Light",
+      "phonetic": "/wɔːrm laɪt/",
+      "definition": "Luz quente (amarelada)",
+      "class_id": 22
+    },
+    {
+      "term": "Warn",
+      "phonetic": "/wɔːrn/",
+      "definition": "Aviso / Advertência",
+      "class_id": 24
+    },
+    {
+      "term": "Wash the dishes",
+      "phonetic": "/wɒʃ ðə 'dɪʃɪz/",
+      "definition": "Lavar a louça",
+      "class_id": 2
+    },
+    {
+      "term": "Waste",
+      "phonetic": "/weɪst/",
+      "definition": "Resíduos / Lixo técnico",
+      "class_id": 20
+    },
+    {
+      "term": "Which / Witch",
+      "phonetic": "/wɪtʃ/",
+      "definition": "Homófonos (Qual / Bruxa)",
+      "class_id": 25
+    },
+    {
+      "term": "Whole",
+      "phonetic": "/hoʊl/",
+      "definition": "Todo / Inteiro / Totalidade",
+      "class_id": 23
+    },
+    {
+      "term": "Winery",
+      "phonetic": "/'waɪnəri/",
+      "definition": "Vinícola",
+      "class_id": 4
+    },
+    {
+      "term": "Wing",
+      "phonetic": "/wɪŋ/",
+      "definition": "Ala hospitalar / Setor",
+      "class_id": 18
+    },
+    {
+      "term": "Within",
+      "phonetic": "/wɪˈðɪn/",
+      "definition": "Dentro de / No limite de",
+      "class_id": 21
+    },
+    {
+      "term": "Won / One",
+      "phonetic": "/wʌn/",
+      "definition": "Homófonos (Ganhou / Um)",
+      "class_id": 25
+    },
+    {
+      "term": "Wood",
+      "phonetic": "/wʊd/",
+      "definition": "Madeira",
+      "class_id": 9
+    },
+    {
+      "term": "Workshop",
+      "phonetic": "/'wɜːrkʃɒp/",
+      "definition": "Oficina / Workshop",
+      "class_id": 8
+    },
+    {
+      "term": "Worm",
+      "phonetic": "/wɜːrm/",
+      "definition": "Verme / Minhoca",
+      "class_id": 24
+    },
+    {
+      "term": "Worn",
+      "phonetic": "/wɔːrn/",
+      "definition": "Gasto / Usado (Particípio de Wear)",
+      "class_id": 24
+    }
   ]
 }
