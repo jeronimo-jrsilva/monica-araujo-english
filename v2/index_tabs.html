@@ -307,7 +307,7 @@
         // Inline Lesson Loading & DOM Injection
         async function openLesson(url) {
             try {
-                const response = await fetch(url);
+                const response = await fetch(url + '?v=' + new Date().getTime());
                 const html = await response.text();
                 
                 // Parse HTML to extract article contents
