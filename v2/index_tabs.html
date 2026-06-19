@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica Araujo | Tabbed Dashboard (Opção A)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        /* Specific Tab navigation styles */
+        .tab-nav {
+            display: flex;
+            gap: 24px;
+            border-bottom: 1px solid var(--border-warm);
+            margin-bottom: 3rem;
+            padding-bottom: 2px;
+        }
+        
+        .tab-nav button {
+            background: none;
+            border: none;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            padding: 12px 4px;
+            cursor: pointer;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        .tab-nav button:hover {
+            color: var(--text-main);
+        }
+        
+        .tab-nav button.active {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+        
+        .tab-nav button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent-gold);
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Category tags inside classes view */
+        .tag-filters {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag-btn {
+            background: var(--bg-canvas);
+            border: 1px solid var(--border-warm);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .tag-btn:hover, .tag-btn.active {
+            border-color: var(--text-main);
+            color: var(--text-main);
+            background: #f0ede6;
+        }
+        
+        /* Sub-navigation bar inside class active view */
+        .lesson-sub-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-warm);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .lesson-sub-nav button {
+            background: none;
+            border: none;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-main);
+            cursor: pointer;
+            transition: var(--transition);
+            padding: 6px 12px;
+            border-radius: 6px;
+        }
+        
+        .lesson-sub-nav button:hover {
+            background-color: #f7f6f0;
+            color: var(--accent-gold);
+        }
+        
+        .lesson-sub-nav button:disabled {
+            color: var(--border-warm);
+            cursor: not-allowed;
+            background: none;
+        }
+        
+        #nav-list-btn {
+            border: 1px solid var(--border-warm);
+            padding: 6px 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monica Araujo</h1>
+            <p class="subtitle">English for Architecture & Healthcare Design</p>
+            <p id="last-updated" style="font-size: 0.7rem; color: var(--text-muted); margin-top: 5px; font-family: 'JetBrains Mono';">Last updated: 2026-06-19 15:50 BRT</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Tab Navigation Bar (Persistent) -->
+        <nav class="tab-nav">
+            <button class="tab-link active" onclick="openTab(event, 'classes-tab')">Class History</button>
+            <button class="tab-link" onclick="openTab(event, 'glossary-tab')">Technical Glossary</button>
+            <button class="tab-link" onclick="openTab(event, 'library-tab')">Support Library</button>
+        </nav>
+
+        <!-- TAB 1: Class History & Lessons -->
+        <section id="classes-tab" class="tab-content active">
+            
+            <!-- VIEW A: List of Classes (Grid) -->
+            <div id="classes-list-view">
+                <div class="tag-filters">
+                    <button class="tag-btn active" onclick="filterClasses(event, 'all')">All Notes</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'grammar')">Grammar & Structure</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'healthcare')">Healthcare & Compliance</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'practice')">Practice Labs</button>
+                </div>
+                
+                <div class="controls" style="margin-bottom: 2rem;">
+                    <button class="sort-btn active" onclick="sortClasses('desc')">Newest First</button>
+                    <button class="sort-btn" onclick="sortClasses('asc')">Oldest First</button>
+                </div>
+                
+                <div id="class-grid" class="grid">
+                    <!-- Injected via JS -->
+                </div>
+            </div>
+            
+            <!-- VIEW B: Active Lesson Reader (SPA Inline Load) -->
+            <div id="class-active-view" style="display: none; animation: fadeIn 0.4s ease forwards;">
+                <div class="lesson-sub-nav">
+                    <button id="nav-prev-btn">&larr; Previous Class</button>
+                    <button id="nav-list-btn" onclick="closeLesson()">📁 Back to List</button>
+                    <button id="nav-next-btn">Next Class &rarr;</button>
+                </div>
+                <article id="lesson-content-target" class="lesson-content" style="margin-top: 1.5rem;">
+                    <!-- Loaded via JS -->
+                </article>
+            </div>
+            
+        </section>
+
+        <!-- TAB 2: Technical Glossary -->
+        <section id="glossary-tab" class="tab-content">
+            <div class="search-box">
+                <input type="text" id="glossary-search" placeholder="Search for terms (ex: lead, site, compliance)..." onkeyup="searchGlossary()">
+            </div>
+            <div id="glossary-list" class="glossary-grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- TAB 3: Support Library -->
+        <section id="library-tab" class="tab-content">
+            <div id="resource-grid" class="grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student Portal - ESP English Coaching</p>
+        </div>
+    </footer>
+
+    <script>
+        let portalData = null;
+        let currentFilter = 'all';
+        let currentOrder = 'desc';
+        let chronoClasses = []; // Chronologically sorted list of classes for nav
+
+        async function loadPortal() {
+            try {
+                const response = await fetch('data.json?v=' + new Date().getTime());
+                portalData = await response.json();
+                
+                renderResources(portalData.resources || []);
+                renderGlossary(portalData.glossary || []);
+                applyClassFilteringAndSorting();
+            } catch (err) {
+                console.error("Error loading JSON.", err);
+            }
+        }
+
+        // Tab Switcher (keeps lesson open in Classes tab if user switches tabs and back)
+        function openTab(evt, tabName) {
+            const tabContents = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active");
+            }
+
+            const tabLinks = document.getElementsByClassName("tab-link");
+            for (let i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active");
+            }
+
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Determine Category Tags Dynamically
+        function getClassCategory(c) {
+            const title = c.title.toLowerCase();
+            const summary = c.summary.toLowerCase();
+            
+            if (title.includes('compliance') || summary.includes('maternity') || title.includes('vastu') || summary.includes('lead') || summary.includes('hospital')) {
+                return 'healthcare';
+            } else if (title.includes('past') || title.includes('perfect') || title.includes('future') || title.includes('modal') || title.includes('conditional') || title.includes('comparative')) {
+                return 'grammar';
+            } else if (title.includes('review') || title.includes('practice') || title.includes('lab')) {
+                return 'practice';
+            }
+            return 'general';
+        }
+
+        function filterClasses(evt, category) {
+            document.querySelectorAll('.tag-filters .tag-btn').forEach(btn => btn.classList.remove('active'));
+            evt.currentTarget.classList.add('active');
+            currentFilter = category;
+            applyClassFilteringAndSorting();
+        }
+
+        function sortClasses(order) {
+            document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            currentOrder = order;
+            applyClassFilteringAndSorting();
+        }
+
+        function applyClassFilteringAndSorting() {
+            if (!portalData || !portalData.classes) return;
+            
+            // Build chronological base array for correct navigation indices
+            chronoClasses = [...portalData.classes].sort((a, b) => a.date.localeCompare(b.date));
+            
+            let classes = [...portalData.classes];
+            
+            // Filter
+            if (currentFilter !== 'all') {
+                classes = classes.filter(c => getClassCategory(c) === currentFilter);
+            }
+            
+            // Sort
+            classes.sort((a, b) => 
+                currentOrder === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)
+            );
+            
+            renderClasses(classes);
+        }
+
+        function renderClasses(classes) {
+            const grid = document.getElementById('class-grid');
+            if (!classes || classes.length === 0) {
+                grid.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem;">No classes found in this category.</p>';
+                return;
+            }
+            grid.innerHTML = classes.map(c => `
+                <div class="card history-card" style="cursor: pointer;" onclick="openLesson('${c.url}')">
+                    <span class="date">${new Date(c.date + "T00:00:00").toLocaleDateString('en-US', {month: 'short', day: '2-digit', year: 'numeric'})}</span>
+                    <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
+                    <p>${c.summary}</p>
+                    <span class="status-badge" style="margin-top: 15px; font-size: 0.6rem;">${getClassCategory(c)}</span>
+                </div>
+            `).join('');
+        }
+
+        // Inline Lesson Loading & DOM Injection
+        async function openLesson(url) {
+            try {
+                const response = await fetch(url);
+                const html = await response.text();
+                
+                // Parse HTML to extract article contents
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const content = doc.querySelector('.lesson-content').innerHTML;
+                
+                // Inject content
+                document.getElementById('lesson-content-target').innerHTML = content;
+                
+                // Update navigation buttons
+                updateLessonNavButtons(url);
+                
+                // Switch view inside classes tab
+                document.getElementById('classes-list-view').style.display = 'none';
+                document.getElementById('class-active-view').style.display = 'block';
+                
+                // Scroll up smoothly
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } catch(err) {
+                console.error("Failed to load lesson:", err);
+            }
+        }
+
+        function closeLesson() {
+            document.getElementById('class-active-view').style.display = 'none';
+            document.getElementById('classes-list-view').style.display = 'block';
+        }
+
+        function updateLessonNavButtons(url) {
+            const idx = chronoClasses.findIndex(c => c.url === url);
+            const prevBtn = document.getElementById('nav-prev-btn');
+            const nextBtn = document.getElementById('nav-next-btn');
+            
+            if (idx > 0) {
+                prevBtn.disabled = false;
+                prevBtn.onclick = () => openLesson(chronoClasses[idx - 1].url);
+                prevBtn.innerHTML = `&larr; Class ${chronoClasses[idx - 1].id.toString().padStart(2, '0')}`;
+            } else {
+                prevBtn.disabled = true;
+                prevBtn.innerHTML = `&larr; Prev`;
+            }
+            
+            if (idx < chronoClasses.length - 1 && idx !== -1) {
+                nextBtn.disabled = false;
+                nextBtn.onclick = () => openLesson(chronoClasses[idx + 1].url);
+                nextBtn.innerHTML = `Class ${chronoClasses[idx + 1].id.toString().padStart(2, '0')} &rarr;`;
+            } else {
+                nextBtn.disabled = true;
+                nextBtn.innerHTML = `Next &rarr;`;
+            }
+        }
+
+        function renderResources(resources) {
+            const grid = document.getElementById('resource-grid');
+            if (!resources || resources.length === 0) {
+                grid.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem;">No resources available yet.</p>';
+                return;
+            }
+            grid.innerHTML = resources.map(r => `
+                <div class="card resource-card">
+                    <span class="status-badge">${r.type}</span>
+                    <h3>${r.title}</h3>
+                    <p>${r.description}</p>
+                    <div class="resource-links" style="margin-top: 20px; display: flex; gap: 10px;">
+                        <a href="${r.url}" class="btn-mini">View HTML</a>
+                        ${r.pdf_url ? `<a href="${r.pdf_url}" class="btn-mini btn-pdf" target="_blank">Download PDF</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderGlossary(terms) {
+            const list = document.getElementById('glossary-list');
+            if (!terms || terms.length === 0) {
+                list.innerHTML = '<p>No terms found.</p>';
+                return;
+            }
+            list.innerHTML = terms.map(t => `
+                <div class="glossary-item">
+                    <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
+                    <div class="definition">${t.definition}</div>
+                    <div class="backlink">${t.class_id === 0 ? 'Technical Foundation' : 'Seen in Class ' + t.class_id.toString().padStart(2, '0')}</div>
+                </div>
+            `).join('');
+        }
+
+        function searchGlossary() {
+            const query = document.getElementById('glossary-search').value.toLowerCase();
+            const filtered = portalData.glossary.filter(t => 
+                t.term.toLowerCase().includes(query) || 
+                t.definition.toLowerCase().includes(query)
+            );
+            renderGlossary(filtered);
+        }
+
+        window.onload = loadPortal;
+    </script>
+</body>
+</html>

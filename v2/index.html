@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica Araujo | Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monica Araujo</h1>
+            <p class="subtitle">English for Architecture & Healthcare Design</p>
+            <p id="last-updated" style="font-size: 0.7rem; color: #999; margin-top: 5px; font-family: 'JetBrains Mono';">Last updated: 2026-06-18 08:25 BRT</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Resources Section -->
+        <section class="resources-section">
+            <details>
+                <summary class="section-title">Support Resources</summary>
+                <div id="resource-grid" class="grid">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
+        </section>
+
+        <!-- Searchable Glossary -->
+        <section class="glossary-section">
+            <details>
+                <summary class="section-title">Class Vocabulary & Glossary</summary>
+                <div class="search-box">
+                    <input type="text" id="glossary-search" placeholder="Search for terms (ex: design, site, BIM)..." onkeyup="searchGlossary()">
+                </div>
+                <div id="glossary-list" class="glossary-grid">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
+        </section>
+
+        <!-- Class History with Sorting -->
+        <section class="class-history">
+            <details open>
+                <summary class="section-title">Class History</summary>
+                <div class="controls">
+                    <button onclick="sortClasses('desc')">Newest First</button>
+                    <button onclick="sortClasses('asc')">Oldest First</button>
+                </div>
+                <div id="class-grid" class="grid" style="margin-top: 1.5rem;">
+                    <!-- Injected via JS -->
+                </div>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Student Portal - ESP English Coaching</p>
+        </div>
+    </footer>
+
+    <!-- Logic Engine -->
+    <script>
+        let portalData = null;
+
+        async function loadPortal() {
+            try {
+                // Cache busting to ensure latest data from GitHub
+                const response = await fetch('data.json?v=' + new Date().getTime());
+                portalData = await response.json();
+                renderResources(portalData.resources || []);
+                
+                // Initial render: Newest First
+                const sorted = [...portalData.classes].sort((a, b) => b.date.localeCompare(a.date));
+                renderClasses(sorted);
+                document.querySelector('button[onclick*="desc"]').classList.add('active');
+                
+                renderGlossary(portalData.glossary);
+            } catch (err) {
+                console.error("Error loading JSON.", err);
+            }
+        }
+
+        function renderResources(resources) {
+            const grid = document.getElementById('resource-grid');
+            if (!resources || resources.length === 0) {
+                grid.innerHTML = '<p style="color: #999; font-size: 0.8rem;">No resources available yet.</p>';
+                return;
+            }
+            grid.innerHTML = resources.map(r => `
+                <div class="card resource-card">
+                    <span class="status-badge">${r.type}</span>
+                    <h3>${r.title}</h3>
+                    <p>${r.description}</p>
+                    <div class="resource-links" style="margin-top: 15px; display: flex; gap: 10px;">
+                        <a href="${r.url}" class="btn-mini">View HTML</a>
+                        ${r.pdf_url ? `<a href="${r.pdf_url}" class="btn-mini btn-pdf" target="_blank">Download PDF</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderClasses(classes) {
+            const grid = document.getElementById('class-grid');
+            if (!classes || classes.length === 0) {
+                grid.innerHTML = '<p>No classes found.</p>';
+                return;
+            }
+            grid.innerHTML = classes.map(c => `
+                <a href="${c.url}" class="card history-card">
+                    <span class="date">${new Date(c.date + "T00:00:00").toLocaleDateString('en-US', {month: 'short', day: '2-digit'})}</span>
+                    <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
+                    <p>${c.summary}</p>
+                </a>
+            `).join('');
+        }
+
+        function sortClasses(order) {
+            if (!portalData || !portalData.classes) return;
+            
+            // Highlight active button
+            document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const sorted = [...portalData.classes].sort((a, b) => 
+                order === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)
+            );
+            renderClasses(sorted);
+        }
+
+        function renderGlossary(terms) {
+            const list = document.getElementById('glossary-list');
+            if (!terms || terms.length === 0) {
+                list.innerHTML = '<p>No terms found.</p>';
+                return;
+            }
+
+            // Automaticaly sort terms alphabetically by 'term'
+            const sortedTerms = [...terms].sort((a, b) => 
+                a.term.toLowerCase().localeCompare(b.term.toLowerCase())
+            );
+
+            list.innerHTML = sortedTerms.map(t => `
+                <div class="glossary-item">
+                    <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
+                    <div class="definition">${t.definition}</div>
+                    <div class="backlink">${t.class_id === 0 ? 'Technical Foundation' : 'Seen in Class ' + t.class_id.toString().padStart(2, '0')}</div>
+                </div>
+            `).join('');
+        }
+
+        function searchGlossary() {
+            const query = document.getElementById('glossary-search').value.toLowerCase();
+            const filtered = portalData.glossary.filter(t => 
+                t.term.toLowerCase().includes(query) || 
+                t.definition.toLowerCase().includes(query)
+            );
+            renderGlossary(filtered);
+        }
+
+        window.onload = loadPortal;
+    </script>
+</body>
+</html>

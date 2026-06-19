@@ -1,0 +1,85 @@
+/* 🎓 Monica Araujo Compact Layout Fix */
+
+/* Espaçamento Global de Listas e Tabelas (O "Respiro") */
+.lesson-content ul, 
+.lesson-content ol { 
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem; 
+    padding-left: 1.5rem;
+}
+
+.lesson-content li { 
+    margin-bottom: 1rem; /* Aumentado para evitar amontoamento */
+    line-height: 1.6;
+}
+
+.vocab-table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 2rem 0; /* Espaçamento generoso antes e depois de tabelas */
+    font-size: 0.95rem;
+}
+
+.vocab-table th, 
+.vocab-table td { 
+    padding: 12px 15px; 
+    border-bottom: 1px solid #eee; 
+    text-align: left;
+}
+
+.vocab-table th { 
+    background-color: #f8f9fa; 
+    font-weight: 600; 
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+/* Blocos de destaque (Drills) */
+.drill-box, .vocabulary-box {
+    background-color: #fdfdfd;
+    border-left: 4px solid #3498db;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Espaçamento entre Seções */
+.lesson-content h2 {
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.lesson-content h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+.lesson-content hr {
+    margin: 3rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* Estilização de código/fonética */
+.lesson-content code {
+    background: #f1f3f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+    color: #e67e22;
+}
+
+blockquote {
+    border-left: 4px solid #95a5a6;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    background: #f9f9f9;
+    font-style: italic;
+    color: #555;
+}
