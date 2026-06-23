@@ -272,6 +272,13 @@
       "title": "Site Logs & Technical Compliance Drills",
       "summary": "Intensive drilling on Past Simple for site reporting, Modal Verbs for compliance, and Technical Comparisons for architectural precision.",
       "url": "classes/2026-06-18.html"
+    },
+    {
+      "id": 41,
+      "date": "2026-06-20",
+      "title": "Technical Compliance & Advanced Comparisons",
+      "summary": "Express compliance obligations using modals and make precise technical comparisons using intensity adverbs.",
+      "url": "classes/2026-06-20.html"
     }
   ],
   "resources": [
@@ -1138,6 +1145,12 @@
       "class_id": 38
     },
     {
+      "term": "Lead-lining",
+      "phonetic": "",
+      "definition": "A protective layer of lead installed in walls or barriers to prevent the transmission of radiation.",
+      "class_id": 41
+    },
+    {
       "term": "Leak / Leaking",
       "phonetic": "/liːk/",
       "definition": "Vazar / Vazamento",
@@ -1244,6 +1257,12 @@
       "phonetic": "/ˈaʊtɪdʒ/",
       "definition": "Falta/Queda (energia/água)",
       "class_id": 18
+    },
+    {
+      "term": "Outlet",
+      "phonetic": "",
+      "definition": "A socket in a wall where electrical devices can be plugged in to receive power.",
+      "class_id": 41
     },
     {
       "term": "Overheating",
@@ -1538,6 +1557,12 @@
       "phonetic": "/smel/",
       "definition": "Cheiro / Cheirar",
       "class_id": 23
+    },
+    {
+      "term": "Snags",
+      "phonetic": "",
+      "definition": "Minor defects, problems, or unfinished details that appear at the end of a construction project.",
+      "class_id": 41
     },
     {
       "term": "Specialists",

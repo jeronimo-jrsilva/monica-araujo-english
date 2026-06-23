@@ -3,55 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monica Araujo | Student Portal</title>
+    <title>Monica Araujo | Tabbed Dashboard (Opção A)</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        /* Specific Tab navigation styles */
+        .tab-nav {
+            display: flex;
+            gap: 24px;
+            border-bottom: 1px solid var(--border-warm);
+            margin-bottom: 3rem;
+            padding-bottom: 2px;
+        }
+        
+        .tab-nav button {
+            background: none;
+            border: none;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            padding: 12px 4px;
+            cursor: pointer;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        .tab-nav button:hover {
+            color: var(--text-main);
+        }
+        
+        .tab-nav button.active {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+        
+        .tab-nav button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent-gold);
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Category tags inside classes view */
+        .tag-filters {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag-btn {
+            background: var(--bg-canvas);
+            border: 1px solid var(--border-warm);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .tag-btn:hover, .tag-btn.active {
+            border-color: var(--text-main);
+            color: var(--text-main);
+            background: #f0ede6;
+        }
+        
+        /* Sub-navigation bar inside class active view */
+        .lesson-sub-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-warm);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .lesson-sub-nav button {
+            background: none;
+            border: none;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-main);
+            cursor: pointer;
+            transition: var(--transition);
+            padding: 6px 12px;
+            border-radius: 6px;
+        }
+        
+        .lesson-sub-nav button:hover {
+            background-color: #f7f6f0;
+            color: var(--accent-gold);
+        }
+        
+        .lesson-sub-nav button:disabled {
+            color: var(--border-warm);
+            cursor: not-allowed;
+            background: none;
+        }
+        
+        #nav-list-btn {
+            border: 1px solid var(--border-warm);
+            padding: 6px 16px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Monica Araujo</h1>
             <p class="subtitle">English for Architecture & Healthcare Design</p>
-            <p id="last-updated" style="font-size: 0.7rem; color: #999; margin-top: 5px; font-family: 'JetBrains Mono';">Last updated: 2026-06-19 16:21 BRT</p>
+            <p id="last-updated" style="font-size: 0.7rem; color: var(--text-muted); margin-top: 5px; font-family: 'JetBrains Mono';">Last updated: 2026-06-23 08:40 BRT</p>
         </div>
     </header>
 
     <main class="container">
-        <!-- Resources Section -->
-        <section class="resources-section">
-            <details>
-                <summary class="section-title">Support Resources</summary>
-                <div id="resource-grid" class="grid">
+        <!-- Tab Navigation Bar (Persistent) -->
+        <nav class="tab-nav">
+            <button class="tab-link active" onclick="openTab(event, 'classes-tab')">Class History</button>
+            <button class="tab-link" onclick="openTab(event, 'glossary-tab')">Technical Glossary</button>
+            <button class="tab-link" onclick="openTab(event, 'library-tab')">Support Library</button>
+        </nav>
+
+        <!-- TAB 1: Class History & Lessons -->
+        <section id="classes-tab" class="tab-content active">
+            
+            <!-- VIEW A: List of Classes (Grid) -->
+            <div id="classes-list-view">
+                <div class="tag-filters">
+                    <button class="tag-btn active" onclick="filterClasses(event, 'all')">All Notes</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'grammar')">Grammar & Structure</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'healthcare')">Healthcare & Compliance</button>
+                    <button class="tag-btn" onclick="filterClasses(event, 'practice')">Practice Labs</button>
+                </div>
+                
+                <div class="controls" style="margin-bottom: 2rem;">
+                    <button class="sort-btn active" onclick="sortClasses('desc')">Newest First</button>
+                    <button class="sort-btn" onclick="sortClasses('asc')">Oldest First</button>
+                </div>
+                
+                <div id="class-grid" class="grid">
                     <!-- Injected via JS -->
                 </div>
-            </details>
+            </div>
+            
+            <!-- VIEW B: Active Lesson Reader (SPA Inline Load) -->
+            <div id="class-active-view" style="display: none; animation: fadeIn 0.4s ease forwards;">
+                <div class="lesson-sub-nav">
+                    <button id="nav-prev-btn">&larr; Previous Class</button>
+                    <button id="nav-list-btn" onclick="closeLesson()">📁 Back to List</button>
+                    <button id="nav-next-btn">Next Class &rarr;</button>
+                </div>
+                <article id="lesson-content-target" class="lesson-content" style="margin-top: 1.5rem;">
+                    <!-- Loaded via JS -->
+                </article>
+            </div>
+            
         </section>
 
-        <!-- Searchable Glossary -->
-        <section class="glossary-section">
-            <details>
-                <summary class="section-title">Class Vocabulary & Glossary</summary>
-                <div class="search-box">
-                    <input type="text" id="glossary-search" placeholder="Search for terms (ex: design, site, BIM)..." onkeyup="searchGlossary()">
-                </div>
-                <div id="glossary-list" class="glossary-grid">
-                    <!-- Injected via JS -->
-                </div>
-            </details>
+        <!-- TAB 2: Technical Glossary -->
+        <section id="glossary-tab" class="tab-content">
+            <div class="search-box">
+                <input type="text" id="glossary-search" placeholder="Search for terms (ex: lead, site, compliance)..." onkeyup="searchGlossary()">
+            </div>
+            <div id="glossary-list" class="glossary-grid">
+                <!-- Injected via JS -->
+            </div>
         </section>
 
-        <!-- Class History with Sorting -->
-        <section class="class-history">
-            <details open>
-                <summary class="section-title">Class History</summary>
-                <div class="controls">
-                    <button onclick="sortClasses('desc')">Newest First</button>
-                    <button onclick="sortClasses('asc')">Oldest First</button>
-                </div>
-                <div id="class-grid" class="grid" style="margin-top: 1.5rem;">
-                    <!-- Injected via JS -->
-                </div>
-            </details>
+        <!-- TAB 3: Support Library -->
+        <section id="library-tab" class="tab-content">
+            <div id="resource-grid" class="grid">
+                <!-- Injected via JS -->
+            </div>
         </section>
     </main>
 
@@ -61,32 +203,168 @@
         </div>
     </footer>
 
-    <!-- Logic Engine -->
     <script>
         let portalData = null;
+        let currentFilter = 'all';
+        let currentOrder = 'desc';
+        let chronoClasses = []; // Chronologically sorted list of classes for nav
 
         async function loadPortal() {
             try {
-                // Cache busting to ensure latest data from GitHub
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 portalData = await response.json();
+                
                 renderResources(portalData.resources || []);
-                
-                // Initial render: Newest First
-                const sorted = [...portalData.classes].sort((a, b) => b.date.localeCompare(a.date));
-                renderClasses(sorted);
-                document.querySelector('button[onclick*="desc"]').classList.add('active');
-                
-                renderGlossary(portalData.glossary);
+                renderGlossary(portalData.glossary || []);
+                applyClassFilteringAndSorting();
             } catch (err) {
                 console.error("Error loading JSON.", err);
+            }
+        }
+
+        // Tab Switcher (keeps lesson open in Classes tab if user switches tabs and back)
+        function openTab(evt, tabName) {
+            const tabContents = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active");
+            }
+
+            const tabLinks = document.getElementsByClassName("tab-link");
+            for (let i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active");
+            }
+
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Determine Category Tags Dynamically
+        function getClassCategory(c) {
+            const title = c.title.toLowerCase();
+            const summary = c.summary.toLowerCase();
+            
+            if (title.includes('compliance') || summary.includes('maternity') || title.includes('vastu') || summary.includes('lead') || summary.includes('hospital')) {
+                return 'healthcare';
+            } else if (title.includes('past') || title.includes('perfect') || title.includes('future') || title.includes('modal') || title.includes('conditional') || title.includes('comparative')) {
+                return 'grammar';
+            } else if (title.includes('review') || title.includes('practice') || title.includes('lab')) {
+                return 'practice';
+            }
+            return 'general';
+        }
+
+        function filterClasses(evt, category) {
+            document.querySelectorAll('.tag-filters .tag-btn').forEach(btn => btn.classList.remove('active'));
+            evt.currentTarget.classList.add('active');
+            currentFilter = category;
+            applyClassFilteringAndSorting();
+        }
+
+        function sortClasses(order) {
+            document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            currentOrder = order;
+            applyClassFilteringAndSorting();
+        }
+
+        function applyClassFilteringAndSorting() {
+            if (!portalData || !portalData.classes) return;
+            
+            // Build chronological base array for correct navigation indices
+            chronoClasses = [...portalData.classes].sort((a, b) => a.date.localeCompare(b.date));
+            
+            let classes = [...portalData.classes];
+            
+            // Filter
+            if (currentFilter !== 'all') {
+                classes = classes.filter(c => getClassCategory(c) === currentFilter);
+            }
+            
+            // Sort
+            classes.sort((a, b) => 
+                currentOrder === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)
+            );
+            
+            renderClasses(classes);
+        }
+
+        function renderClasses(classes) {
+            const grid = document.getElementById('class-grid');
+            if (!classes || classes.length === 0) {
+                grid.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem;">No classes found in this category.</p>';
+                return;
+            }
+            grid.innerHTML = classes.map(c => `
+                <div class="card history-card" style="cursor: pointer;" onclick="openLesson('${c.url}')">
+                    <span class="date">${new Date(c.date + "T00:00:00").toLocaleDateString('en-US', {month: 'short', day: '2-digit', year: 'numeric'})}</span>
+                    <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
+                    <p>${c.summary}</p>
+                    <span class="status-badge" style="margin-top: 15px; font-size: 0.6rem;">${getClassCategory(c)}</span>
+                </div>
+            `).join('');
+        }
+
+        // Inline Lesson Loading & DOM Injection
+        async function openLesson(url) {
+            try {
+                const response = await fetch(url + '?v=' + new Date().getTime());
+                const html = await response.text();
+                
+                // Parse HTML to extract article contents
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const content = doc.querySelector('.lesson-content').innerHTML;
+                
+                // Inject content
+                document.getElementById('lesson-content-target').innerHTML = content;
+                
+                // Update navigation buttons
+                updateLessonNavButtons(url);
+                
+                // Switch view inside classes tab
+                document.getElementById('classes-list-view').style.display = 'none';
+                document.getElementById('class-active-view').style.display = 'block';
+                
+                // Scroll up smoothly
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } catch(err) {
+                console.error("Failed to load lesson:", err);
+            }
+        }
+
+        function closeLesson() {
+            document.getElementById('class-active-view').style.display = 'none';
+            document.getElementById('classes-list-view').style.display = 'block';
+        }
+
+        function updateLessonNavButtons(url) {
+            const idx = chronoClasses.findIndex(c => c.url === url);
+            const prevBtn = document.getElementById('nav-prev-btn');
+            const nextBtn = document.getElementById('nav-next-btn');
+            
+            if (idx > 0) {
+                prevBtn.disabled = false;
+                prevBtn.onclick = () => openLesson(chronoClasses[idx - 1].url);
+                prevBtn.innerHTML = `&larr; Class ${chronoClasses[idx - 1].id.toString().padStart(2, '0')}`;
+            } else {
+                prevBtn.disabled = true;
+                prevBtn.innerHTML = `&larr; Prev`;
+            }
+            
+            if (idx < chronoClasses.length - 1 && idx !== -1) {
+                nextBtn.disabled = false;
+                nextBtn.onclick = () => openLesson(chronoClasses[idx + 1].url);
+                nextBtn.innerHTML = `Class ${chronoClasses[idx + 1].id.toString().padStart(2, '0')} &rarr;`;
+            } else {
+                nextBtn.disabled = true;
+                nextBtn.innerHTML = `Next &rarr;`;
             }
         }
 
         function renderResources(resources) {
             const grid = document.getElementById('resource-grid');
             if (!resources || resources.length === 0) {
-                grid.innerHTML = '<p style="color: #999; font-size: 0.8rem;">No resources available yet.</p>';
+                grid.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem;">No resources available yet.</p>';
                 return;
             }
             grid.innerHTML = resources.map(r => `
@@ -94,40 +372,12 @@
                     <span class="status-badge">${r.type}</span>
                     <h3>${r.title}</h3>
                     <p>${r.description}</p>
-                    <div class="resource-links" style="margin-top: 15px; display: flex; gap: 10px;">
+                    <div class="resource-links" style="margin-top: 20px; display: flex; gap: 10px;">
                         <a href="${r.url}" class="btn-mini">View HTML</a>
                         ${r.pdf_url ? `<a href="${r.pdf_url}" class="btn-mini btn-pdf" target="_blank">Download PDF</a>` : ''}
                     </div>
                 </div>
             `).join('');
-        }
-
-        function renderClasses(classes) {
-            const grid = document.getElementById('class-grid');
-            if (!classes || classes.length === 0) {
-                grid.innerHTML = '<p>No classes found.</p>';
-                return;
-            }
-            grid.innerHTML = classes.map(c => `
-                <a href="${c.url}" class="card history-card">
-                    <span class="date">${new Date(c.date + "T00:00:00").toLocaleDateString('en-US', {month: 'short', day: '2-digit'})}</span>
-                    <h3>Class ${c.id.toString().padStart(2, '0')}: ${c.title}</h3>
-                    <p>${c.summary}</p>
-                </a>
-            `).join('');
-        }
-
-        function sortClasses(order) {
-            if (!portalData || !portalData.classes) return;
-            
-            // Highlight active button
-            document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-
-            const sorted = [...portalData.classes].sort((a, b) => 
-                order === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)
-            );
-            renderClasses(sorted);
         }
 
         function renderGlossary(terms) {
@@ -136,13 +386,7 @@
                 list.innerHTML = '<p>No terms found.</p>';
                 return;
             }
-
-            // Automaticaly sort terms alphabetically by 'term'
-            const sortedTerms = [...terms].sort((a, b) => 
-                a.term.toLowerCase().localeCompare(b.term.toLowerCase())
-            );
-
-            list.innerHTML = sortedTerms.map(t => `
+            list.innerHTML = terms.map(t => `
                 <div class="glossary-item">
                     <div class="term"><strong>${t.term}</strong> <small>${t.phonetic || ''}</small></div>
                     <div class="definition">${t.definition}</div>
